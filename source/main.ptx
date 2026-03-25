@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- This is the main course file for ... . It is used to generate all the public facing course materials so those can be hosted online.  -->
+<pretext xmlns:xi="http://www.w3.org/2001/XInclude">
+  <!-- Include common macros etc: -->
+  <xi:include href="./docinfo.ptx" />
+  <!-- By creating a PreTeXt "book" for the course, we can split components into "chapters" -->
+  <book>
+    <title>Multivariable Calculus</title>
+
+    <subtitle>UAF MATH F253X</subtitle>
+
+    <!-- Optional: include frontmatter with author info and date -->
+    <xi:include href="./frontmatter.ptx" />
+
+    <chapter xml:id="course-documents">
+      <title>Course Documents</title>
+
+      <!-- Course syllabus -->
+      <xi:include href="./course-documents/syllabus.ptx" />
+      <xi:include href="./course-documents/components.ptx" />
+      <xi:include href="./course-documents/rubrics.ptx" />
+      <xi:include href="./course-documents/policies.ptx" />
+      <xi:include href="./course-documents/support.ptx" />
+      <xi:include href="./course-documents/summer-26-schedule.ptx" />
+
+      <!-- Other documents could go here, like a schedule, project description, etc. -->
+    </chapter>
+
+    <chapter xml:id="functions-of-multiple-variables">
+      <title>Functions of Multiple Variables</title>
+        <xi:include href="./fun-outcomes/fun-intro.ptx"/>
+          <xi:include href="./fun-outcomes/fun1-notes.ptx"/>
+          <xi:include href="./fun-outcomes/fun1-vid.ptx"/>
+          <xi:include href="./fun-outcomes/fun1-wp.ptx"/>
+          <xi:include href="./fun-outcomes/fun1-sample.ptx"/>
+        <!-- etc. -->
+    </chapter>
+
+    <chapter xml:id="differential-calculus">
+      <title>Differential Calculus</title>
+
+      <introduction>
+        <p>
+         There are six learning outcomes for this unit:
+         <ul>
+          <li><p>DC-1 Partial Derivatives</p></li>
+          <li><p>DC-2 Tangent Lines and Linear Approximations</p></li>
+          <li><p>DC-3 The Chain Rule</p></li>
+          <li><p>DC-4 Directional Derivatives</p></li>
+          <li><p>DC-5 Maximum and Minimum Values</p></li>
+          <li><p>DC-6 Lagrange Multipliers</p></li> 
+         </ul>
+        </p>
+      </introduction>
+        <xi:include href="./notes/week02.ptx"/>
+        <!-- etc. -->
+    </chapter>
+
+    <chapter xml:id="integral-calculus">
+      <title>Integral Calculus</title>
+
+      <introduction>
+        <p>
+         There are five learning outcomes for this unit:
+         <ul>
+          <li><p>IC-1 Double Integrals</p></li>
+          <li><p>IC-2 Double Integrals in Polar Coordinates</p></li>
+          <li><p>IC-3 Triple Integrals</p></li>
+          <li><p>IC-4 Integrals for Mass and Center of Mass</p></li>
+          <li><p>IC-5 Change of Variables</p></li> 
+         </ul>
+        </p>
+      </introduction>
+        <xi:include href="./homework/homework-01.ptx"/>
+        <!-- etc. -->
+    </chapter>
+    
+    <chapter xml:id="applications-of-multivariable-calculus">
+      <title>Applications of Multivariable Calculus</title>
+
+      <introduction>
+        <p>
+         There are six learning outcomes for this unit:
+         <ul>
+          <li><p>APP-1 Line Integrals</p></li>
+          <li><p>APP-2 Vector Fields</p></li>
+          <li><p>APP-3 Green's Theorem</p></li>
+          <li><p>APP-4 Surface Integrals</p></li>
+          <li><p>APP-5 Stokes' Theorem</p></li>
+          <li><p>APP-6 Divergence Theorem</p></li> 
+         </ul>
+        </p>
+      </introduction>
+        <xi:include href="./homework/homework-template.ptx"/>
+        <!-- etc. -->
+    </chapter>
+
+    </book>
+  </pretext>

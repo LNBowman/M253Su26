@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<subsection xml:id="fun1-videos" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Vector Applications</title>
+    <worksheet>
+         <title>FUN-1 Videos</title>
+            <page>
+                <p><alert>Vectors in the Plane</alert></p>
+                <video vimeo="1"/>
+                <p><alert>Vectors in Three Dimensions</alert></p>
+                <video vimeo="2"/>
+                <p><alert>The Dot Product</alert></p>
+                <video vimeo="3"/>
+                <p><alert>The Cross Product</alert></p>
+                <video vimeo="4"/>
+            </page>
+    </worksheet>
+    </subsection>

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<subsection xml:id="fun1-sample" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Vector Applications</title>
+    <worksheet>
+  <title>FUN-1 Sample Outcomes</title>
+  <introduction>
+    <p>For the quiz on this outcome you would be given 30 minutes to complete 3 problems. Here are samples 
+      of the types of problems you will encounter:</p>
+  </introduction>
+  <objectives>
+    <ul><li><p>Things you should understand and know:
+        <ul>
+            <li><p>What a plane vector is</p></li>
+            <li><p>The formula for the magnitude of a vector</p></li>
+            <li><p>Three-dimensional space mathematically</p></li>
+            <li><p>When two vectors are perpendicular</p></li>
+            <li><p>The vector projection of one vector onto another vector</p></li>
+            <li><p>How the cross-product relates to areas and volumes</p></li>
+            <li><p>How torque relates to force and position</p></li>
+        </ul></p></li>
+    <li><p>Things you should be able to do:
+        <ul>
+            <li><p>Perform basic vector operations in two and three-dimensions</p></li>
+            <li><p>Express a vector in component form or in terms of unit vectors</p></li>
+            <li><p>Write and use the distance formula in three dimensions</p></li>
+            <li><p>Write the equations for simple planes and spheres</p></li>
+            <li><p>Calculate the dot product of two vectors</p></li>
+            <li><p>Determine the direction of a vector</p></li>
+            <li><p>Compute a vector projection</p></li>
+            <li><p>Calculate the work done by a given force</p></li>
+            <li><p>Calculate the cross-product of two vectors</p></li>
+            <li><p>Use determinants to calculate a cross-product</p></li>
+            <li><p>Find a vector orthogonal to two given vectors</p></li>
+            <li><p>Find the area or volume using the cross-product</p></li>
+            <li><p>Calculate the torque of a force and a vector</p></li>
+        </ul></p></li>
+    <li><p>You will be assessed on the following criteria:
+        <ul>
+        <li><p>Problem structure: Solution should be organized and easy to follow, with clear, complete steps 
+            that follow progressively from one to the next.</p></li>
+        <li><p>Vector Operations: Perform vector addition, subtraction, and scalar multiplication. Evaluate 
+            the magnitude and direction of vectors. Find the dot product and cross product of vectors.</p></li>
+        <li><p>Vector Applications: Apply vector concepts to solve real-world problems, such as finding the 
+            resultant of two forces, work done by a force, etc.</p></li>
+        </ul></p></li>
+    </ul>
+    </objectives>
+
+  
+  <page>
+    <exercise workspace="3cm">
+      <statement>
+        <p>
+          Solve the following equation: <m>\frac{2}{3}x+\frac{5}{18}=x-\frac{4}{9}</m> 
+        </p>
+      </statement>
+      <hint><p>Start by using the LCD to clear the fractions. Then combine like terms and solve.</p></hint>
+      <answer><p><m>x=\frac{13}{6}</m></p></answer>
+      <solution>
+        <p>
+          Start by using the LCD of 18 to clear the fractions: <m>12x+5=18x-8</m>. Then combine 
+          like terms: <m>5+8=18x-12x</m>. Next, simplify to get the solution: <m>x=\frac{13}{6}</m>.
+        </p>
+      </solution>
+    </exercise>
+    <exercise workspace="3cm">
+      <statement>
+        <p>
+          Solve the following equation: <m>3(2x-7)-4x+1=5x-2(x+3)</m> 
+        </p>
+      </statement>
+      <hint><p>Start by distributing over the parentheses and then combining like terms.</p></hint>
+      <answer><p><m>x=-14</m></p></answer>
+      <solution>
+        <p>
+          Start by distributing over the parentheses: <m>6x-21-4x+1=5x-2x-6</m>. Then combine 
+          like terms: <m>2x-20=3x-6</m>. Next, move all terms to one side: <m>-20+6=x</m>. 
+          Finally, simplify to get the solution: <m>x=-14</m>.
+        </p>
+      </solution>
+    </exercise>
+    <exercise workspace="3cm">
+      <statement>
+        <p>Solve <m>8x^2-18x+9=0</m> by factoring.</p>
+      </statement>
+      <hint><p>Look for two numbers that multiply to give the product of the coefficient of x^2 and the constant term, and add up to give the coefficient of x.</p></hint>
+      <answer><p><m>x=\frac{3}{4}</m> and <m>x=\frac{3}{2}</m></p></answer>
+      <solution><p>
+        Start by multiplying the leading coefficient and the constant: <m>8\cdot 9=72</m>. Find the
+      two factors of 72 that add up to -18: -12 and -6. Rewrite the middle term using these factors:
+      <m>8x^2-12x-6x+9=0</m>. Factor by grouping: <m>4x(2x-3)-3(2x-3)=0</m>. Factor out the common 
+      binomial: <m>(4x-3)(2x-3)=0</m>. Set each factor equal to zero and solve for x: <m>x=\frac{3}{4}</m> 
+      and <m>x=\frac{3}{2}</m>.
+      </p></solution>
+    </exercise>
+    <exercise workspace="3cm">
+      <statement>
+        <p>Solve <m>(6x-5)^2=49</m> using the extraction of roots method.</p>
+      </statement>
+      <hint><p>Take the square root of both sides and solve the resulting linear equations.</p></hint>
+      <answer><p><m>x=2</m> and <m>x=\frac{-1}{3}</m></p></answer>
+      <solution><p>
+        Start by taking the square root of both sides of the equation: <m>6x-5=\pm 7</m>. 
+        Then solve the resulting linear equations: <m>6x-5=7</m> and <m>6x-5=-7</m>. This gives 
+        <m>x=2</m> and <m>x=\frac{-1}{3}</m>.
+      </p></solution>
+    </exercise>
+    <exercise workspace="3cm">
+      <statement>
+        <p>Solve <m>4y^2+8y-5=5</m> using the quadratic formula.</p>
+      </statement>
+      <hint><p>First, move all terms to one side to get the equation in standard form, then apply the quadratic formula.</p></hint>
+      <answer><p><m>x=\frac{-1\pm\sqrt{14}}{2}</m></p></answer>
+      <solution><p>
+        Start by setting the equation equal to zero and finding the terms: <m>a=4</m>, <m>b=8</m>, 
+        and <m>c=-10</m>. Then apply the quadratic formula by plugging these values into 
+        <m>x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}</m>. <m>x=\frac{-8\pm\sqrt{64-4(4)(-10)}}{2(4)}</m>. Simplify 
+        inside the root <m>x=\frac{-8\pm\sqrt{64+160}}{8}</m>. <m>x=\frac{-8\pm\sqrt{224}}{8}</m>. Now we 
+        can simplify the root <m>x=\frac{-8\pm 4\sqrt{14}}{8}</m>. Then simplify the resulting expression: 
+        <m>x=\frac{-1\pm\sqrt{14}}{2}</m>.
+      </p></solution>
+    </exercise>
+    <exercise workspace="3cm">
+      <statement>
+        <p>Solve <m>3x^2+4x-5=0</m> by completing the square.</p>
+      </statement>
+      <hint><p>First, divide by factor out the coefficient of x^2, then move the constant 
+        term to the other side, and complete the square.</p></hint>
+      <answer><p><m>x=\frac{-2\pm\sqrt{19}}{3}</m></p></answer>
+      <solution><p>Since the leading coefficient isn't one, start by factoring out the coefficient from
+        the x-terms and move the constant term to the other side. <m>3(x^2+\frac{4}{3}x)=5</m>. Next, 
+        complete the square by adding the square of half the coefficient of x to both sides: 
+        <m>3(x^2+\frac{4}{3}x+\frac{4}{9})=5+3\left(\frac{4}{9}\right)</m>. This gives us 
+        <m>3(x+\frac{2}{3})^2=\frac{19}{3}</m>. Now we can divide by 3 and take the square root of 
+        both sides: <m>x+\frac{2}{3}=\pm\sqrt{\frac{19}{9}}</m>. Finally, solve for x to get the 
+        solution: <m>x=\frac{-2\pm\sqrt{19}}{3}</m>.
+      </p></solution>
+    </exercise>
+  </page>
+</worksheet>
+    </subsection>
