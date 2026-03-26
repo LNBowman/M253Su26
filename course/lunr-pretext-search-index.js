@@ -145,112 +145,85 @@ var ptx_lunr_docs = [
   "body": " Math 156 Precalculus Summer Checklist (weeks 11-12)    Date   Reading and Video Lessons Due      Flatworld Homework Due      Learning Outcome Quiz Due      Revisions and Retakes Due     Assessments     Tutoring and Reflections       Week 11  M Jul 27      FW28                        T Jul 28          TF-4 Quiz                    W Jul 29                      Reflection 7        R Jul 30                  Assessment 4            F Jul 31                      Tutoring 6 Due      Week 12  M Aug 3                   Schedule Final             T Aug 4   This is the last day to submit any Flatworld, Video Lessons, Reflections, and TF-4 revisions or retakes.       W Aug 5                      Tutoring 7 Due        R Aug 6                  Final Assessment            F Aug 7                            "
 },
 {
-  "id": "fun-intro",
+  "id": "fun1-materials",
   "level": "1",
-  "url": "fun-intro.html",
+  "url": "fun1-materials.html",
   "type": "Section",
   "number": "",
-  "title": "Functions of Multiple Variables Introduction",
-  "body": " Functions of Multiple Variables Introduction   There are five learning outcomes for this unit:  FUN-1 Vector Applications  FUN-2 Equations of Lines and Planes  FUN-3 Surfaces in Space  FUN-4 Vector Functions  FUN-5 Functions of Several Variables     "
-},
-{
-  "id": "fun1-notes",
-  "level": "1",
-  "url": "fun1-notes.html",
-  "type": "Subsection",
-  "number": "",
   "title": "Vector Applications",
-  "body": " Vector Applications   There are five learning outcomes for this unit:  FUN-1 Vector Applications  FUN-2 Equations of Lines and Planes  FUN-3 Surfaces in Space  FUN-4 Vector Functions  FUN-5 Functions of Several Variables     "
+  "body": " Vector Applications   Fun-1 Quick Notes   This is where the notes would be     FUN-1 Videos    Vectors in the Plane   Vectors in Three Dimensions   The Dot Product   The Cross Product       FUN-1 Written Practice    WP1  WP1-Solutions  WP2  WP2-Solutions      FUN-1 Sample Outcomes    For the quiz on this outcome you would be given 30 minutes to complete 3 problems. Here are samples of the types of problems you will encounter:     Things you should understand and know:   What a plane vector is  The formula for the magnitude of a vector  Three-dimensional space mathematically  When two vectors are perpendicular  The vector projection of one vector onto another vector  How the cross-product relates to areas and volumes  How torque relates to force and position    Things you should be able to do:   Perform basic vector operations in two and three-dimensions  Express a vector in component form or in terms of unit vectors  Write and use the distance formula in three dimensions  Write the equations for simple planes and spheres  Calculate the dot product of two vectors  Determine the direction of a vector  Compute a vector projection  Calculate the work done by a given force  Calculate the cross-product of two vectors  Use determinants to calculate a cross-product  Find a vector orthogonal to two given vectors  Find the area or volume using the cross-product  Calculate the torque of a force and a vector    You will be assessed on the following criteria:   Problem structure: Solution should be organized and easy to follow, with clear, complete steps that follow progressively from one to the next.  Vector Operations: Perform vector addition, subtraction, and scalar multiplication. Evaluate the magnitude and direction of vectors. Find the dot product and cross product of vectors.  Vector Applications: Apply vector concepts to solve real-world problems, such as finding the resultant of two forces, work done by a force, etc.         Solve the following equation:    Start by using the LCD to clear the fractions. Then combine like terms and solve.    Start by using the LCD of 18 to clear the fractions: . Then combine like terms: . Next, simplify to get the solution: .      Solve the following equation:    Start by distributing over the parentheses and then combining like terms.    Start by distributing over the parentheses: . Then combine like terms: . Next, move all terms to one side: . Finally, simplify to get the solution: .      Solve by factoring.   Look for two numbers that multiply to give the product of the coefficient of x^2 and the constant term, and add up to give the coefficient of x.  and  Start by multiplying the leading coefficient and the constant: . Find the two factors of 72 that add up to -18: -12 and -6. Rewrite the middle term using these factors: . Factor by grouping: . Factor out the common binomial: . Set each factor equal to zero and solve for x: and .     Solve using the extraction of roots method.   Take the square root of both sides and solve the resulting linear equations.  and  Start by taking the square root of both sides of the equation: . Then solve the resulting linear equations: and . This gives and .     Solve using the quadratic formula.   First, move all terms to one side to get the equation in standard form, then apply the quadratic formula.   Start by setting the equation equal to zero and finding the terms: , , and . Then apply the quadratic formula by plugging these values into . . Simplify inside the root . . Now we can simplify the root . Then simplify the resulting expression: .     Solve by completing the square.   First, divide by factor out the coefficient of x^2, then move the constant term to the other side, and complete the square.   Since the leading coefficient isn't one, start by factoring out the coefficient from the x-terms and move the constant term to the other side. . Next, complete the square by adding the square of half the coefficient of x to both sides: . This gives us . Now we can divide by 3 and take the square root of both sides: . Finally, solve for x to get the solution: .      "
 },
 {
-  "id": "fun1-videos",
-  "level": "1",
-  "url": "fun1-videos.html",
-  "type": "Subsection",
-  "number": "",
-  "title": "Vector Applications",
-  "body": " Vector Applications   FUN-1 Videos   Vectors in the Plane   Vectors in Three Dimensions   The Dot Product   The Cross Product     "
-},
-{
-  "id": "fun1-wp",
-  "level": "1",
-  "url": "fun1-wp.html",
-  "type": "Subsection",
-  "number": "",
-  "title": "Vector Applications",
-  "body": " Vector Applications   FUN-1 Written Practice   WP1  WP1-Solutions  WP2  WP2-Solutions    "
-},
-{
-  "id": "fun1-sample",
-  "level": "1",
-  "url": "fun1-sample.html",
-  "type": "Subsection",
-  "number": "",
-  "title": "Vector Applications",
-  "body": " Vector Applications   FUN-1 Sample Outcomes   For the quiz on this outcome you would be given 30 minutes to complete 3 problems. Here are samples of the types of problems you will encounter:    Things you should understand and know:  What a plane vector is  The formula for the magnitude of a vector  Three-dimensional space mathematically  When two vectors are perpendicular  The vector projection of one vector onto another vector  How the cross-product relates to areas and volumes  How torque relates to force and position   Things you should be able to do:  Perform basic vector operations in two and three-dimensions  Express a vector in component form or in terms of unit vectors  Write and use the distance formula in three dimensions  Write the equations for simple planes and spheres  Calculate the dot product of two vectors  Determine the direction of a vector  Compute a vector projection  Calculate the work done by a given force  Calculate the cross-product of two vectors  Use determinants to calculate a cross-product  Find a vector orthogonal to two given vectors  Find the area or volume using the cross-product  Calculate the torque of a force and a vector   You will be assessed on the following criteria:  Problem structure: Solution should be organized and easy to follow, with clear, complete steps that follow progressively from one to the next.  Vector Operations: Perform vector addition, subtraction, and scalar multiplication. Evaluate the magnitude and direction of vectors. Find the dot product and cross product of vectors.  Vector Applications: Apply vector concepts to solve real-world problems, such as finding the resultant of two forces, work done by a force, etc.        Solve the following equation:    Start by using the LCD to clear the fractions. Then combine like terms and solve.    Start by using the LCD of 18 to clear the fractions: . Then combine like terms: . Next, simplify to get the solution: .      Solve the following equation:    Start by distributing over the parentheses and then combining like terms.    Start by distributing over the parentheses: . Then combine like terms: . Next, move all terms to one side: . Finally, simplify to get the solution: .      Solve by factoring.   Look for two numbers that multiply to give the product of the coefficient of x^2 and the constant term, and add up to give the coefficient of x.  and  Start by multiplying the leading coefficient and the constant: . Find the two factors of 72 that add up to -18: -12 and -6. Rewrite the middle term using these factors: . Factor by grouping: . Factor out the common binomial: . Set each factor equal to zero and solve for x: and .     Solve using the extraction of roots method.   Take the square root of both sides and solve the resulting linear equations.  and  Start by taking the square root of both sides of the equation: . Then solve the resulting linear equations: and . This gives and .     Solve using the quadratic formula.   First, move all terms to one side to get the equation in standard form, then apply the quadratic formula.   Start by setting the equation equal to zero and finding the terms: , , and . Then apply the quadratic formula by plugging these values into . . Simplify inside the root . . Now we can simplify the root . Then simplify the resulting expression: .     Solve by completing the square.   First, divide by factor out the coefficient of x^2, then move the constant term to the other side, and complete the square.   Since the leading coefficient isn't one, start by factoring out the coefficient from the x-terms and move the constant term to the other side. . Next, complete the square by adding the square of half the coefficient of x to both sides: . This gives us . Now we can divide by 3 and take the square root of both sides: . Finally, solve for x to get the solution: .     "
-},
-{
-  "id": "fun1-sample-2-3",
+  "id": "fun1-sample-2-2",
   "level": "2",
-  "url": "fun1-sample.html#fun1-sample-2-3",
+  "url": "fun1-materials.html#fun1-sample-2-2",
   "type": "Objectives",
   "number": "",
   "title": "",
-  "body": " Things you should understand and know:  What a plane vector is  The formula for the magnitude of a vector  Three-dimensional space mathematically  When two vectors are perpendicular  The vector projection of one vector onto another vector  How the cross-product relates to areas and volumes  How torque relates to force and position   Things you should be able to do:  Perform basic vector operations in two and three-dimensions  Express a vector in component form or in terms of unit vectors  Write and use the distance formula in three dimensions  Write the equations for simple planes and spheres  Calculate the dot product of two vectors  Determine the direction of a vector  Compute a vector projection  Calculate the work done by a given force  Calculate the cross-product of two vectors  Use determinants to calculate a cross-product  Find a vector orthogonal to two given vectors  Find the area or volume using the cross-product  Calculate the torque of a force and a vector   You will be assessed on the following criteria:  Problem structure: Solution should be organized and easy to follow, with clear, complete steps that follow progressively from one to the next.  Vector Operations: Perform vector addition, subtraction, and scalar multiplication. Evaluate the magnitude and direction of vectors. Find the dot product and cross product of vectors.  Vector Applications: Apply vector concepts to solve real-world problems, such as finding the resultant of two forces, work done by a force, etc.    "
+  "body": "  Things you should understand and know:   What a plane vector is  The formula for the magnitude of a vector  Three-dimensional space mathematically  When two vectors are perpendicular  The vector projection of one vector onto another vector  How the cross-product relates to areas and volumes  How torque relates to force and position    Things you should be able to do:   Perform basic vector operations in two and three-dimensions  Express a vector in component form or in terms of unit vectors  Write and use the distance formula in three dimensions  Write the equations for simple planes and spheres  Calculate the dot product of two vectors  Determine the direction of a vector  Compute a vector projection  Calculate the work done by a given force  Calculate the cross-product of two vectors  Use determinants to calculate a cross-product  Find a vector orthogonal to two given vectors  Find the area or volume using the cross-product  Calculate the torque of a force and a vector    You will be assessed on the following criteria:   Problem structure: Solution should be organized and easy to follow, with clear, complete steps that follow progressively from one to the next.  Vector Operations: Perform vector addition, subtraction, and scalar multiplication. Evaluate the magnitude and direction of vectors. Find the dot product and cross product of vectors.  Vector Applications: Apply vector concepts to solve real-world problems, such as finding the resultant of two forces, work done by a force, etc.     "
 },
 {
-  "id": "fun1-sample-2-4-1",
+  "id": "fun1-sample-2-3-1",
   "level": "2",
-  "url": "fun1-sample.html#fun1-sample-2-4-1",
+  "url": "fun1-materials.html#fun1-sample-2-3-1",
   "type": "Worksheet Exercise",
   "number": "1",
   "title": "",
   "body": "  Solve the following equation:    Start by using the LCD to clear the fractions. Then combine like terms and solve.    Start by using the LCD of 18 to clear the fractions: . Then combine like terms: . Next, simplify to get the solution: .   "
 },
 {
-  "id": "fun1-sample-2-4-2",
+  "id": "fun1-sample-2-3-2",
   "level": "2",
-  "url": "fun1-sample.html#fun1-sample-2-4-2",
+  "url": "fun1-materials.html#fun1-sample-2-3-2",
   "type": "Worksheet Exercise",
   "number": "2",
   "title": "",
   "body": "  Solve the following equation:    Start by distributing over the parentheses and then combining like terms.    Start by distributing over the parentheses: . Then combine like terms: . Next, move all terms to one side: . Finally, simplify to get the solution: .   "
 },
 {
-  "id": "fun1-sample-2-4-3",
+  "id": "fun1-sample-2-3-3",
   "level": "2",
-  "url": "fun1-sample.html#fun1-sample-2-4-3",
+  "url": "fun1-materials.html#fun1-sample-2-3-3",
   "type": "Worksheet Exercise",
   "number": "3",
   "title": "",
   "body": "  Solve by factoring.   Look for two numbers that multiply to give the product of the coefficient of x^2 and the constant term, and add up to give the coefficient of x.  and  Start by multiplying the leading coefficient and the constant: . Find the two factors of 72 that add up to -18: -12 and -6. Rewrite the middle term using these factors: . Factor by grouping: . Factor out the common binomial: . Set each factor equal to zero and solve for x: and .  "
 },
 {
-  "id": "fun1-sample-2-4-4",
+  "id": "fun1-sample-2-3-4",
   "level": "2",
-  "url": "fun1-sample.html#fun1-sample-2-4-4",
+  "url": "fun1-materials.html#fun1-sample-2-3-4",
   "type": "Worksheet Exercise",
   "number": "4",
   "title": "",
   "body": "  Solve using the extraction of roots method.   Take the square root of both sides and solve the resulting linear equations.  and  Start by taking the square root of both sides of the equation: . Then solve the resulting linear equations: and . This gives and .  "
 },
 {
-  "id": "fun1-sample-2-4-5",
+  "id": "fun1-sample-2-3-5",
   "level": "2",
-  "url": "fun1-sample.html#fun1-sample-2-4-5",
+  "url": "fun1-materials.html#fun1-sample-2-3-5",
   "type": "Worksheet Exercise",
   "number": "5",
   "title": "",
   "body": "  Solve using the quadratic formula.   First, move all terms to one side to get the equation in standard form, then apply the quadratic formula.   Start by setting the equation equal to zero and finding the terms: , , and . Then apply the quadratic formula by plugging these values into . . Simplify inside the root . . Now we can simplify the root . Then simplify the resulting expression: .  "
 },
 {
-  "id": "fun1-sample-2-4-6",
+  "id": "fun1-sample-2-3-6",
   "level": "2",
-  "url": "fun1-sample.html#fun1-sample-2-4-6",
+  "url": "fun1-materials.html#fun1-sample-2-3-6",
   "type": "Worksheet Exercise",
   "number": "6",
   "title": "",
   "body": "  Solve by completing the square.   First, divide by factor out the coefficient of x^2, then move the constant term to the other side, and complete the square.   Since the leading coefficient isn't one, start by factoring out the coefficient from the x-terms and move the constant term to the other side. . Next, complete the square by adding the square of half the coefficient of x to both sides: . This gives us . Now we can divide by 3 and take the square root of both sides: . Finally, solve for x to get the solution: .  "
+},
+{
+  "id": "fun2-materials",
+  "level": "1",
+  "url": "fun2-materials.html",
+  "type": "Section",
+  "number": "",
+  "title": "Equations of Lines and Planes",
+  "body": " Equations of Lines and Planes   Equations of Lines and Planes   There are five learning outcomes for this unit:  FUN-1 Vector Applications  FUN-2 Equations of Lines and Planes  FUN-3 Surfaces in Space  FUN-4 Vector Functions  FUN-5 Functions of Several Variables      "
 },
 {
   "id": "notes-week-02",
