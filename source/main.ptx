@@ -28,12 +28,25 @@
     </chapter>
 
     <chapter xml:id="functions-of-multiple-variables">
-      <title>Functions of Multiple Variables</title>
-        <xi:include href="./fun-outcomes/fun-intro.ptx"/>
-          <xi:include href="./fun-outcomes/fun1-notes.ptx"/>
-          <xi:include href="./fun-outcomes/fun1-vid.ptx"/>
-          <xi:include href="./fun-outcomes/fun1-wp.ptx"/>
-          <xi:include href="./fun-outcomes/fun1-sample.ptx"/>
+      <title>Functions of Multiple Variables Introduction</title>
+        <introduction>
+         <p>In this unit we will be learning about functions of multiple variables. 
+            This includes functions of two or three variables, as well as vector-valued 
+            functions. In this module we will be learning the basic tools for working 
+            with these functions, including how to visualize them, how to perform basic 
+            operations, and how to apply these concepts to solve problems.</p>
+            <p>There are five learning outcomes for this unit:
+            <ul>
+                <li><p>FUN-1 Vector Applications</p></li>
+                <li><p>FUN-2 Equations of Lines and Planes</p></li>
+                <li><p>FUN-3 Surfaces in Space</p></li>
+                <li><p>FUN-4 Vector Functions</p></li>
+                <li><p>FUN-5 Functions of Several Variables</p></li>
+            </ul>
+        </p>
+        </introduction>
+        <xi:include href="./fun-outcomes/fun1-materials.ptx" />
+        <xi:include href="./fun-outcomes/fun2-materials.ptx" />
         <!-- etc. -->
     </chapter>
 

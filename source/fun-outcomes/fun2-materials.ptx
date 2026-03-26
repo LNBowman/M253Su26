@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<section xml:id="fun2-materials" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Equations of Lines and Planes</title>
+        <xi:include href="./fun-2/fun2-notes.ptx" />
+</section>

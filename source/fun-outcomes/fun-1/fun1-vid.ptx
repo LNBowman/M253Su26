@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <subsection xml:id="fun1-videos" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <title>Vector Applications</title>
+    <title>FUN-1 Videos</title>
     <worksheet>
-         <title>FUN-1 Videos</title>
             <page>
                 <p><alert>Vectors in the Plane</alert></p>
                 <video vimeo="1"/>

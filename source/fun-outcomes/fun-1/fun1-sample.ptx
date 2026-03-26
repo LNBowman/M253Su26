@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <subsection xml:id="fun1-sample" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <title>Vector Applications</title>
-    <worksheet>
   <title>FUN-1 Sample Outcomes</title>
+    <worksheet>
   <introduction>
     <p>For the quiz on this outcome you would be given 30 minutes to complete 3 problems. Here are samples 
       of the types of problems you will encounter:</p>
   </introduction>
   <objectives>
-    <ul><li><p>Things you should understand and know:
+    <ul>
+      <li><p>Things you should understand and know:</p>
         <ul>
             <li><p>What a plane vector is</p></li>
             <li><p>The formula for the magnitude of a vector</p></li>
@@ -18,8 +18,9 @@
             <li><p>The vector projection of one vector onto another vector</p></li>
             <li><p>How the cross-product relates to areas and volumes</p></li>
             <li><p>How torque relates to force and position</p></li>
-        </ul></p></li>
-    <li><p>Things you should be able to do:
+        </ul>
+      </li>
+      <li><p>Things you should be able to do:</p>
         <ul>
             <li><p>Perform basic vector operations in two and three-dimensions</p></li>
             <li><p>Express a vector in component form or in terms of unit vectors</p></li>
@@ -34,16 +35,18 @@
             <li><p>Find a vector orthogonal to two given vectors</p></li>
             <li><p>Find the area or volume using the cross-product</p></li>
             <li><p>Calculate the torque of a force and a vector</p></li>
-        </ul></p></li>
-    <li><p>You will be assessed on the following criteria:
+        </ul>
+      </li>
+      <li><p>You will be assessed on the following criteria:</p>
         <ul>
-        <li><p>Problem structure: Solution should be organized and easy to follow, with clear, complete steps 
-            that follow progressively from one to the next.</p></li>
-        <li><p>Vector Operations: Perform vector addition, subtraction, and scalar multiplication. Evaluate 
-            the magnitude and direction of vectors. Find the dot product and cross product of vectors.</p></li>
-        <li><p>Vector Applications: Apply vector concepts to solve real-world problems, such as finding the 
-            resultant of two forces, work done by a force, etc.</p></li>
-        </ul></p></li>
+          <li><p>Problem structure: Solution should be organized and easy to follow, with clear, complete steps 
+              that follow progressively from one to the next.</p></li>
+          <li><p>Vector Operations: Perform vector addition, subtraction, and scalar multiplication. Evaluate 
+              the magnitude and direction of vectors. Find the dot product and cross product of vectors.</p></li>
+          <li><p>Vector Applications: Apply vector concepts to solve real-world problems, such as finding the 
+              resultant of two forces, work done by a force, etc.</p></li>
+        </ul>
+      </li>
     </ul>
     </objectives>
 

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<section xml:id="fun1-materials" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Vector Applications</title>
+        <xi:include href="./fun-1/fun1-notes.ptx" />
+        <xi:include href="./fun-1/fun1-vid.ptx" />
+        <xi:include href="./fun-1/fun1-wp.ptx" />
+        <xi:include href="./fun-1/fun1-sample.ptx" />
+</section>
