@@ -78,7 +78,7 @@
 		</row>
 	</tabular>
 </table>
-    <p>For completion assignments (video lessons, flatworld, tutoring, and reflections), you will be graded 
+    <p>For completion assignments (video lessons, written practice, tutoring, and reflections), you will be graded 
     using the CPI scale.</p>
 <table>
 	<title>Completion Rubric</title>
@@ -135,7 +135,7 @@
 	</tabular>
 </table>
 
-  <p>Quizzes this semester will be given every Tuesday and Friday. The assessments will open on one of those days in 
+  <p>Quizzes this semester will be given 2-3 times per week. The assessments will open on one of those days in 
     weeks when we have only one quiz.  Here are the assessment dates and coverage for the semester.</p>
 
   <table>
@@ -163,13 +163,13 @@
 				1
 			</cell>
 			<cell right="medium">
-				BF-1, BF-2, BF-3, BF-4
+				FUN-1, FUN-2, FUN-3, FUN-4, FUN-5
 			</cell>
 			<cell right="medium">
-				June 8-9, 2026
+				June 10-11, 2026
 			</cell>
 			<cell right="medium">
-				May 28, 2026
+				June 5, 2026
 			</cell>
 			<cell right="medium">
 				60 minutes
@@ -180,16 +180,16 @@
 				2
 			</cell>
 			<cell right="medium">
-				<p>BF-1, BF-2, BF-3, BF-4, </p><p>GR-1, GR-2, GR-3, GR-4, GR-5</p>
+				FUN-1, FUN-2, FUN-3, FUN-4, FUN-5, DC-1, DC-2, DC-3, DC-4, DC-5, DC-6
 			</cell>
 			<cell right="medium">
-				June 25-26, 2026
+				June 29-30, 2026
 			</cell>
 			<cell right="medium">
-				June 18, 2026
+				June 19, 2026
 			</cell>
 			<cell right="medium">
-				90 minutes
+				2 hours
 			</cell>
 		</row>
 		<row bottom="medium">
@@ -197,33 +197,16 @@
 				3
 			</cell>
 			<cell right="medium">
-				<p>GR-1, GR-2, GR-3, GR-4, GR-5, </p><p>EL-1, EL-2, EL-3</p>
+				DC-1, DC-2, DC-3, DC-4, DC-5, DC-6, IC-1, IC-2, IC-3, IC-4, IC-5, APP-1, APP-2
 			</cell>
 			<cell right="medium">
-				July 9-10, 2026
+				July 22-23, 2026
 			</cell>
 			<cell right="medium">
-				July 3, 2026
+				July 15, 2026
 			</cell>
 			<cell right="medium">
-				90 minutes
-			</cell>
-		</row>
-		<row bottom="medium">
-			<cell right="medium">
-				4
-			</cell>
-			<cell right="medium">
-				<p>EL-1, EL-2, EL-3, </p><p>TF-1, TF-2, TF-3, TF-4</p>
-			</cell>
-			<cell right="medium">
-				July 30-31, 2026
-			</cell>
-			<cell right="medium">
-				July 24, 2026
-			</cell>
-			<cell right="medium">
-				90 minutes
+				2.5 hours
 			</cell>
 		</row>
 		<row bottom="medium">
@@ -237,7 +220,7 @@
 				August 6-7, 2026
 			</cell>
 			<cell right="medium">
-				August 3
+				July 31
 			</cell>
 			<cell right="medium">
 				3 hours
@@ -249,37 +232,37 @@
   <paragraphs>
         <title>Grade Computation</title>
         <p>
-          There are 16 content outcomes to be mastered twice (1 quiz and 1 assessment, or 2 
-          assessments), 35 video lessons, 35 Flatworld assignments, 14 engagements, 7 tutoring 
+          There are 22 content outcomes to be mastered twice (1 quiz and 1 assessment, or 2 
+          assessments), 22 video lessons, 18 WP assignments, 6 reflections, 5 tutoring 
           appointments, and 1 Instructor appointment in this course. The possible grades 
           earned in this course, in order from lowest to highest, are</p>
           <p>F D C C+ B- B B+ A- A A+</p>
           <p>Your base grade (A, B, C, D, F) is determined by Quiz mastery, Assessment mastery, 
-            and Flatworld completion. For the base grade, you will need:</p>
-            <p>10 outcomes with a score of at least M, all the rest at P for both quizzes and 
-              assessments, complete the instructor appointment, and 29 flatworld to have a base 
+            and WP completion. For the base grade, you will need:</p>
+            <p>17 outcomes with a score of at least M, all the rest at P for both quizzes and 
+              assessments, complete the instructor appointment, and 15 WP assignments to have a base 
               grade of A;</p>
               <p>All outcomes with a score of at least P for both quizzes and assessments, 
-                complete the instructor appointment, and 25 flatworld to have a base grade of B;</p>
-              <p>9 outcomes with a score of at least P, all the rest at R for both quizzes and 
-                assessments, complete the instructor appointment, and 21 flatworld to have a base 
+                complete the instructor appointment, and 12 WP assignments to have a base grade of B;</p>
+              <p>14 outcomes with a score of at least P, all the rest at R for both quizzes and 
+                assessments, complete the instructor appointment, and 9 WP assignments to have a base 
                 grade of C;</p>
               <p>All outcomes with a score of at least R for both quizzes and assessments, and 
-                17 flatworld to have a base grade of D;</p>
+                6 WP assignments to have a base grade of D;</p>
               <p>If you have not met the above requirements, then your base grade would be an F</p>
               <p><em>If your base grade is an F, the highest grade you can earn in this course 
                 is a D. If your base grade is a D, then the highest grade you can earn in this 
                 course is a C.</em></p>
-              <p>If you have at least 25 video lessons, your base grade would be one grade higher. 
-                If you have at least 19 video lessons, then your base grade would remain the same. 
-                If you have fewer than 19 video lessons, your base grade would be one grade lower.</p>
+              <p>If you have at least 18 video lessons, your base grade would be one grade higher. 
+                If you have at least 14 video lessons, then your base grade would remain the same. 
+                If you have fewer than 14 video lessons, your base grade would be one grade lower.</p>
               <p>If you have credit for at least 4 appointments, your base grade would move one 
                 grade to the right. If you have credit for at least two appointments, your base 
                 grade will remain the same. If you have fewer than 2 appointments, your base grade 
                 would move one grade to the left.</p>
-              <p>If you have at least 10 engagements, then your base grade would go one grade to 
-                the right. If you have at least 7 engagements, then your base grade would remain 
-                the same. If you have fewer than 7 engagements, then your base grade would go one 
+              <p>If you have at least 5 engagements, then your base grade would go one grade to 
+                the right. If you have at least 3 engagements, then your base grade would remain 
+                the same. If you have fewer than 3 engagements, then your base grade would go one 
                 grade to the left.</p>
         </paragraphs>
 </section>

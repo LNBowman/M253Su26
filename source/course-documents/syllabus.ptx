@@ -1,23 +1,106 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- When creating a new activity, make a copy of this file with appropriate name -->
-<worksheet xml:id="activity-01-intro-activity">
-  <title>Introduction Activity</title>
-
-  <!-- Optional introduction -->
-  <introduction>
-    <p>
-      This is the introduction to the activity.
-    </p>
-  </introduction>
-
-  <!-- Exercises start here. -->
-  <exercise workspace="2in">
-    <statement>
-      <p>
-        This is the first exercise.
-      </p>
-    </statement>
-  </exercise>
-
-</worksheet>
+<section xml:id="syllabus" xmlns:xi="http://www.w3.org/2001/XInclude">
+<title>Course Information</title>
+  <!-- Include chapters -->
+  <paragraphs>
+    <title>Math F253X Calculus III Summer 2026 Course Syllabus</title>
+      <p>This is a 4-credit asynchronous course. This means 
+        the course is offered through Canvas and has no set meeting times. 
+        For this course, you will be asked to work through the material by 
+        watching videos, practicing problems, and completing quizzes and 
+        assessments. While this is a self-paced course, there are due dates 
+        and completion deadlines that need to be met.</p>
+      <p>In this course, I will use a standards-based assessment format 
+        instead of the traditional percentage-based system you've seen before. 
+        This style of assessment will give you a clearer picture of the 
+        expectations in our course, how well you have mastered the course material, 
+        and how you can improve your understanding (and your grade!). Throughout 
+        the course, you will be given opportunities to further develop your skills, 
+        assess these skills, and relearn material to improve your understanding.  
+        We will have weekly quizzes, weekly activities, and an assessment about 
+        every two weeks. Every problem that you see on a quiz or assessment will be 
+        mapped to one of the course standards. In addition to these assignments, you 
+        will also be asked to complete reflective assignments and course surveys.</p>
+      <p>The key ideas of mastery-based learning are:
+        <ul>
+          <li>You will either receive credit or need to reassess; There are no 0 grades unless you do not try;</li>
+        <li>You will be given many opportunities to improve your understanding and your score;</li>
+        <li>Non-mastery items are based on completion;</li>
+        <li>Once you have attained a minimum grade you can only improve.</li>
+        </ul></p>
+  </paragraphs>
+    <paragraphs>
+      <title>Instructor and Section Information</title>
+      <p>Instructor: Dr. Latrice Bowman</p><p>Office: Chapman 301B</p>
+      <p>email: <url href="mailto:lnbowman@alaska.edu">lnbowman@alaska.edu</url></p>
+      <p>phone: 907-474-5427 (you will find it easier to reach me through email)</p>
+    </paragraphs>
+    <paragraphs>
+      <title>Student Help Hours</title>
+      <p>Hours are by appointment through Zoom.  You can use 
+            <url href="https://scheduler.zoom.us/latrice-bowman">
+              Dr. Bowman's Appointment Scheduler</url> to set up an appointment.</p>
+    </paragraphs>
+    <paragraphs>
+      <title>Class Meetings</title>
+      <p>This is an asynchronous online course so there are 
+            no class meeting times, however, you will need to set up times with your 
+            proctor to take assessments.</p>
+    </paragraphs>
+    <paragraphs>
+    <title>Course Description</title>
+      <p>This course focuses on multivariable functions, how to think about them, visualize them, 
+      and use them to solve applications. Students will learn how to differentiate and integrate 
+      these functions. Several applications of derivatives and integrals of multivariable functions 
+      will also be discussed in this course. By the end of this course, students will develop an 
+      understanding of the core concepts in multivariable calculus and some of their uses. This means 
+      that students will:
+      <ul>
+        <li>use correct mathematical notation in writing out solutions</li>
+        <li>gain competency in the algebra and geometry of 3-dimensional space.</li>
+        <li>apply calculus operations to curves in 2- and 3-dimensional space.</li>
+        <li>become competent with partial differentiation and apply it to optimization problems.</li>
+        <li>compute integrals of functions of several variables.</li>
+        <li>gain exposure to Stokes' Theorem and its cousins (Green's Theorem, the Divergence Theorem).</li>
+        <li>apply multivariable calculus to other fields.</li>
+      </ul></p>
+      <p>To meet these course outcomes students will be specifically assessed on the following standards:</p>
+      </paragraphs>
+    <paragraphs>
+      <title>Student Learning Outcomes</title>
+      <p>Habit Standards assessed throughout the entire semester
+      <ul>
+        <li>CAL3-1 WP (written practice)</li>
+        <li>CAL3-2 Communication</li>
+        <li>CAL3-3 Reflections</li>
+        <li>CAL3-4 Participation</li>
+      </ul></p>
+    <p>Content Outcomes assessed within specific content modules (complete descriptions can be found in Canvas)
+    <ul>
+      <li>FUN-1 Vector Operations and Applications</li>
+      <li>FUN-2 Planes</li>
+      <li>FUN-3 Surfaces</li>
+      <li>FUN-4 Vector-valued Functions</li>
+      <li>FUN-5 Functions in 2 variables</li>
+      <li>DC-1 Partial Derivatives</li>
+      <li>DC-2 Tangent Planes and Linear Approximations</li>
+      <li>DC-3 Chain Rules for Partial Derivatives</li>
+      <li>DC-4 Directional Derivatives and the Gradient</li>
+      <li>DC-5 Maxima and Minima</li>
+      <li>DC-6 Lagrange Multipliers</li>
+      <li>IC-1 Double Integrals</li>
+      <li>IC-2 Double Integrals in Polar Coordinates</li>
+      <li>IC-3 Triple Integrals</li>
+      <li>IC-4 Integrals for Calculation of Mass</li>
+      <li>IC-5 Change of Variables</li>
+      <li>APP-1 Line Integrals</li>
+      <li>APP-2 Vector Fields</li>
+      <li>APP-3 Green’s Theorem in 2D</li>
+      <li>APP-4 Surface Integrals</li>
+      <li>APP-5 Stoke’s Theorem</li>
+      <li>APP-6 Divergence Theorem</li>
+    </ul>
+    </p></paragraphs>
+  
+</section>

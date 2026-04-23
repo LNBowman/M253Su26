@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-
-<section> 
-	<title>Math 253 Summer 2026 Online Schedule</title>
   <worksheet>
+	<title>Math 253 Summer 2026 Online Schedule</title>
 	<introduction>
 		<p>Use this schedule/checklist to make sure that you have completed all of the
 	graded components of the course.</p>
@@ -16,17 +14,17 @@
 				 Date
 			</cell>
 			<cell right="medium">
-				<p>Reading and</p><p>Video Lessons</p><p>Due</p>
+				<p>Lessons</p><p>Due</p>
 			</cell>
 			<cell right="medium">
 			</cell>
 			<cell right="medium">
-				<p>Flatworld</p><p>Homework Due</p>
+				<p>WP</p><p>Due</p>
 			</cell>
 			<cell right="medium">
 			</cell>
 			<cell right="medium">
-				<p>Learning</p><p>Outcome</p><p>Quiz Due</p>
+				<p>LO</p><p>Quiz Due</p>
 			</cell>
 			<cell right="medium">
 			</cell>
@@ -57,8 +55,8 @@
                 are part of your Engagement grade and will help you navigate
                 this course. In this module, you will also learn more about the 
                 course setup and expectations. In addition, if you have not
-                had math in a while or struggle with Algebraic concepts, I 
-                would recommend reviewing the items in the Algebra Review Module.
+                had math in a while or struggle with Algebraic, Precalculus concepts, I 
+                would recommend reviewing the items in the Review Module.
                 You should have a good understanding of the concepts in this 
                 module before starting this course.</p>
 			</cell>
@@ -110,7 +108,6 @@
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
-				Sample Quiz
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -134,7 +131,7 @@
 				W May 20
 			</cell>
 			<cell right="medium" bottom="medium">
-				<p>Solving Linear and</p><p>Quadratic Equations</p>
+				Vectors in the plane
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -143,6 +140,7 @@
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
+				Sample Quiz
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -167,12 +165,11 @@
 				R May 21
 			</cell>
 			<cell right="medium" bottom="medium">
-				<p>The Cartesian</p><p>Coordinate System</p>
+				Vectors in 3D
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
-				FW1
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -201,7 +198,12 @@
 				F May 22
 			</cell>
 			<cell right="medium">
-				<p>Linear Forms</p><p>of Equations</p>
+				The Dot and Cross Products
+			</cell>
+			<cell right="medium">
+			</cell>
+			<cell right="medium">
+				WP1
 			</cell>
 			<cell right="medium">
 			</cell>
@@ -210,7 +212,6 @@
 			<cell right="medium">
 			</cell>
 			<cell right="medium">
-				BF-1 Quiz
 			</cell>
 			<cell right="medium">
 			</cell>
@@ -219,11 +220,7 @@
 			<cell right="medium">
 			</cell>
 			<cell right="medium">
-			</cell>
-			<cell right="medium">
-			</cell>
-			<cell right="medium">
-				<p>Schedule Instructor</p><p>Appointment</p>
+				<p>Schedule Instructor Appointment</p>
 			</cell>
 			<cell right="medium">
 			</cell>
@@ -246,17 +243,16 @@
 				T May 26
 			</cell>
 			<cell right="medium" bottom="medium">
-				<p>Relations and</p><p>Functions</p>
+				Equations of Lines and Planes
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
-				FW2
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
-				BF-2 Quiz
+				FUN-1 Quiz
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -280,7 +276,12 @@
 				W May 27
 			</cell>
 			<cell right="medium" bottom="medium">
-				<p>Difference</p><p>Quotients and</p><p>Piecewise Functions</p>
+				Quadric Surface, Cyl and Sph Coordinates
+			</cell>
+			<cell right="medium" bottom="medium">
+			</cell>
+			<cell right="medium" bottom="medium">
+				WP2 +Video
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -293,10 +294,7 @@
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
-			</cell>
-			<cell right="medium" bottom="medium">
-			</cell>
-			<cell right="medium" bottom="medium">
+				Set up Proctor
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -312,29 +310,29 @@
 				R May 28
 			</cell>
 			<cell right="medium" bottom="medium">
-				Basic Functions
+				Vector-Valued Functions
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
-				FW3
-			</cell>
-			<cell right="medium" bottom="medium">
-			</cell>
-			<cell right="medium" bottom="medium">
-			</cell>
-			<cell right="medium" bottom="medium">
+				WP3 + Exploration
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
-				<p>Schedule</p><p>Assessment 1</p>
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
+			</cell>
+			<cell right="medium" bottom="medium">
+			</cell>
+			<cell right="medium" bottom="medium">
+			</cell>
+			<cell right="medium" bottom="medium">
+				Instructor Appt Due
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -346,7 +344,7 @@
 				F May 29
 			</cell>
 			<cell right="medium">
-				Transformations
+				Calculus of Vector-Valued Functions
 			</cell>
 			<cell right="medium">
 			</cell>
@@ -355,12 +353,7 @@
 			<cell right="medium">
 			</cell>
 			<cell right="medium">
-				BF-3 Quiz
-			</cell>
-			<cell right="medium">
-			</cell>
-			<cell right="medium">
-				<p>BF-1 Revision</p><p>and Retake</p>
+				FUN-2 Quiz
 			</cell>
 			<cell right="medium">
 			</cell>
@@ -369,7 +362,10 @@
 			<cell right="medium">
 			</cell>
 			<cell right="medium">
-				Tutoring 1 Due
+			</cell>
+			<cell right="medium">
+			</cell>
+			<cell right="medium">
 			</cell>
 			<cell right="medium">
 			</cell>
@@ -379,24 +375,24 @@
 </page>
 <page>
 <table>
-	<title>Math 156 Precalculus Summer Checklist (weeks 3-4)</title>
+	<title>Math 253 Calculus III Summer Checklist (weeks 3-4)</title>
 		<tabular halign="center" left="medium" top="medium">
 		<row bottom="medium">
 			<cell colspan="2" right="medium">
 				 Date
 			</cell>
 			<cell right="medium">
-				<p>Reading and</p><p>Video Lessons</p><p>Due</p>
+				<p>Lessons</p><p>Due</p>
 			</cell>
 			<cell right="medium">
 			</cell>
 			<cell right="medium">
-				<p>Flatworld</p><p>Homework Due</p>
+				<p>WP</p><p>Due</p>
 			</cell>
 			<cell right="medium">
 			</cell>
 			<cell right="medium">
-				<p>Learning</p><p>Outcome</p><p>Quiz Due</p>
+				<p>LO</p><p>Quiz Due</p>
 			</cell>
 			<cell right="medium">
 			</cell>
@@ -424,7 +420,12 @@
 				M Jun 1
 			</cell>
 			<cell right="medium" bottom="medium">
-				<p>Combinations and</p><p>Compositions</p>
+				Arc Length and Curvature
+			</cell>
+			<cell right="medium" bottom="medium">
+			</cell>
+			<cell right="medium" bottom="medium">
+				WP4
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -441,10 +442,7 @@
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
-			</cell>
-			<cell right="medium" bottom="medium">
-			</cell>
-			<cell right="medium" bottom="medium">
+				Tutoring Appt 1 Due
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -456,22 +454,20 @@
 				T Jun 2
 			</cell>
 			<cell right="medium" bottom="medium">
-				Inverses
+				Motion in Space
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
-				FW4
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
-				BF-4 Quiz
+				FUN-3 Quiz
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
-				<p>BF-2 Revision</p><p>and Retake</p>
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -495,7 +491,7 @@
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
-				FW5
+				WP5+ Exploration
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -504,6 +500,7 @@
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
+				FUN-1 Revision and Retake
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -512,7 +509,7 @@
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
-				<p>Instructor</p><p>Appointment Due</p>
+			Instructor Appointment Due
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -524,15 +521,17 @@
 				R Jun 4
 			</cell>
 			<cell right="medium" bottom="medium">
-				Quadratic Functions
+				Functions of Several Variables
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
+				WP6
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
+				FUN-4 Quiz
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -557,26 +556,25 @@
 				F Jun 5
 			</cell>
 			<cell right="medium">
-				<p>Polynomials and</p><p>Dividing Polynomials</p>
+				Limits and Continuity
 			</cell>
 			<cell right="medium">
 			</cell>
 			<cell right="medium">
-				FW6
+				WP7 + Exploration
 			</cell>
 			<cell right="medium">
 			</cell>
 			<cell right="medium">
-				GR-1 Quiz
 			</cell>
 			<cell right="medium">
 			</cell>
 			<cell right="medium">
-				<p>BF-3 Revision</p><p>and Retake</p>
 			</cell>
 			<cell right="medium">
 			</cell>
 			<cell right="medium">
+				Schedule Assessment 1
 			</cell>
 			<cell right="medium">
 			</cell>
@@ -593,6 +591,7 @@
 				M Jun 8
 			</cell>
 			<cell right="medium" bottom="medium">
+				Partial Derivatives
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -601,15 +600,16 @@
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
+				FUN-5 Quiz
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
+				Fun-2 Revision and Retake
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
-			<cell right="medium">
-				Assessment 1
+			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -637,7 +637,6 @@
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
-				<p>BF-4 Revision</p><p>and Retake</p>
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -657,12 +656,6 @@
 				W Jun 10
 			</cell>
 			<cell right="medium" bottom="medium">
-				Real Zeros
-			</cell>
-			<cell right="medium" bottom="medium">
-			</cell>
-			<cell right="medium" bottom="medium">
-				FW7
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -671,6 +664,12 @@
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
+				FUN-3 Revision and Retake
+			</cell>
+			<cell right="medium" bottom="medium">
+			</cell>
+			<cell right="medium">
+				Assessment 1 Window
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -694,7 +693,6 @@
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
-				FW8
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -711,7 +709,6 @@
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
-        Reflection 4
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -723,7 +720,7 @@
 				F Jun 12
 			</cell>
 			<cell right="medium">
-				Rational Functions
+				Tangent Planes and Linear Approximations
 			</cell>
 			<cell right="medium">
 			</cell>
@@ -732,12 +729,11 @@
 			<cell right="medium">
 			</cell>
 			<cell right="medium">
-                GR-2 Quiz
 			</cell>
 			<cell right="medium">
 			</cell>
 			<cell right="medium">
-        <p>GR-1 Revision</p><p>and Retake</p>
+        		FUN-4 Revision and Retake
 			</cell>
 			<cell right="medium">
 			</cell>
@@ -746,7 +742,6 @@
 			<cell right="medium">
 			</cell>
 			<cell right="medium">
-        Tutoring 2 Due
 			</cell>
 			<cell right="medium">
 			</cell>
@@ -763,17 +758,17 @@
 				 Date
 			</cell>
 			<cell right="medium">
-				<p>Reading and</p><p>Video Lessons</p><p>Due</p>
+				<p>Lessons</p><p>Due</p>
 			</cell>
 			<cell right="medium">
 			</cell>
 			<cell right="medium">
-				<p>Flatworld</p><p>Homework Due</p>
+				<p>WP</p><p>Due</p>
 			</cell>
 			<cell right="medium">
 			</cell>
 			<cell right="medium">
-				<p>Learning</p><p>Outcome</p><p>Quiz Due</p>
+				<p>LO</p><p>Quiz Due</p>
 			</cell>
 			<cell right="medium">
 			</cell>
@@ -801,28 +796,30 @@
 				M Jun 15
 			</cell>
 			<cell right="medium" bottom="medium">
-				Systems
+				The Chain Rule
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
-				FW9
+				WP8
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
-			</cell>
-			<cell right="medium" bottom="medium">
-			</cell>
-			<cell right="medium" bottom="medium">
-			</cell>
-			<cell right="medium" bottom="medium">
+				DC-1 Quiz
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
+			</cell>
+			<cell right="medium" bottom="medium">
+			</cell>
+			<cell right="medium" bottom="medium">
+			</cell>
+			<cell right="medium" bottom="medium">
+				Tutoring Appt 2 Due
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -834,17 +831,7 @@
 				T Jun 16
 			</cell>
 			<cell right="medium" bottom="medium">
-				<p>Graphs of</p><p>Systems</p>
-			</cell>
-			<cell right="medium" bottom="medium">
-			</cell>
-			<cell right="medium" bottom="medium">
-				FW10
-			</cell>
-			<cell right="medium" bottom="medium">
-			</cell>
-			<cell right="medium" bottom="medium">
-        GR-3 Quiz
+				Directional Derivatives and Gradients
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -857,6 +844,16 @@
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
+				FUN-5 Revision and Retake
+			</cell>
+			<cell right="medium" bottom="medium">
+			</cell>
+			<cell right="medium" bottom="medium">
+			</cell>
+			<cell right="medium" bottom="medium">
+			</cell>
+			<cell right="medium" bottom="medium">
+				RSI Student Survey Due
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -868,15 +865,17 @@
 				W Jun 17
 			</cell>
 			<cell right="medium" bottom="medium">
+				Maxima and Minima Problems
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
-				FW11
+				WP9
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
+				DC-2 Quiz
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -900,7 +899,6 @@
 				R Jun 18
 			</cell>
 			<cell right="medium" bottom="medium">
-			Exponential Functions
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -909,6 +907,7 @@
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
+				DC-3 Quiz
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -917,7 +916,6 @@
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
-        <p>Schedule</p><p>Assessment 2</p>
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -933,7 +931,7 @@
 				F Jun 19
 			</cell>
 			<cell right="medium" bottom="medium">
-			<p>Log Functions</p><p>and Properties</p>
+				Lagrange Multipliers
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -942,16 +940,15 @@
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
-        GR-4 Quiz
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
-        <p>GR-2 Revision</p><p>and Retake</p>
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
+				Schedule Assessment 2
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -972,7 +969,12 @@
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
-				FW12
+				WP10 + Exploration
+			</cell>
+			<cell right="medium" bottom="medium">
+			</cell>
+			<cell right="medium" bottom="medium">
+				DC-4 Quiz
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -985,11 +987,6 @@
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
-			</cell>
-			<cell right="medium" bottom="medium">
-			</cell>
-			<cell right="medium" bottom="medium">
-				Reflection 5
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -998,10 +995,7 @@
 			<cell right="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
-        T Jun 23
-			</cell>
-			<cell right="medium" bottom="medium">
-				Exponential Equations
+        	T Jun 23
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -1010,12 +1004,13 @@
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
-				GR-5 Quiz
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
-				<p>GR-3 Revision</p><p>and Retake</p>
+			</cell>
+			<cell right="medium" bottom="medium">
+				DC-1 Revision and Retake
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -1035,12 +1030,7 @@
         W Jun 24
 			</cell>
 			<cell right="medium" bottom="medium">
-				Logarithmic Equations
-			</cell>
-			<cell right="medium" bottom="medium">
-			</cell>
-			<cell right="medium" bottom="medium">
-				FW13
+				Double Integral over Rectangular Regions
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -1049,6 +1039,7 @@
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
+				DC-5 Quiz
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -1057,7 +1048,10 @@
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
-				Tutoring 3 Due
+			</cell>
+			<cell right="medium" bottom="medium">
+			</cell>
+			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -1069,6 +1063,7 @@
         R Jun 25
 			</cell>
 			<cell right="medium" bottom="medium">
+				Double Integral over General Regions
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -1081,11 +1076,11 @@
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
+				DC-2 Revision and Retake
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
-			<cell right="medium">
-				Assessment 2
+			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -1109,11 +1104,12 @@
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
+				DC-6 Quiz
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
-				<p>GR-4 Revision</p><p>and Retake</p>
+				DC-3 Revision and Retake
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -1122,6 +1118,7 @@
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
+				Tutoring Appt 3 Due
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -1131,24 +1128,24 @@
 </page>
 <page>
 <table>
-    <title>Math 156 Precalculus Summer Checklist (weeks 7-8)</title>
+    <title>Math 253 Calculus III Summer Checklist (weeks 7-8)</title>
 	<tabular halign="center" left="medium" top="medium">
 		<row bottom="medium">
 			<cell colspan="2" right="medium">
 				 Date
 			</cell>
 			<cell right="medium">
-				<p>Reading and</p><p>Video Lessons</p><p>Due</p>
+				<p>Lessons</p><p>Due</p>
 			</cell>
 			<cell right="medium">
 			</cell>
 			<cell right="medium">
-				<p>Flatworld</p><p>Homework Due</p>
+				<p>WP</p><p>Due</p>
 			</cell>
 			<cell right="medium">
 			</cell>
 			<cell right="medium">
-				<p>Learning</p><p>Outcome</p><p>Quiz Due</p>
+				<p>LO</p><p>Quiz Due</p>
 			</cell>
 			<cell right="medium">
 			</cell>
@@ -1176,12 +1173,6 @@
 				M Jun 29
 			</cell>
 			<cell right="medium" bottom="medium">
-				Exponential Models
-			</cell>
-			<cell right="medium" bottom="medium">
-			</cell>
-			<cell right="medium" bottom="medium">
-				FW14
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -1194,6 +1185,11 @@
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
+			</cell>
+			<cell right="medium" bottom="medium">
+			</cell>
+			<cell right="medium">
+				Assessment 2 Window
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -1213,17 +1209,15 @@
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
-				FW15
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
-				EL-1 Quiz
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
-				<p>GR-5 Revision</p><p>and Retake</p>
+				DC-4 Revision and Retake
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -1243,11 +1237,12 @@
 				W Jul 1
 			</cell>
 			<cell right="medium" bottom="medium">
-				<p>Angles and</p><p>Measures</p>
+				Double Integrals in Polar Coordinates
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
+				WP11 + Video
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -1275,12 +1270,6 @@
 				R Jul 2
 			</cell>
 			<cell right="medium" bottom="medium">
-				<p>Right Triangle</p><p>Trigonometry</p>
-			</cell>
-			<cell right="medium" bottom="medium">
-			</cell>
-			<cell right="medium" bottom="medium">
-				FW16
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -1289,6 +1278,11 @@
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
+			</cell>
+			<cell right="medium" bottom="medium">
+			</cell>
+			<cell right="medium" bottom="medium">
+				DC-5 Revision and Retake
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -1308,16 +1302,7 @@
 				F Jul 3
 			</cell>
 			<cell right="medium" bottom="medium">
-			</cell>
-			<cell right="medium" bottom="medium">
-			</cell>
-			<cell right="medium" bottom="medium">
-				FW17
-			</cell>
-			<cell right="medium" bottom="medium">
-			</cell>
-			<cell right="medium" bottom="medium">
-				EL-2 Quiz
+				Triple Integrals
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -1326,11 +1311,20 @@
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
-				<p>Schedule</p><p>Assessment 3</p>
+				IC-1 Quiz
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
+			</cell>
+			<cell right="medium" bottom="medium">
+			</cell>
+			<cell right="medium" bottom="medium">
+			</cell>
+			<cell right="medium" bottom="medium">
+			</cell>
+			<cell right="medium" bottom="medium">
+				Reflection 5
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -1343,7 +1337,22 @@
 				M Jul 6
 			</cell>
 			<cell right="medium" bottom="medium">
-				<p>Triangle and</p><p>Unit Circle</p><p>Definitions</p>
+				Triple Integrals in Cylindrical and Spherical Coordinates
+			</cell>
+			<cell right="medium" bottom="medium">
+			</cell>
+			<cell right="medium" bottom="medium">
+				WP12
+			</cell>
+			<cell right="medium" bottom="medium">
+			</cell>
+			<cell right="medium" bottom="medium">
+				IC-2 Quiz
+			</cell>
+			<cell right="medium" bottom="medium">
+			</cell>
+			<cell right="medium" bottom="medium">
+				DC-6 Revision and Retake
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -1352,19 +1361,6 @@
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
-			</cell>
-			<cell right="medium" bottom="medium">
-			</cell>
-			<cell right="medium" bottom="medium">
-			</cell>
-			<cell right="medium" bottom="medium">
-			</cell>
-			<cell right="medium" bottom="medium">
-			</cell>
-			<cell right="medium" bottom="medium">
-			</cell>
-			<cell right="medium" bottom="medium">
-				Reflection 6
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -1376,22 +1372,18 @@
 				T Jul 7
 			</cell>
 			<cell right="medium" bottom="medium">
-				<p>Periods, </p><p>Domains, and</p><p>Symmetry</p>
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
-				FW18
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
-				EL-3 Quiz
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
-				<p>EL-1 Revision</p><p>and Retake</p>
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -1411,15 +1403,16 @@
 				W Jul 8
 			</cell>
 			<cell right="medium" bottom="medium">
+				Calculating Mass, Center of Mass, and Moments of Inertia
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
-				FW19
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
+				IC-3 Quiz
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -1443,6 +1436,7 @@
 				R Jul 9
 			</cell>
 			<cell right="medium" bottom="medium">
+				Change of Variables in Multiple Integrals
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -1458,8 +1452,7 @@
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
-			<cell right="medium">
-				Assessment 3
+			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -1479,6 +1472,12 @@
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
+				WP13
+			</cell>
+			<cell right="medium" bottom="medium">
+			</cell>
+			<cell right="medium" bottom="medium">
+				IC-4 Quiz
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -1487,16 +1486,10 @@
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
-				<p>EL-2 Revision</p><p>and Retake</p>
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
-			</cell>
-			<cell right="medium" bottom="medium">
-			</cell>
-			<cell right="medium" bottom="medium">
-				Tutoring 4 Due
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -1506,24 +1499,24 @@
 </page>
 <page>
 <table>
-    <title>Math 156 Precalculus Summer Checklist (weeks 9-10)</title>
+    <title>Math 253 Calculus III Summer Checklist (weeks 9-10)</title>
 	<tabular halign="center" left="medium" top="medium">
 		<row bottom="medium">
 			<cell colspan="2" right="medium">
 				 Date
 			</cell>
 			<cell right="medium">
-				<p>Reading and</p><p>Video Lessons</p><p>Due</p>
+				<p>Lessons</p><p>Due</p>
 			</cell>
 			<cell right="medium">
 			</cell>
 			<cell right="medium">
-				<p>Flatworld</p><p>Homework Due</p>
+				<p>WP</p><p>Due</p>
 			</cell>
 			<cell right="medium">
 			</cell>
 			<cell right="medium">
-				<p>Learning</p><p>Outcome</p><p>Quiz Due</p>
+				<p>LO</p><p>Quiz Due</p>
 			</cell>
 			<cell right="medium">
 			</cell>
@@ -1551,7 +1544,7 @@
 				M Jul 13
 			</cell>
 			<cell right="medium" bottom="medium">
-				<p>Graphing</p><p>Sine and</p><p>Cosine</p>
+				Vector Fields
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -1560,10 +1553,12 @@
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
+				IC-5 Quiz
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
+				IC-1 Revision and Retake
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -1583,27 +1578,24 @@
 				T Jul 14
 			</cell>
 			<cell right="medium" bottom="medium">
-				<p>Graphing</p><p>Secant and</p><p>Cosecant</p>
+				Line Integrals
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
-				FW20
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
-				TF-1 Quiz
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
-				<p>EL-3 Revision </p><p>and Retake</p>
+				IC-2 Revision and Retake
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
-				<p>Schedule</p><p>Assessment 4</p>
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -1619,7 +1611,12 @@
 				W Jul 15
 			</cell>
 			<cell right="medium" bottom="medium">
-				<p>Graphing</p><p>Tangent and</p><p>Cotangent</p>
+				Conservative Vector Fields
+			</cell>
+			<cell right="medium" bottom="medium">
+			</cell>
+			<cell right="medium" bottom="medium">
+				WP14
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -1632,10 +1629,7 @@
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
-			</cell>
-			<cell right="medium" bottom="medium">
-			</cell>
-			<cell right="medium" bottom="medium">
+				Schedule Assessment 3
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -1651,12 +1645,7 @@
 				R Jul 16
 			</cell>
 			<cell right="medium" bottom="medium">
-				<p>Inverse Trig</p><p>Functions</p>
-			</cell>
-			<cell right="medium" bottom="medium">
-			</cell>
-			<cell right="medium" bottom="medium">
-				FW21
+				Green's Theorem
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -1665,6 +1654,12 @@
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
+				APP-1 Quiz
+			</cell>
+			<cell right="medium" bottom="medium">
+			</cell>
+			<cell right="medium" bottom="medium">
+				IC-3 Revision and Retake
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -1673,6 +1668,7 @@
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
+				Reflection 6
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -1684,23 +1680,16 @@
 				F Jul 17
 			</cell>
 			<cell right="medium" bottom="medium">
-				<p>Applications</p><p>of Trig and</p>
-				<p>Fundamental</p><p>Identities</p>
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
-				FW22
+				WP15
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
-				TF-2 Quiz
-			</cell>
-			<cell right="medium" bottom="medium">
-			</cell>
-			<cell right="medium" bottom="medium">
-				<p>TF-1 Revision</p><p>and Retake</p>
+				APP-2 Quiz
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -1709,6 +1698,11 @@
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
+			</cell>
+			<cell right="medium" bottom="medium">
+			</cell>
+			<cell right="medium" bottom="medium">
+				Tutoring Appt 4 Due
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -1721,12 +1715,7 @@
 				M Jul 20
 			</cell>
 			<cell right="medium" bottom="medium">
-				<p>Basic Trig</p><p>Equations</p>
-			</cell>
-			<cell right="medium" bottom="medium">
-			</cell>
-			<cell right="medium" bottom="medium">
-				FW23
+				Divergence and Curl
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -1735,6 +1724,12 @@
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
+				APP-3 Quiz
+			</cell>
+			<cell right="medium" bottom="medium">
+			</cell>
+			<cell right="medium" bottom="medium">
+				IC-4 Revision and Retake
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -1754,12 +1749,11 @@
 				T Jul 21
 			</cell>
 			<cell right="medium" bottom="medium">
-				<p>Sum and</p><p>Difference</p><p>Formulas</p>
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
-				FW24
+				WP16 + Video
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -1768,6 +1762,7 @@
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
+				IC-5 Revision and Retake
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -1787,12 +1782,6 @@
 				W Jul 22
 			</cell>
 			<cell right="medium" bottom="medium">
-				<p>Double and</p><p>Half Angle</p><p>Formulas</p>
-			</cell>
-			<cell right="medium" bottom="medium">
-			</cell>
-			<cell right="medium" bottom="medium">
-				FW25
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -1808,8 +1797,12 @@
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
+			<cell right="medium">
+				Assessment 3 Window
+			</cell>
 			<cell right="medium" bottom="medium">
-				Tutoring 5 Due
+			</cell>
+			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -1821,12 +1814,6 @@
 				R Jul 23
 			</cell>
 			<cell right="medium" bottom="medium">
-				<p>More Trig</p><p>Equations</p>
-			</cell>
-			<cell right="medium" bottom="medium">
-			</cell>
-			<cell right="medium" bottom="medium">
-				FW26
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -1835,6 +1822,11 @@
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
+			</cell>
+			<cell right="medium" bottom="medium">
+			</cell>
+			<cell right="medium" bottom="medium">
+				APP-1 Revision and Retake
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -1854,27 +1846,24 @@
 				F Jul 24
 			</cell>
 			<cell right="medium" bottom="medium">
-				<p>Law of</p><p>Sines and</p><p>Cosines</p>
+				Surface Integrals
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
-				FW27
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
-				TF-3 Quiz
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
-				<p>TF-2 Revision </p><p>and Retake</p>
+				APP-2 Revision and Retake
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
-				<p>Schedule</p><p>Assessment 4</p>
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -1888,24 +1877,24 @@
 </page>
 <page>
 <table>
-    <title>Math 156 Precalculus Summer Checklist (weeks 11-12)</title>
+    <title>Math 253 Calculus III Summer Checklist (weeks 11-12)</title>
 	<tabular halign="center" left="medium" top="medium">
 		<row bottom="medium">
 			<cell colspan="2" right="medium">
 				 Date
 			</cell>
 			<cell right="medium">
-				<p>Reading and</p><p>Video Lessons</p><p>Due</p>
+				<p>Lessons</p><p>Due</p>
 			</cell>
 			<cell right="medium">
 			</cell>
 			<cell right="medium">
-				<p>Flatworld</p><p>Homework Due</p>
+				<p>WP</p><p>Due</p>
 			</cell>
 			<cell right="medium">
 			</cell>
 			<cell right="medium">
-				<p>Learning</p><p>Outcome</p><p>Quiz Due</p>
+				<p>LO</p><p>Quiz Due</p>
 			</cell>
 			<cell right="medium">
 			</cell>
@@ -1933,19 +1922,22 @@
 				M Jul 27
 			</cell>
 			<cell right="medium" bottom="medium">
+				Stoke's Theorem
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
-				FW28
+				WP17 + Exploration
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
+				APP-4 Quiz
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
+				APP-3 Revision and Retake
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -1965,6 +1957,7 @@
 				T Jul 28
 			</cell>
 			<cell right="medium" bottom="medium">
+				The Divergence Theorem
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -1973,7 +1966,6 @@
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
-				TF-4 Quiz
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -2001,6 +1993,12 @@
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
+				WP18
+			</cell>
+			<cell right="medium" bottom="medium">
+			</cell>
+			<cell right="medium" bottom="medium">
+				APP-5 Quiz
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -2013,11 +2011,6 @@
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
-			</cell>
-			<cell right="medium" bottom="medium">
-			</cell>
-			<cell right="medium" bottom="medium">
-				Reflection 7
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -2037,6 +2030,7 @@
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
+				APP-6 Quiz
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -2044,8 +2038,7 @@
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
-			<cell right="medium">
-				Assessment 4
+			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -2077,11 +2070,11 @@
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
+				Schedule Final Assessment
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
-				Tutoring 6 Due
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -2106,11 +2099,11 @@
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
+				APP-4 Revision and Retake
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
-				<p>Schedule</p><p>Final</p>
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -2126,8 +2119,8 @@
 				T Aug 4
 			</cell>
 			<cell colspan="12" right="medium" bottom="medium">
-				<p>This is the last day to submit any Flatworld, Video Lessons, 
-					Reflections, and TF-4 revisions or retakes.</p>
+				<p>This is the last day to submit any WP assignments, Video Lessons, 
+					Reflections, APP revisions or retakes and Tutoring Appointment 5.</p>
 			</cell>
 		</row>
 		<row>
@@ -2157,7 +2150,6 @@
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
-				Tutoring 7 Due
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -2228,4 +2220,4 @@
 	</tabular>
 </table>
 </page>
-</worksheet></section>
+</worksheet>
