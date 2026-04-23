@@ -3,11 +3,37 @@
 <subsection xml:id="fun1-wp" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>FUN-1 Written Practice</title>
     <worksheet>
-            <page>
-                <p><alert>WP1</alert></p>
-                <p>WP1-Solutions</p>
-                <p><alert>WP2</alert></p>
-                <p>WP2-Solutions</p>
+        <page>
+        <p>INFORMATION ABOUT ALL WRITTEN PRACTICE (WP) ASSIGNMENTS:
+            <ul>
+                <li>All of the WP problems come from our online textbook: <url href="https://openstax.org/details/books/calculus-volume-3">https://openstax.org/details/books/calculus-volume-3</url></li>
+                <li>Complete solutions to all WP assignments can be found in Canvas within the section Module.</li>
+                <li>Links to the text and PDFs of the text can be found in the Canvas module under the Reading and Information.</li>
+            </ul></p>
+        <p>THE WP ASSIGNMENTS ARE DESIGNED TO PREPARE YOU FOR THE QUIZZES AND ASSESSMENTS
+        <ul>
+            <li>Work on every problem on every assignment.</li>
+            <li>If you get stuck or do not understand a solution, ask questions.</li>
+            <li>For each problem, try it once or twice before looking at solutions or asking for help.</li>
+            <li>Mark the problems you did correctly on the first try.</li>
+            <li>Highlight problems where you got help (using solutions, videos, a tutor, etc) -These are the problem types that you will need more practice on to be ready for the assessments.</li>
+            <li>Understand that just copying the solutions instead of working through the problems will greatly reduce your chances of success in this class.</li>
+        </ul></p>
+        <p><alert>WP1</alert></p>
+        <p>Vectors in the Plane: Complete problems 3, 7, 13, 15, 25, 45</p>
+        <p>Vectors in Three-Dimensions: Complete problems 77, 81, 89, 99, 115</p>
+        <p><url href="./WP1-Solutions.pdf">WP1 Solutions</url></p>
+        <p><alert>WP2</alert></p>
+        <p>The Dot Product: Complete problems 125, 131, 145, 171, 177</p>
+        <p>The Cross Product: Complete problems 185, 189, 199, 209, 235, 237</p>
+        <p>In addition to these problems, upload a link to a solution video: 
+            Pick one problem from each of the above sections (the problems should 
+            not be any listed above). Create a short video of you presenting the 
+            solution to your classmates. You may use any video software (zoom, flip, 
+            explain everything, etc). The video does not need to be perfect or fully 
+            edited (mistakes are welcome), but it should show your thought process 
+            as you go through the solution.</p>
             </page>
+        <p><url href="./WP2-Solutions.pdf">WP2 Solutions</url></p>
     </worksheet>
     </subsection>

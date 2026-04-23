@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<subsection xml:id="fun1-notes" xmlns:xi="http://www.w3.org/2001/XInclude">
+<worksheet xml:id="fun1-notes" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Fun-1 Quick Notes</title>
-    <worksheet>
+    
         <p>
          This is where the notes would be
          
         </p>
         
-    </worksheet>
-    </subsection>
+</worksheet>
