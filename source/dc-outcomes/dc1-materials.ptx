@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<section xml:id="dc1-materials" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Partial Derivatives</title>
+        <xi:include href="./dc-1/dc1-reading.ptx" />
+        <xi:include href="./dc-1/dc1-vid.ptx" />
+        <xi:include href="./dc-1/dc1-wp.ptx" />
+        <xi:include href="./dc-1/dc1-sample.ptx" />
+</section>

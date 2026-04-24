@@ -69,7 +69,12 @@
          </ul>
         </p>
       </introduction>
-        <xi:include href="./notes/week02.ptx"/>
+        <xi:include href="./dc-outcomes/dc1-materials.ptx" />
+        <xi:include href="./dc-outcomes/dc2-materials.ptx" />
+        <xi:include href="./dc-outcomes/dc3-materials.ptx" />
+        <xi:include href="./dc-outcomes/dc4-materials.ptx" />
+        <xi:include href="./dc-outcomes/dc5-materials.ptx" />
+        <xi:include href="./dc-outcomes/dc6-materials.ptx" />
         <!-- etc. -->
     </chapter>
 

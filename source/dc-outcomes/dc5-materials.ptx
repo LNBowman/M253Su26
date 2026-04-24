@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<section xml:id="dc5-materials" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Maxima and Minima Problems</title>
+        <xi:include href="./dc-5/dc5-reading.ptx" />
+        <xi:include href="./dc-5/dc5-vid.ptx" />
+        <xi:include href="./dc-5/dc5-wp.ptx" />
+        <xi:include href="./dc-5/dc5-sample.ptx" />
+</section>

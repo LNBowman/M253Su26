@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<section xml:id="dc4-materials" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Directional Derivatives</title>
+        <xi:include href="./dc-4/dc4-reading.ptx" />
+        <xi:include href="./dc-4/dc4-vid.ptx" />
+        <xi:include href="./dc-4/dc4-wp.ptx" />
+        <xi:include href="./dc-4/dc4-sample.ptx" />
+</section>

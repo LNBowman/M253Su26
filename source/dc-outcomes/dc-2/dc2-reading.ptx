@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<worksheet xml:id="dc2-reading" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>DC-2 Reading</title>
+    <objectives>
+    <ul>
+      <li><p>Things you should understand and know:
+        <ul>
+            <li>How tangent planes can be used to approximate a two-variable function at a point</li>
+        </ul></p>
+        <p>Things you should be able to do:
+        <ul>
+            <li>Find the equation of a plane tangent to a given surface at a point</li>
+            <li>Use the tangent plane to approximate a function of two variables at a point</li>
+            <li>Use the differential to approximate the change in a function of two variables</li>
+        </ul></p>
+      </li>
+      <li><p>You will be assessed on the following criteria:
+        <ul>
+          <li><p>Problem structure: Solution should be organized and easy to follow, with clear, complete steps 
+              that follow progressively from one to the next.</p></li>
+          <li><p>Tangent Planes: Understand the concept of tangent planes and their applications. Find the 
+            equation of a plane tangent to a given surface at a point. Use the tangent plane to approximate 
+            a function of two variables at a point.</p></li>
+            <li><p>Differentials: Use the differential to approximate the change in a function of two variables.</p></li>
+        </ul></p>
+      </li>
+    </ul>
+    </objectives>
+        <p>All of the readings for this course come from the OpenStax Calculus 
+            Volume 3 textbook, which is available for free online at 
+            <url href="https://openstax.org/details/books/calculus-volume-3">
+                https://openstax.org/details/books/calculus-volume-3</url>. You 
+                can read the textbook online or download a PDF version. 
+                The textbook is also available in print from various retailers 
+                if you prefer a physical copy.</p> 
+        <p>For this lesson, you should read sections <url href="https://openstax.org/books/calculus-volume-3/pages/4-4-tangent-planes-and-linear-approximation">
+            4.4 Tangent Planes and Linear Approximation</url>. You should read through the sections carefully, 
+            making sure to understand the definitions, examples, and key ideas. 
+            You should also work through the exercises at the end of each section 
+            to test your understanding and practice applying the concepts. Some of the 
+            exercises at the end of the section are assigned in the WP assignments.</p>      
+</worksheet>

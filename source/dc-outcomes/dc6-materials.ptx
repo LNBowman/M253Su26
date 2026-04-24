@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<section xml:id="dc6-materials" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Lagrange Multipliers</title>
+        <xi:include href="./dc-6/dc6-reading.ptx" />
+        <xi:include href="./dc-6/dc6-vid.ptx" />
+        <xi:include href="./dc-6/dc6-wp.ptx" />
+        <xi:include href="./dc-6/dc6-sample.ptx" />
+</section>

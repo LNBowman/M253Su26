@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<worksheet xml:id="dc4-reading" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>DC-4 Reading</title>
+    <objectives>
+    <ul>
+      <li><p>Things you should understand and know:
+        <ul>
+            <li>The meaning of a directional derivative</li>
+            <li>The meaning of a gradient</li>
+        </ul></p>
+        <p>Things you should be able to do:
+        <ul>
+            <li>Find the directional derivative in a given direction for a function of two variables</li>
+            <li>Find the gradient vector of a real-valued function</li>
+            <li>Use the gradient to find the tangent to a level curve of a function</li>
+            <li>Calculate the directional derivatives and gradients in three dimensions</li>
+        </ul></p>
+      </li>
+      <li><p>You will be assessed on the following criteria:
+        <ul>
+          <li><p>Problem structure: Solution should be organized and easy to follow, with clear, complete steps 
+              that follow progressively from one to the next.</p></li>
+          <li><p>Directional Derivatives: Understand the concept of directional derivatives and their applications. 
+            Calculate the directional derivative of a function at a point in the direction of a unit vector.</p></li>
+            <li><p>Gradient: Understand the concept of the gradient and its applications. Calculate the gradient of a 
+                function. Find the directions of maximal/minimal rate of change of a function. Calculate 
+                the maximum/minimum rate of change. Find the equation of the tangent plane to a surface at a point.</p></li>
+        </ul></p>
+      </li>
+    </ul>
+    </objectives>
+        <p>All of the readings for this course come from the OpenStax Calculus 
+            Volume 3 textbook, which is available for free online at 
+            <url href="https://openstax.org/details/books/calculus-volume-3">
+                https://openstax.org/details/books/calculus-volume-3</url>. You 
+                can read the textbook online or download a PDF version. 
+                The textbook is also available in print from various retailers 
+                if you prefer a physical copy.</p> 
+        <p>For this lesson, you should read sections <url href="https://openstax.org/books/calculus-volume-3/pages/4-6-directional-derivatives-and-the-gradient">
+            4.6 Directional Derivatives and the Gradient</url>. You should read through the sections carefully, 
+            making sure to understand the definitions, examples, and key ideas. 
+            You should also work through the exercises at the end of each section 
+            to test your understanding and practice applying the concepts. Some of the 
+            exercises at the end of the section are assigned in the WP assignments.</p>      
+</worksheet>

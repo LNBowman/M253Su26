@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<section xml:id="dc3-materials" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>The Chain Rule</title>
+        <xi:include href="./dc-3/dc3-reading.ptx" />
+        <xi:include href="./dc-3/dc3-vid.ptx" />
+        <xi:include href="./dc-3/dc3-wp.ptx" />
+        <xi:include href="./dc-3/dc3-sample.ptx" />
+</section>

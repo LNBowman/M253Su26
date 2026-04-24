@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<worksheet xml:id="dc3-videos" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>DC-3 Videos</title>
+            <page>
+                <p><alert>The Chain Rule</alert></p>
+                <video vimeo="1186388201"/>
+            </page>
+    </worksheet>
