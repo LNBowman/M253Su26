@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<worksheet xml:id="fun3-reading" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Fun-3 Reading</title>
+    <objectives>
+    <ul>
+      <li><p>Things you should understand and know:
+        <ul>
+            <li>The main features of ellipsoids, paraboloids, and hyperboloids</li>
+            <li>The traces of quadric surfaces and how to form a surface from them</li>
+            <li>The cylindrical coordinate system and how to locate points</li>
+            <li>The spherical coordinate system and how to locate points</li>
+        </ul></p>
+        <p>Things you should be able to do:
+        <ul>
+            <li>Identify and sketch cylinders</li>
+            <li>Identify and sketch ellipsoids, paraboloids, and hyperboloids</li>
+            <li>Find the equations of traces</li>
+            <li>Use traces to sketch a quadric surface</li>
+            <li>Convert between rectangular, cylindrical, and spherical coordinates</li>
+        </ul></p>
+      </li>
+      <li><p>You will be assessed on the following criteria:
+        <ul>
+          <li><p>Problem structure: Solution should be organized and easy to follow, with clear, complete steps 
+              that follow progressively from one to the next.</p></li>
+          <li><p>Quadric Surfaces: Finding traces in two dimensions and sketching quadric surfaces in 
+            three dimensions.  Identifying the surface type from its equation.</p></li>
+          <li><p>Change of Coordinates: Convert between different coordinate systems (polar, cylindrical, 
+            spherical) and understand the relationship between them.</p></li>
+        </ul></p>
+      </li>
+    </ul>
+    </objectives>
+        <p>All of the readings for this course come from the OpenStax Calculus 
+            Volume 3 textbook, which is available for free online at 
+            <url href="https://openstax.org/details/books/calculus-volume-3">
+                https://openstax.org/details/books/calculus-volume-3</url>. You 
+                can read the textbook online or download a PDF version. 
+                The textbook is also available in print from various retailers 
+                if you prefer a physical copy.</p>
+        <p>For this lesson, you should read sections <url href="https://openstax.org/books/calculus-volume-3/pages/2-6-quadric-surfaces">2.6 Quadric Surfaces</url>, and
+            <url href="https://openstax.org/books/calculus-volume-3/pages/2-7-cylindrical-and-spherical-coordinates">2.7 Cylindrical and Spherical Coordinates</url>. You should read through the sections carefully, 
+            making sure to understand the definitions, examples, and key ideas. 
+            You should also work through the exercises at the end of each section 
+            to test your understanding and practice applying the concepts. Some of the 
+            exercises at the end of the section are assigned in the WP assignments.</p>      
+</worksheet>

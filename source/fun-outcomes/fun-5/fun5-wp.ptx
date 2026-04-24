@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<subsection xml:id="fun5-wp" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>FUN-5 Written Practice</title>
+    <worksheet>
+        <page>
+        <p>INFORMATION ABOUT ALL WRITTEN PRACTICE (WP) ASSIGNMENTS:
+            <ul>
+                <li>All of the WP problems come from our online textbook: 
+                    <url href="https://openstax.org/details/books/calculus-volume-3">https://openstax.org/details/books/calculus-volume-3</url></li>
+                <li>Complete solutions to all WP assignments can be found in Canvas 
+                    within the section Module.</li>
+                <li>Links to the text and PDFs of the text can be found in the Canvas 
+                    module under the Reading and Information.</li>
+            </ul></p>
+        <p>THE WP ASSIGNMENTS ARE DESIGNED TO PREPARE YOU FOR THE QUIZZES AND ASSESSMENTS
+        <ul>
+            <li>Work on every problem on every assignment.</li>
+            <li>If you get stuck or do not understand a solution, ask questions.</li>
+            <li>For each problem, try it once or twice before looking at solutions or 
+                asking for help.</li>
+            <li>Mark the problems you did correctly on the first try.</li>
+            <li>Highlight problems where you got help (using solutions, videos, a tutor, etc) 
+                -These are the problem types that you will need more practice on to be ready 
+                for the assessments.</li>
+            <li>Understand that just copying the solutions instead of working through the 
+                problems will greatly reduce your chances of success in this class.</li>
+        </ul></p>
+        <p><alert>WP6</alert></p>
+        <p>Arc Length and Curvature: Complete problems 103, 105, 107, 109, 112, 115, 117, 125, 133, 135, 139, 147</p>
+        <p>Motion in Space: Complete problems 157, 163, 173-177, 181, 183</p>
+        <p><url href="external/WP6-Solutions.pdf">WP6 Solutions</url></p>
+        <p><alert>WP7</alert></p>
+        <p>Functions of Several Variables: Complete problems 3, 17, 21, 49, 51, 56, 57, 58, 59</p>
+        <p>Limits and Continuity: Complete problems 61, 86, 87, 88, 89</p>
+        <p>In addition to these problems, on separate paper complete the following exploration.  
+            This link <url href="https://c3d.libretexts.org/CalcPlot3D/index.html?exploration=Transformations">Transformations</url> 
+            will take you to the exploration.  On the right side of the screen, 
+            you will be given some instructions and questions to answer.  
+            Follow the instructions and write out your answers to each of the questions.</p>
+           <p><url href="external/WP7-Solutions.pdf">WP7 Solutions</url></p> 
+        </page>
+    </worksheet>
+    </subsection>

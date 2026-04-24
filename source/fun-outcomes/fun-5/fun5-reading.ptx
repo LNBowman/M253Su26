@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<worksheet xml:id="fun5-reading" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>FUN-5 Reading</title>
+    <objectives>
+    <ul>
+      <li><p>Things you should understand and know:
+        <ul>
+            <li>Lines in three-dimensional space</li>
+            <li>Distance in three-dimensions</li>
+            <li>Planes in three-dimensions</li>
+        </ul></p>
+        <p>Things you should be able to do:
+        <ul>
+            <li>Write the equation of a line in vector, parametric, and symmetric form</li>
+            <li>Find the distance between a point to a line</li>
+            <li>Write the equation of a plane in vector and scalar forms</li>
+            <li>Find the distance between a point and a plane</li>
+            <li>find the angle between two planes</li>
+        </ul></p>
+      </li>
+      <li><p>You will be assessed on the following criteria:
+        <ul>
+          <li><p>Problem structure: Solution should be organized and easy to follow, with clear, complete steps 
+              that follow progressively from one to the next.</p></li>
+          <li><p>Equations of Lines and Planes: Write and interpret the equations 
+            of lines and planes in various forms (vector, parametric, symmetric, scalar).</p></li>
+          <li><p>Calculating Distances and Angles: Calculate distances between points, 
+            lines, and planes, as well as angles between vectors and planes.</p></li>
+        </ul></p>
+      </li>
+    </ul>
+    </objectives>
+        <p>All of the readings for this course come from the OpenStax Calculus 
+            Volume 3 textbook, which is available for free online at 
+            <url href="https://openstax.org/details/books/calculus-volume-3">
+                https://openstax.org/details/books/calculus-volume-3</url>. You 
+                can read the textbook online or download a PDF version. 
+                The textbook is also available in print from various retailers 
+                if you prefer a physical copy.</p>
+        <p>For this lesson, you should read sections <url href="https://openstax.org/books/calculus-volume-3/pages/2-5-equations-of-lines-and-planes-in-space">
+            2.5 Equations of Lines and Planes in Space</url>. You should read through the sections carefully, 
+            making sure to understand the definitions, examples, and key ideas. 
+            You should also work through the exercises at the end of each section 
+            to test your understanding and practice applying the concepts. Some of the 
+            exercises at the end of the section are assigned in the WP assignments.</p>      
+</worksheet>

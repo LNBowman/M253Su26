@@ -4,7 +4,7 @@
 <!-- Adapted from work of Mitch Keller -->
 <publication>
     <source>
-        <directories external="../assets" generated="../generated-assets"/>
+        <directories external="../source/external" generated="../generated-assets"/>
         <!-- add component="a" to parts of the slides that should show up in the "annotated" version.  The next line makes sure this is included. -->
         <version include="a" />
     </source>

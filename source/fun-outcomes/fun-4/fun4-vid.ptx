@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<worksheet xml:id="fun4-videos" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>FUN-4 Videos</title>
+            <page>
+                <p><alert>Vector-Valued Functions</alert></p>
+                <video vimeo="1186089317"/>
+                <p><alert>Calculus of Vector-Valued Functions</alert></p>
+                <video vimeo="1186089387"/>
+            </page>
+    </worksheet>

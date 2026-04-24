@@ -2,5 +2,8 @@
 
 <section xml:id="fun2-materials" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Equations of Lines and Planes</title>
-        <xi:include href="./fun-2/fun2-notes.ptx" />
+        <xi:include href="./fun-2/fun2-reading.ptx" />
+        <xi:include href="./fun-2/fun2-vid.ptx" />
+        <xi:include href="./fun-2/fun2-wp.ptx" />
+        <xi:include href="./fun-2/fun2-sample.ptx" />
 </section>

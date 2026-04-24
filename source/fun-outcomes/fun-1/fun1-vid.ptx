@@ -4,12 +4,12 @@
     <title>FUN-1 Videos</title>
             <page>
                 <p><alert>Vectors in the Plane</alert></p>
-                <video vimeo="1"/>
+                <video vimeo="1186084806"/>
                 <p><alert>Vectors in Three Dimensions</alert></p>
-                <video vimeo="2"/>
+                <video vimeo="1186085964"/>
                 <p><alert>The Dot Product</alert></p>
-                <video vimeo="3"/>
+                <video vimeo="1186085975"/>
                 <p><alert>The Cross Product</alert></p>
-                <video vimeo="4"/>
+                <video vimeo="1186086125"/>
             </page>
     </worksheet>

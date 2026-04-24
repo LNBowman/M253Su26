@@ -47,6 +47,9 @@
         </introduction>
         <xi:include href="./fun-outcomes/fun1-materials.ptx" />
         <xi:include href="./fun-outcomes/fun2-materials.ptx" />
+        <xi:include href="./fun-outcomes/fun3-materials.ptx" />
+        <xi:include href="./fun-outcomes/fun4-materials.ptx" />
+        <xi:include href="./fun-outcomes/fun5-materials.ptx" />
         <!-- etc. -->
     </chapter>
 
