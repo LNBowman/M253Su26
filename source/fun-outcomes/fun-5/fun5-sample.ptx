@@ -9,118 +9,116 @@
   
   <page>
     <exercise>
-      <statement>
-        <p>Given two points in space, P(-1,5,-10) and Q(3,2,4) find the 
-          vector connecting them.</p>
-      </statement>
-      <hint><p>To find the vector connecting two points, subtract the 
-        coordinates of the first point from the coordinates of the 
-        second point.</p></hint>
-      <answer><p><m>\vec{PQ} = \lt 4, -3, 14 \gt</m></p></answer>
-      <solution>
-        <p>To find the vector connecting two points, subtract the coordinates 
-          of the first point from the coordinates of the second point. So, 
-          <m>\vec{PQ} = Q - P = (3,2,4) - (-1,5,-10) = \lt 4, -3, 14 \gt</m>.</p>
-      </solution>
-    </exercise>
-    <exercise>
-      <introduction>
-        <p>Given two vectors <m>a= \lt 2,2 \gt</m> and <m>b= \lt -1-\sqrt{3},1-\sqrt{3} \gt</m></p>
-        </introduction>
-        <task>
-          <statement><p>Find the unit vector, <m>\vec{u}</m>, in the direction of <m>a</m>.</p></statement>
-        <hint><p>A unit vector has a magnitude of 1. To find it, divide the vector 
-          by its magnitude.</p></hint>
-        <answer><p><m>\vec{u} = \left(\frac{1}{\sqrt{2}}, \frac{1}{\sqrt{2}}\right)</m></p></answer>
-        <solution><p>To find the unit vector in the direction of <m>a</m>, 
-          we first need to find the magnitude of <m>a</m>. The magnitude is 
-          given by <m>|\vec{a}| = \sqrt{2^2 + 2^2} = \sqrt{8} = 2\sqrt{2}</m>. 
-          Then, we divide the vector <m>a</m> by its magnitude to get the unit vector:
-          <m>\vec{u} = \frac{\vec{a}}{|\vec{a}|} = \frac{\lt 2, 2 \gt}{2\sqrt{2}} = \left(\frac{1}{\sqrt{2}}, \frac{1}{\sqrt{2}}\right)</m>.</p>
-        </solution>
-        </task>
-        <task>
-          <statement><p>Find the angle between vectors <m>a</m> and <m>b</m>.</p></statement>
-          <hint><p>The angle between two vectors can be found using the dot product formula: 
-            <m>\cos \theta = \frac{\vec{a} \cdot \vec{b}}{|\vec{a}||\vec{b}|}</m>.</p></hint>
-          <answer><p><m>\theta = \frac{5\pi}{6}</m></p></answer>
-          <solution><p>To find the angle between vectors <m>a</m> and <m>b</m>, we use the 
-            dot product formula. First, we find the dot product: <m>\vec{a} \cdot \vec{b} = 
-              (2)(-1-\sqrt{3}) + (2)(1-\sqrt{3}) = -2-2\sqrt{3}+2-2\sqrt{3} = -4\sqrt{3}</m>. 
-              Next, we find the magnitudes of both vectors: <m>|\vec{a}| = \sqrt{8} =2\sqrt{2}</m> and <m>|\vec{b}| = 
-                \sqrt{(-1-\sqrt{3})^2+(1-\sqrt{3})^2} = \sqrt{8} = 2\sqrt{2}</m>. Then, we substitute into the 
-                formula: <m>\cos \theta = \frac{-4\sqrt{3}}{(2\sqrt{2})(2\sqrt{2})} = \frac{-4\sqrt{3}}{8} = 
-                  \frac{-\sqrt{3}}{2}</m>. Therefore, <m>\theta = \frac{5\pi}{6}</m>.</p></solution>
-        </task>
-        <task>
-          <statement><p>Find the projection of vector <m>a</m> onto vector <m>b</m>.</p></statement>
-          <hint><p>The projection of vector <m>a</m> onto vector <m>b</m> is given by: 
-            <m>\text{proj}_{\vec{b}}\vec{a} = \frac{\vec{a} \cdot \vec{b}}{|\vec{b}|^2} \vec{b}</m>.</p></hint>
-          <answer><p><m>\text{proj}_{\vec{b}}\vec{a} = \left\lt\frac{3+\sqrt{3}}{2}, \frac{3-\sqrt{3}}{2}\right\gt</m></p></answer>
-          <solution><p>To find the projection of vector <m>a</m> onto vector <m>b</m>, we use the formula: 
-            <m>\text{proj}_{\vec{b}}\vec{a} = \frac{\vec{a} \cdot \vec{b}}{|\vec{b}|^2} \vec{b}</m>. We already found that 
-            <m>\vec{a} \cdot \vec{b} = -4\sqrt{3}</m> and <m>|\vec{b}|^2 = 8</m>. Substituting these values, we get: 
-            <m>\text{proj}_{\vec{b}}\vec{a} = \frac{-4\sqrt{3}}{8} \vec{b} = -\frac{\sqrt{3}}{2} \vec{b}</m>. Since 
-            <m>\vec{b} = \lt -1-\sqrt{3}, 1-\sqrt{3} \gt</m>, the projection is: 
-            <m>\text{proj}_{\vec{b}}\vec{a} = -\frac{\sqrt{3}}{2}(-1-\sqrt{3}, 1-\sqrt{3}) = \left\lt\frac{3+\sqrt{3}}{2}, \frac{3-\sqrt{3}}{2}\right\gt</m>.</p></solution>
-        </task>
-    </exercise>
-    <exercise>
-      <introduction><p>An object weighing 5 lbs is located at the point 
-        (2,1,5) and is being pulled by a cable in the direction of (0,-3,-1) 
-        with a force of <m>\sqrt{14}lbs</m>.</p></introduction>
+      <introduction><p>Given <m>f(x,y)=\ln(x^2+y^2)</m></p></introduction>
       <task>
-        <statement><p>Find the force of the cable on the object.</p></statement>
-        <hint><p>The force of the cable on the object is given by the product of 
-          the force magnitude and the unit vector in the direction of the cable.</p></hint>
-        <answer><p><m>\vec{F} = \lt -1, -2, -3 \gt</m></p></answer>
-        <solution><p>The force of the cable on the object is given by: 
-          <m>\vec{F}_{cable} = |\vec{F}| \vec{u}</m>, where <m>|\vec{F}| = \sqrt{14}</m> 
-          and <m>\vec{u}</m> is the unit vector in the direction of the cable. The unit vector 
-          is: <m>\vec{u} = \frac{\lt 0-2, -3-1, -1-5 \gt}{\sqrt{(0-2)^2 + (-3-1)^2 + (-1-5)^2}} =
-             \frac{\lt -2, -4, -6 \gt}{\sqrt{4 + 16 + 36}} = \frac{\lt -2, -4, -6 \gt}{\sqrt{56}} = \frac{\lt -1, -2, -3 \gt}{\sqrt{14}}</m>. 
-             Therefore, <m>\vec{F}_{cable} = \sqrt{14} \cdot \frac{\lt -1, -2, -3 \gt}{\sqrt{14}} = \lt -1, -2, -3 \gt</m>. 
-        </p></solution>
-      </task>  
+        <statement><p>State the domain of <m>f(x,y)</m> using correct set notation.</p></statement>
+        <hint><p>The natural logarithm is only defined for positive arguments.</p></hint>
+        <answer><p><m>\{(x,y) \in \mathbb{R}^2 : x^2+y^2 > 0\}</m></p></answer>
+        <solution><p>The argument of the natural logarithm must be positive:</p>
+          <p><m>x^2+y^2 > 0</m>.</p>
+          <p>This describes all points in the plane except the origin.</p></solution>
+      </task>
       <task>
-        <statement><p>Give the total force acting on the object.</p></statement>
-        <hint><p>The total force is the sum of all forces acting on the object.</p></hint>
-        <answer><p><m>\vec{F}_{total} = \lt -1, -2, -8 \gt</m></p></answer>
-        <solution><p>The total force acting on the object is the sum of all forces. Since 
-          we have the force from the cable and the force due to gravity, the total force
-          is the sum of these forces. The force from the cable is: <m>\vec{F}_{cable} = 
-            \lt -1, -2, -3 \gt</m> and the force due to gravity is: <m>\vec{F}_{gravity} = \lt 0, 0, -5 \gt</m>. 
-            Therefore, the total force is: <m>\vec{F}_{total} = \vec{F}_{cable} + \vec{F}_{gravity} = 
-              \lt -1, -2, -3 \gt + \lt 0, 0, -5 \gt = \lt -1, -2, -8 \gt</m>.</p></solution>
-      </task>  
-    </exercise>
-    <exercise>
-      <task>
-        <statement><p>Find the area of the triangle with vertices at (-1,0,0), (2,3,0), and (0,4,6).</p></statement>
-        <hint><p>The area of a triangle with vertices at <m>\vec{a}</m>, <m>\vec{b}</m>, and <m>\vec{c}</m> is given by: 
-          <m>\text{Area} = \frac{1}{2}|\vec{ab} \times \vec{ac}|</m>.</p></hint>
-        <answer><p><m>\text{Area} = \frac{27}{2}</m> square units </p></answer>
-        <solution><p>Let <m>\vec{a} = (-1,0,0)</m>, <m>\vec{b} = (2,3,0)</m>, and <m>\vec{c} = (0,4,6)</m>. Then: 
-          <m>\vec{ab} = \lt 2-(-1), 3-0, 0-0 \gt = \lt 3, 3, 0 \gt</m> and <m>\vec{ac} = \lt 0-(-1), 4-0, 6-0 \gt = \lt 1, 4, 6 \gt</m>. 
-          The cross product is: 
-          <m>\vec{ab} \times \vec{ac} = \lt 18, -18, 9 \gt</m>. The magnitude of the cross product is: 
-          <m>|\vec{ab} \times \vec{ac}| = \sqrt{18^2 + (-18)^2 + 9^2} = \sqrt{324 + 324 + 81} = \sqrt{729} = 27</m>. 
-          Therefore, the area is: 
-          <m>\text{Area} = \frac{1}{2} \cdot 27 = \frac{27}{2}</m> square units.</p></solution>
+        <statement><p>Evaluate <m>f(2e,e)</m>.</p></statement>
+        <hint><p>To evaluate <m>f(2e,e)</m>, substitute <m>x=2e</m> and <m>y=e</m> into the function.</p></hint>
+        <answer><p><m>f(2e,e)=\ln(5)+2</m></p></answer>
+        <solution><p>To evaluate <m>f(2e,e)</m>, substitute <m>x=2e</m> and <m>y=e</m> into the function:</p>
+          <p><m>f(2e,e)=\ln((2e)^2+e^2)=\ln(4e^2+e^2)=\ln(5e^2)=\ln(5)+\ln(e^2)=\ln(5)+2</m>.</p></solution>
       </task>
     </exercise>
     <exercise>
+      <introduction><p>Given <m>f(x,y)=\sqrt{x^2+y^2}</m></p></introduction>
       <task>
-        <statement><p>A snow machine drags a sled along a flat trail.  The tether makes an angle of 
-          <m>25^{\circ}</m> with the sled and the tension in the tether is <m>1050 N</m>. How much
-          work is done by the machine in pulling the sled 0.7km?
-        </p></statement>
-        <hint><p>Work is given by the product of the force and the distance moved in the direction of the force.</p></hint>
-        <answer><p><m>W = 735000 \cos(25^\circ) \approx 666,136</m> Nm</p></answer>
-        <solution><p>The work done by the machine is given by: <m>W = F \cdot d \cdot \cos(\theta)</m>, where 
-          <m>F = 1050 N</m>, <m>d = 0.7 km = 700 m</m>, and <m>\theta = 25^{\circ}</m>. 
-          Therefore, <m>W = 1050 \cdot 700 \cdot \cos(25^{\circ}) \approx 735000 \cos(25^{\circ}) \approx 666,136.22</m> Nm.</p></solution>
-      </task>  
+        <statement><p>Find and sketch the level curve of when <m>c=0</m>.</p></statement>
+        <hint><p>Set <m>f(x,y)=c</m> and solve for <m>y</m> in terms of <m>x</m>.</p></hint>
+        <answer><p>The level curve is the point <m>(0,0)</m>.</p>
+        <image width="60%">
+              <prefigure xmlns="https://prefigure.org"
+                          label="prefigure-fun5a-sample">
+                <diagram dimensions="(300,300)" margins="5">
+                  <coordinates bbox="(-2,-2,2,2)">
+                    <grid-axes xlabel="x" ylabel="y"/>
+                    <point p="(0,0)" alignment="ne">(0,0)</point>
+                  </coordinates>
+                  <annotations>
+                    <annotation ref="figure"
+                                text="The graph is the point (0,0).">
+                      </annotation>
+                  </annotations>
+                </diagram>
+              </prefigure>
+            </image></answer>
+        <solution><p>Setting <m>f(x,y)=0</m>:</p>
+          <p><m>\sqrt{x^2+y^2}=0</m>.</p>
+          <p>This implies <m>x^2+y^2=0</m>, which is only satisfied when <m>x=0</m> and <m>y=0</m>.</p></solution>
+      </task>
+      <task>
+        <statement><p>Find and sketch the level curve of when <m>c=1</m>.</p></statement>
+        <hint><p>Set <m>f(x,y)=c</m> and solve for <m>y</m> in terms of <m>x</m>.</p></hint>
+        <answer><p>The level curve is the circle <m>x^2+y^2=1</m>.</p>
+        <image width="60%">
+              <prefigure xmlns="https://prefigure.org"
+                          label="prefigure-fun5b-sample">
+                <diagram dimensions="(300,300)" margins="5">
+                  <coordinates bbox="(-2,-2,2,2)">
+                    <circle center="(0,0)" radius="1" thickness="1"/>
+                    <grid-axes xlabel="x" ylabel="y"/>
+                  </coordinates>
+                  <annotations>
+                    <annotation ref="figure"
+                                text="The graph is the circle x^2+y^2=1.">
+                      </annotation>
+                  </annotations>
+                </diagram>
+              </prefigure>
+            </image></answer>
+        <solution><p>Setting <m>f(x,y)=1</m>:</p>
+          <p><m>\sqrt{x^2+y^2}=1</m>.</p>
+          <p>This implies <m>x^2+y^2=1</m>, which describes the unit circle centered at the origin.</p></solution>
+      </task>
+      <task>
+        <statement><p>Find and sketch the level curve of when <m>c=4</m>.</p></statement>
+        <hint><p>Set <m>f(x,y)=c</m> and solve for <m>y</m> in terms of <m>x</m>.</p></hint>
+        <answer><p>The level curve is the circle <m>x^2+y^2=4</m>.</p>
+        <image width="60%">
+              <prefigure xmlns="https://prefigure.org"
+                          label="prefigure-fun5c-sample">
+                <diagram dimensions="(300,300)" margins="5">
+                  <coordinates bbox="(-2,-2,2,2)">
+                    <circle center="(0,0)" radius="2" thickness="1"/>
+                    <grid-axes xlabel="x" ylabel="y"/>
+                  </coordinates>
+                  <annotations>
+                    <annotation ref="figure"
+                                text="The graph is the circle x^2+y^2=4.">
+                      </annotation>
+                  </annotations>
+                </diagram>
+              </prefigure>
+            </image></answer>
+        <solution><p>Setting <m>f(x,y)=4</m>:</p>
+          <p><m>\sqrt{x^2+y^2}=4</m>.</p>
+          <p>This implies <m>x^2+y^2=16</m>, which describes the circle centered at the origin with radius 4.</p></solution>
+      </task>
+      <task>
+        <statement><p>Find the limit as <m>(x,y) \to (3,-4)</m> of <m>f(x,y)</m>.</p></statement>
+        <hint><p>To find the limit, since the function is continuous at the point, 
+          substitute the point into the function.</p></hint>
+        <answer><p><m>\lim_{(x,y) \to (3,-4)} f(x,y)=5</m></p></answer>
+        <solution><p>we can substitute the point into the function since <m>f(3,-4)</m> is defined:</p>
+          <p><m>f(3,-4)=\sqrt{3^2+(-4)^2}=\sqrt{9+16}=\sqrt{25}=5</m>.</p></solution>
+      </task>
+    </exercise>
+    <exercise>
+      <statement><p>Find the limit as <m>\lim_{(x,y) \to (0,0)} f(x,y)=\frac{xy}{x^2+y^4}</m>.</p></statement>
+      <hint><p>Since the function is indeterminate at the origin, approach along different 
+        paths to determine the limit.</p></hint>
+      <answer><p><m>\lim_{(x,y) \to (0,0)} \frac{xy}{x^2+y^4}</m> does not exist.</p></answer>
+      <solution><p>Approaching the origin along the path <m>y=x</m>:</p>
+        <p><m>\lim_{x \to 0} \frac{x \cdot x}{x^2+x^4} = \lim_{x \to 0} \frac{x^2}{x^2(1+x^2)} = \lim_{x \to 0} \frac{1}{1+x^2} = 1</m>.</p>
+        <p>Approaching the origin along the path <m>y=x^2</m>:</p>
+        <p><m>\lim_{x \to 0} \frac{x \cdot x^2}{x^2+(x^2)^4} = \lim_{x \to 0} \frac{x^3}{x^2+x^8} = \lim_{x \to 0} \frac{x}{1+x^6} = 0</m>.</p>
+        <p>Since the limits along different paths are not equal, the limit does not exist.</p></solution>
     </exercise>
   </page>
 </worksheet>

@@ -10,117 +10,56 @@
   <page>
     <exercise>
       <statement>
-        <p>Given two points in space, P(-1,5,-10) and Q(3,2,4) find the 
-          vector connecting them.</p>
+        <p>Identify the surface given by <m>z=16-x^2-y^2</m></p>
       </statement>
-      <hint><p>To find the vector connecting two points, subtract the 
-        coordinates of the first point from the coordinates of the 
-        second point.</p></hint>
-      <answer><p><m>\vec{PQ} = \lt 4, -3, 14 \gt</m></p></answer>
+      <answer><p>Elliptic paraboloid</p>
+      <p><url href="external/Elliptic_Paraboloid.png">Elliptic Paraboloid</url></p></answer>
       <solution>
-        <p>To find the vector connecting two points, subtract the coordinates 
-          of the first point from the coordinates of the second point. So, 
-          <m>\vec{PQ} = Q - P = (3,2,4) - (-1,5,-10) = \lt 4, -3, 14 \gt</m>.</p>
+        <p>The equation <m>z=16-x^2-y^2</m> can be rewritten as 
+          <m>x^2+y^2+z=16</m>. This is the equation of an 
+          elliptic paraboloid opening downward with vertex at 
+          (0,0,16).</p>
       </solution>
     </exercise>
     <exercise>
-      <introduction>
-        <p>Given two vectors <m>a= \lt 2,2 \gt</m> and <m>b= \lt -1-\sqrt{3},1-\sqrt{3} \gt</m></p>
-        </introduction>
-        <task>
-          <statement><p>Find the unit vector, <m>\vec{u}</m>, in the direction of <m>a</m>.</p></statement>
-        <hint><p>A unit vector has a magnitude of 1. To find it, divide the vector 
-          by its magnitude.</p></hint>
-        <answer><p><m>\vec{u} = \left(\frac{1}{\sqrt{2}}, \frac{1}{\sqrt{2}}\right)</m></p></answer>
-        <solution><p>To find the unit vector in the direction of <m>a</m>, 
-          we first need to find the magnitude of <m>a</m>. The magnitude is 
-          given by <m>|\vec{a}| = \sqrt{2^2 + 2^2} = \sqrt{8} = 2\sqrt{2}</m>. 
-          Then, we divide the vector <m>a</m> by its magnitude to get the unit vector:
-          <m>\vec{u} = \frac{\vec{a}}{|\vec{a}|} = \frac{\lt 2, 2 \gt}{2\sqrt{2}} = \left(\frac{1}{\sqrt{2}}, \frac{1}{\sqrt{2}}\right)</m>.</p>
+      <statement>
+        <p>Identify the surface given by <m>y^2+9z^2=9</m></p>
+      </statement>
+      <answer><p>Elliptic cylinder</p>
+      <p><url href="external/Elliptic_Cylinder.png">Elliptic Cylinder</url></p></answer>
+      <solution>
+        <p>The equation <m>y^2+9z^2=9</m> can be rewritten as 
+          <m>\frac{y^2}{9}+\frac{z^2}{1}=1</m>. This is the equation of an 
+          elliptic cylinder opening along the x-axis with semi-axes of length 3 and 1.</p>
+      </solution>
+    </exercise>
+    <exercise>
+      <introduction><p>Given <m> 4x^2-y^2+z^2-8x+2y+2z+3=0</m>.</p></introduction>
+      <task>
+        <statement>
+        <p>Rewrite the equation in standard form.</p>
+        </statement>
+        <hint><p>To find the standard form, complete the square 
+          for each variable, then simplify the equation.</p></hint>
+        <answer><p><m>4(x-1)^2-(y-1)^2+(z+1)^2=1</m></p></answer>
+        <solution>
+          <p>First we can get the like variables together:</p>
+          <p><m>4x^2-8x-y^2+2y+z^2+2z+3=0</m></p>
+          <p>We then need to factor out the leading coefficient 
+            for each set of variables: <m>4(x^2-2x)- (y^2-2y)+(z^2+2z)+3=0</m></p>
+          <p>Completing the square for each variable, we add the constants:</p>
+          <p><m>4(x^2-2x+1)- (y^2-2y+1)+(z^2+2z+1)=-3+4-1+1</m></p>
+          <p> Then we can rewrite the equation as:</p>
+          <p><m>4(x-1)^2-(y-1)^2+(z+1)^2=1</m></p>
         </solution>
-        </task>
-        <task>
-          <statement><p>Find the angle between vectors <m>a</m> and <m>b</m>.</p></statement>
-          <hint><p>The angle between two vectors can be found using the dot product formula: 
-            <m>\cos \theta = \frac{\vec{a} \cdot \vec{b}}{|\vec{a}||\vec{b}|}</m>.</p></hint>
-          <answer><p><m>\theta = \frac{5\pi}{6}</m></p></answer>
-          <solution><p>To find the angle between vectors <m>a</m> and <m>b</m>, we use the 
-            dot product formula. First, we find the dot product: <m>\vec{a} \cdot \vec{b} = 
-              (2)(-1-\sqrt{3}) + (2)(1-\sqrt{3}) = -2-2\sqrt{3}+2-2\sqrt{3} = -4\sqrt{3}</m>. 
-              Next, we find the magnitudes of both vectors: <m>|\vec{a}| = \sqrt{8} =2\sqrt{2}</m> and <m>|\vec{b}| = 
-                \sqrt{(-1-\sqrt{3})^2+(1-\sqrt{3})^2} = \sqrt{8} = 2\sqrt{2}</m>. Then, we substitute into the 
-                formula: <m>\cos \theta = \frac{-4\sqrt{3}}{(2\sqrt{2})(2\sqrt{2})} = \frac{-4\sqrt{3}}{8} = 
-                  \frac{-\sqrt{3}}{2}</m>. Therefore, <m>\theta = \frac{5\pi}{6}</m>.</p></solution>
-        </task>
-        <task>
-          <statement><p>Find the projection of vector <m>a</m> onto vector <m>b</m>.</p></statement>
-          <hint><p>The projection of vector <m>a</m> onto vector <m>b</m> is given by: 
-            <m>\text{proj}_{\vec{b}}\vec{a} = \frac{\vec{a} \cdot \vec{b}}{|\vec{b}|^2} \vec{b}</m>.</p></hint>
-          <answer><p><m>\text{proj}_{\vec{b}}\vec{a} = \left\lt\frac{3+\sqrt{3}}{2}, \frac{3-\sqrt{3}}{2}\right\gt</m></p></answer>
-          <solution><p>To find the projection of vector <m>a</m> onto vector <m>b</m>, we use the formula: 
-            <m>\text{proj}_{\vec{b}}\vec{a} = \frac{\vec{a} \cdot \vec{b}}{|\vec{b}|^2} \vec{b}</m>. We already found that 
-            <m>\vec{a} \cdot \vec{b} = -4\sqrt{3}</m> and <m>|\vec{b}|^2 = 8</m>. Substituting these values, we get: 
-            <m>\text{proj}_{\vec{b}}\vec{a} = \frac{-4\sqrt{3}}{8} \vec{b} = -\frac{\sqrt{3}}{2} \vec{b}</m>. Since 
-            <m>\vec{b} = \lt -1-\sqrt{3}, 1-\sqrt{3} \gt</m>, the projection is: 
-            <m>\text{proj}_{\vec{b}}\vec{a} = -\frac{\sqrt{3}}{2}(-1-\sqrt{3}, 1-\sqrt{3}) = \left\lt\frac{3+\sqrt{3}}{2}, \frac{3-\sqrt{3}}{2}\right\gt</m>.</p></solution>
-        </task>
-    </exercise>
-    <exercise>
-      <introduction><p>An object weighing 5 lbs is located at the point 
-        (2,1,5) and is being pulled by a cable in the direction of (0,-3,-1) 
-        with a force of <m>\sqrt{14}lbs</m>.</p></introduction>
-      <task>
-        <statement><p>Find the force of the cable on the object.</p></statement>
-        <hint><p>The force of the cable on the object is given by the product of 
-          the force magnitude and the unit vector in the direction of the cable.</p></hint>
-        <answer><p><m>\vec{F} = \lt -1, -2, -3 \gt</m></p></answer>
-        <solution><p>The force of the cable on the object is given by: 
-          <m>\vec{F}_{cable} = |\vec{F}| \vec{u}</m>, where <m>|\vec{F}| = \sqrt{14}</m> 
-          and <m>\vec{u}</m> is the unit vector in the direction of the cable. The unit vector 
-          is: <m>\vec{u} = \frac{\lt 0-2, -3-1, -1-5 \gt}{\sqrt{(0-2)^2 + (-3-1)^2 + (-1-5)^2}} =
-             \frac{\lt -2, -4, -6 \gt}{\sqrt{4 + 16 + 36}} = \frac{\lt -2, -4, -6 \gt}{\sqrt{56}} = \frac{\lt -1, -2, -3 \gt}{\sqrt{14}}</m>. 
-             Therefore, <m>\vec{F}_{cable} = \sqrt{14} \cdot \frac{\lt -1, -2, -3 \gt}{\sqrt{14}} = \lt -1, -2, -3 \gt</m>. 
-        </p></solution>
-      </task>  
-      <task>
-        <statement><p>Give the total force acting on the object.</p></statement>
-        <hint><p>The total force is the sum of all forces acting on the object.</p></hint>
-        <answer><p><m>\vec{F}_{total} = \lt -1, -2, -8 \gt</m></p></answer>
-        <solution><p>The total force acting on the object is the sum of all forces. Since 
-          we have the force from the cable and the force due to gravity, the total force
-          is the sum of these forces. The force from the cable is: <m>\vec{F}_{cable} = 
-            \lt -1, -2, -3 \gt</m> and the force due to gravity is: <m>\vec{F}_{gravity} = \lt 0, 0, -5 \gt</m>. 
-            Therefore, the total force is: <m>\vec{F}_{total} = \vec{F}_{cable} + \vec{F}_{gravity} = 
-              \lt -1, -2, -3 \gt + \lt 0, 0, -5 \gt = \lt -1, -2, -8 \gt</m>.</p></solution>
-      </task>  
-    </exercise>
-    <exercise>
-      <task>
-        <statement><p>Find the area of the triangle with vertices at (-1,0,0), (2,3,0), and (0,4,6).</p></statement>
-        <hint><p>The area of a triangle with vertices at <m>\vec{a}</m>, <m>\vec{b}</m>, and <m>\vec{c}</m> is given by: 
-          <m>\text{Area} = \frac{1}{2}|\vec{ab} \times \vec{ac}|</m>.</p></hint>
-        <answer><p><m>\text{Area} = \frac{27}{2}</m> square units </p></answer>
-        <solution><p>Let <m>\vec{a} = (-1,0,0)</m>, <m>\vec{b} = (2,3,0)</m>, and <m>\vec{c} = (0,4,6)</m>. Then: 
-          <m>\vec{ab} = \lt 2-(-1), 3-0, 0-0 \gt = \lt 3, 3, 0 \gt</m> and <m>\vec{ac} = \lt 0-(-1), 4-0, 6-0 \gt = \lt 1, 4, 6 \gt</m>. 
-          The cross product is: 
-          <m>\vec{ab} \times \vec{ac} = \lt 18, -18, 9 \gt</m>. The magnitude of the cross product is: 
-          <m>|\vec{ab} \times \vec{ac}| = \sqrt{18^2 + (-18)^2 + 9^2} = \sqrt{324 + 324 + 81} = \sqrt{729} = 27</m>. 
-          Therefore, the area is: 
-          <m>\text{Area} = \frac{1}{2} \cdot 27 = \frac{27}{2}</m> square units.</p></solution>
       </task>
-    </exercise>
-    <exercise>
       <task>
-        <statement><p>A snow machine drags a sled along a flat trail.  The tether makes an angle of 
-          <m>25^{\circ}</m> with the sled and the tension in the tether is <m>1050 N</m>. How much
-          work is done by the machine in pulling the sled 0.7km?
-        </p></statement>
-        <hint><p>Work is given by the product of the force and the distance moved in the direction of the force.</p></hint>
-        <answer><p><m>W = 735000 \cos(25^\circ) \approx 666,136</m> Nm</p></answer>
-        <solution><p>The work done by the machine is given by: <m>W = F \cdot d \cdot \cos(\theta)</m>, where 
-          <m>F = 1050 N</m>, <m>d = 0.7 km = 700 m</m>, and <m>\theta = 25^{\circ}</m>. 
-          Therefore, <m>W = 1050 \cdot 700 \cdot \cos(25^{\circ}) \approx 735000 \cos(25^{\circ}) \approx 666,136.22</m> Nm.</p></solution>
-      </task>  
+        <statement>
+        <p>Identify the surface and the axis.</p>
+        </statement>
+        <answer><p>This is a hyperbolic paraboloid with the axis 
+          along the y-axis.</p></answer>
+      </task>
     </exercise>
   </page>
 </worksheet>

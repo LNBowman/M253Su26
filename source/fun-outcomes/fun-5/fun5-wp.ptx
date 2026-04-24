@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<subsection xml:id="fun5-wp" xmlns:xi="http://www.w3.org/2001/XInclude">
+<worksheet xml:id="fun5-wp" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>FUN-5 Written Practice</title>
-    <worksheet>
         <page>
         <p>INFORMATION ABOUT ALL WRITTEN PRACTICE (WP) ASSIGNMENTS:
             <ul>
@@ -41,4 +40,3 @@
            <p><url href="external/WP7-Solutions.pdf">WP7 Solutions</url></p> 
         </page>
     </worksheet>
-    </subsection>
