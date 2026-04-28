@@ -14,7 +14,7 @@
 <!--******************************************-->
 <head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Multivariable Calculus</title>
+<title>Stokes’ Theorem and the Divergence Theorem</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
@@ -135,7 +135,7 @@ eBookConfig.enable_chatcodes =  false;
 <textarea class="embed-code-textbox" id="embed-code-textbox" readonly aria-label="textbox"><iframe src="https://example.com/embed" width="100%" height="1000"></iframe></textarea><button class="copy-embed-button button" id="copy-embed-button" title="Copy embed code"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe14d;</span><span class="name">Copy</span></button>
 </div>
 </div>
-<button id="light-dark-button" class="light-dark-button button" title="Dark Mode"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe51c;</span><span class="name">Dark Mode</span></button></span><span class="treebuttons"><span class="previous-button button disabled"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></span><span class="up-button button disabled"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></span><a class="next-button button" href="frontmatter.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span>
+<button id="light-dark-button" class="light-dark-button button" title="Dark Mode"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe51c;</span><span class="name">Dark Mode</span></button></span><span class="treebuttons"><a class="previous-button button" href="app3-materials.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="applications-of-multivariable-calculus.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><span class="next-button button disabled"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></span></span>
 </div></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\N}{\mathbb N}
 \newcommand{\Z}{\mathbb Z}
 \newcommand{\Q}{\mathbb Q}
@@ -325,9 +325,9 @@ eBookConfig.enable_chatcodes =  false;
 </li>
 </ul>
 </li>
-<li class="toc-item toc-chapter">
+<li class="toc-item toc-chapter contains-active">
 <div class="toc-title-box"><a href="applications-of-multivariable-calculus.html" class="internal"><span class="title">Applications of Multivariable Calculus</span></a></div>
-<ul class="structural toc-item-list">
+<ul class="structural toc-item-list contains-active">
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="app1-materials.html" class="internal"><span class="title">Line Integrals and Vector Fields</span></a></div>
 <ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="app1-materials.html#app1-reading" class="internal"><span class="title">APP-1 Reading</span></a></div></li></ul>
@@ -340,23 +340,123 @@ eBookConfig.enable_chatcodes =  false;
 <div class="toc-title-box"><a href="app3-materials.html" class="internal"><span class="title">Surface Integrals</span></a></div>
 <ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="app3-materials.html#app3-reading" class="internal"><span class="title">APP-3 Reading</span></a></div></li></ul>
 </li>
-<li class="toc-item toc-section">
+<li class="toc-item toc-section contains-active">
 <div class="toc-title-box"><a href="app4-materials.html" class="internal"><span class="title">Stokes’ Theorem and the Divergence Theorem</span></a></div>
-<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="app4-materials.html#app4-reading" class="internal"><span class="title">APP-4 Reading</span></a></div></li></ul>
+<ul class="structural toc-item-list active"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="app4-materials.html#app4-reading" class="internal"><span class="title">APP-4 Reading</span></a></div></li></ul>
 </li>
 </ul>
 </li>
 </ul></nav></div>
-<main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="book" id="root-1-2"><nav class="summary-links"><ul>
-<li><a href="frontmatter.html" class="internal"><span class="title">Front Matter</span></a></li>
-<li><a href="course-documents.html" class="internal"><span class="title">Course Documents</span></a></li>
-<li><a href="functions-of-multiple-variables.html" class="internal"><span class="title">Functions of Multiple Variables Introduction</span></a></li>
-<li><a href="differential-calculus.html" class="internal"><span class="title">Differential Calculus</span></a></li>
-<li><a href="integral-calculus.html" class="internal"><span class="title">Integral Calculus</span></a></li>
-<li><a href="applications-of-multivariable-calculus.html" class="internal"><span class="title">Applications of Multivariable Calculus</span></a></li>
-</ul></nav><div class="autopermalink" data-description="Book: Multivariable Calculus"><a href="#root-1-2" title="Copy heading and permalink for Book: Multivariable Calculus" aria-label="Copy heading and permalink for Book: Multivariable Calculus">🔗</a></div></section></div>
+<main class="ptx-main"><div id="ptx-content" class="ptx-content">
+<div class="print-preview-header">
+<h2 class="print-preview">Print preview</h2>
+<div class="print-controls">
+<div class="print-controls-toggles">
+<form class="papersize-select" id="papersize-select">
+<span class="name">Paper size</span><label><input type="radio" name="papersize" value="a4">A4
+        </label><label><input type="radio" name="papersize" value="letter">Letter
+        </label>
+</form>
+<details class="print-options"><summary>Additional printing options</summary><div class="header-footer-options">
+<div class="header-option">
+<span class="title">Print headers</span><label>First page<input type="checkbox" id="print-first-page-header-checkbox" checked></label><label>Running<input type="checkbox" id="print-running-header-checkbox" checked></label>
+</div>
+<div class="footer-option">
+<span class="title">Print footers</span><label>First page<input type="checkbox" id="print-first-page-footer-checkbox" checked></label><label>Running<input type="checkbox" id="print-running-footer-checkbox" checked></label>
+</div>
+</div>
+<div class="highlight-workspace-option">
+<label for="highlight-workspace-checkbox">Highlight workspace</label><input type="checkbox" id="highlight-workspace-checkbox">
+</div></details>
+</div>
+<button class="print-button" title="Print" onClick="window.print()"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8ad;</span><span class="name">Print</span></button>
+</div>
+</div>
+<section class="section" id="app4-materials"><h2 class="heading hide-type">
+<span class="type">Section</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Stokes’ Theorem and the Divergence Theorem</span>
+</h2>
+<section class="worksheet" id="app4-reading" data-margins="0.75in 0.75in 0.75in 0.75in"><h3 class="heading hide-type">
+<span class="type">Worksheet</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">APP-4 Reading</span><div class="print-links"><a href="?printpreview=app4-reading" class="print-link" title="Print preview"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8ad;</span></a></div>
+</h3>
+<article class="objectives goal-like" id="app4-reading-2"><h4 class="heading"><span class="type">Objectives</span></h4>
+<ul class="disc" id="app4-reading-2-1">
+<li id="app4-reading-2-1-1">
+<div class="para logical" id="app4-reading-2-1-1-1">
+<div class="para">Things you should understand and know:</div>
+<ul class="circle" id="app4-reading-2-1-1-1-1">
+<li id="app4-reading-2-1-1-1-1-1">
+<div class="para" id="p-derived-app4-reading-2-1-1-1-1-1">Explain the meaning of Stokes’ Theorem</div>
+<div class="autopermalink" data-description="Item"><a href="#app4-reading-2-1-1-1-1-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="app4-reading-2-1-1-1-1-2">
+<div class="para" id="p-derived-app4-reading-2-1-1-1-1-2">Explain the meaning of the Divergence Theorem</div>
+<div class="autopermalink" data-description="Item"><a href="#app4-reading-2-1-1-1-1-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+</ul>
+<div class="autopermalink" data-description="Paragraph"><a href="#app4-reading-2-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="app4-reading-2-1-1-2">
+<div class="para">Things you should be able to do:</div>
+<ul class="circle" id="app4-reading-2-1-1-2-1">
+<li id="app4-reading-2-1-1-2-1-1">
+<div class="para" id="p-derived-app4-reading-2-1-1-2-1-1">Use Stokes’ Theorem to evaluate a line integral</div>
+<div class="autopermalink" data-description="Item"><a href="#app4-reading-2-1-1-2-1-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="app4-reading-2-1-1-2-1-2">
+<div class="para" id="p-derived-app4-reading-2-1-1-2-1-2">Use Stokes’ Theorem to calculate a surface integral</div>
+<div class="autopermalink" data-description="Item"><a href="#app4-reading-2-1-1-2-1-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="app4-reading-2-1-1-2-1-3">
+<div class="para" id="p-derived-app4-reading-2-1-1-2-1-3">Use Stokes’ Theorem to calculate a curl</div>
+<div class="autopermalink" data-description="Item"><a href="#app4-reading-2-1-1-2-1-3" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="app4-reading-2-1-1-2-1-4">
+<div class="para" id="p-derived-app4-reading-2-1-1-2-1-4">Use the Divergence Theorem to calculate the flux of a vector field</div>
+<div class="autopermalink" data-description="Item"><a href="#app4-reading-2-1-1-2-1-4" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+</ul>
+<div class="autopermalink" data-description="Paragraph"><a href="#app4-reading-2-1-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Objective"><a href="#app4-reading-2-1-1" title="Copy heading and permalink for Objective" aria-label="Copy heading and permalink for Objective">🔗</a></div>
+</li>
+<li id="app4-reading-2-1-2">
+<div class="para logical" id="app4-reading-2-1-2-1">
+<div class="para">You will be assessed on the following criteria:</div>
+<ul class="circle" id="app4-reading-2-1-2-1-1">
+<li id="app4-reading-2-1-2-1-1-1">
+<div class="para" id="app4-reading-2-1-2-1-1-1-1">Problem structure: Solution should be organized and easy to follow, with clear, complete steps that follow progressively from one to the next.<div class="autopermalink" data-description="Paragraph"><a href="#app4-reading-2-1-2-1-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#app4-reading-2-1-2-1-1-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="app4-reading-2-1-2-1-1-2">
+<div class="para" id="app4-reading-2-1-2-1-1-2-1">Stokes’ Theorem: Be able to apply Stokes’ Theorem to evaluate line integrals, surface integrals, and curls.<div class="autopermalink" data-description="Paragraph"><a href="#app4-reading-2-1-2-1-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#app4-reading-2-1-2-1-1-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="app4-reading-2-1-2-1-1-3">
+<div class="para" id="app4-reading-2-1-2-1-1-3-1">Apply Stokes’ Theorem to find a given surface integral.<div class="autopermalink" data-description="Paragraph"><a href="#app4-reading-2-1-2-1-1-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#app4-reading-2-1-2-1-1-3" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="app4-reading-2-1-2-1-1-4">
+<div class="para" id="app4-reading-2-1-2-1-1-4-1">The Divergence Theorem: Understand the Divergence Theorem and apply it to find the flux of a vector field.<div class="autopermalink" data-description="Paragraph"><a href="#app4-reading-2-1-2-1-1-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#app4-reading-2-1-2-1-1-4" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+</ul>
+<div class="autopermalink" data-description="Paragraph"><a href="#app4-reading-2-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Objective"><a href="#app4-reading-2-1-2" title="Copy heading and permalink for Objective" aria-label="Copy heading and permalink for Objective">🔗</a></div>
+</li>
+</ul>
+<div class="autopermalink" data-description="Objectives"><a href="#app4-reading-2" title="Copy heading and permalink for Objectives" aria-label="Copy heading and permalink for Objectives">🔗</a></div></article><div class="para" id="app4-reading-3">All of the readings for this course come from the OpenStax Calculus Volume 3 textbook, which is available for free online at <a class="external" href="https://openstax.org/details/books/calculus-volume-3" target="_blank">https://openstax.org/details/books/calculus-volume-3</a>. You can read the textbook online or download a PDF version. The textbook is also available in print from various retailers if you prefer a physical copy.<div class="autopermalink" data-description="Paragraph"><a href="#app4-reading-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="app4-reading-4">For this lesson, you should read sections <a class="external" href="https://openstax.org/books/calculus-volume-3/pages/6-7-stokes-theorem" target="_blank">6.7 Stokes’ Theorem</a> and <a class="external" href="https://openstax.org/books/calculus-volume-3/pages/6-8-divergence-theorem" target="_blank">6.8 The Divergence Theorem</a>. You should read through the sections carefully, making sure to understand the definitions, examples, and key ideas. You should also work through the exercises at the end of each section to test your understanding and practice applying the concepts. Some of the exercises at the end of the section are assigned in the WP assignments.<div class="autopermalink" data-description="Paragraph"><a href="#app4-reading-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Worksheet: APP-4 Reading"><a href="#app4-reading" title="Copy heading and permalink for Worksheet: APP-4 Reading" aria-label="Copy heading and permalink for Worksheet: APP-4 Reading">🔗</a></div></section><div class="autopermalink" data-description="Section: Stokes’ Theorem and the Divergence Theorem"><a href="#app4-materials" title="Copy heading and permalink for Section: Stokes’ Theorem and the Divergence Theorem" aria-label="Copy heading and permalink for Section: Stokes’ Theorem and the Divergence Theorem">🔗</a></div></section>
+</div>
 <div id="ptx-content-footer" class="ptx-content-footer">
-<span class="previous-button button disabled"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></span><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="frontmatter.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
+<a class="previous-button button" href="app3-materials.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><span class="next-button button disabled"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></span>
 </div></main>
 </div>
 <div id="ptx-page-footer" class="ptx-page-footer">

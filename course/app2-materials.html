@@ -14,7 +14,7 @@
 <!--******************************************-->
 <head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Multivariable Calculus</title>
+<title>Green’s Theorem</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
@@ -135,7 +135,7 @@ eBookConfig.enable_chatcodes =  false;
 <textarea class="embed-code-textbox" id="embed-code-textbox" readonly aria-label="textbox"><iframe src="https://example.com/embed" width="100%" height="1000"></iframe></textarea><button class="copy-embed-button button" id="copy-embed-button" title="Copy embed code"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe14d;</span><span class="name">Copy</span></button>
 </div>
 </div>
-<button id="light-dark-button" class="light-dark-button button" title="Dark Mode"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe51c;</span><span class="name">Dark Mode</span></button></span><span class="treebuttons"><span class="previous-button button disabled"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></span><span class="up-button button disabled"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></span><a class="next-button button" href="frontmatter.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span>
+<button id="light-dark-button" class="light-dark-button button" title="Dark Mode"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe51c;</span><span class="name">Dark Mode</span></button></span><span class="treebuttons"><a class="previous-button button" href="app1-materials.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="applications-of-multivariable-calculus.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="app3-materials.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span>
 </div></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\N}{\mathbb N}
 \newcommand{\Z}{\mathbb Z}
 \newcommand{\Q}{\mathbb Q}
@@ -325,16 +325,16 @@ eBookConfig.enable_chatcodes =  false;
 </li>
 </ul>
 </li>
-<li class="toc-item toc-chapter">
+<li class="toc-item toc-chapter contains-active">
 <div class="toc-title-box"><a href="applications-of-multivariable-calculus.html" class="internal"><span class="title">Applications of Multivariable Calculus</span></a></div>
-<ul class="structural toc-item-list">
+<ul class="structural toc-item-list contains-active">
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="app1-materials.html" class="internal"><span class="title">Line Integrals and Vector Fields</span></a></div>
 <ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="app1-materials.html#app1-reading" class="internal"><span class="title">APP-1 Reading</span></a></div></li></ul>
 </li>
-<li class="toc-item toc-section">
+<li class="toc-item toc-section contains-active">
 <div class="toc-title-box"><a href="app2-materials.html" class="internal"><span class="title">Green’s Theorem</span></a></div>
-<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="app2-materials.html#app2-reading" class="internal"><span class="title">APP-2 Reading</span></a></div></li></ul>
+<ul class="structural toc-item-list active"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="app2-materials.html#app2-reading" class="internal"><span class="title">APP-2 Reading</span></a></div></li></ul>
 </li>
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="app3-materials.html" class="internal"><span class="title">Surface Integrals</span></a></div>
@@ -347,16 +347,102 @@ eBookConfig.enable_chatcodes =  false;
 </ul>
 </li>
 </ul></nav></div>
-<main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="book" id="root-1-2"><nav class="summary-links"><ul>
-<li><a href="frontmatter.html" class="internal"><span class="title">Front Matter</span></a></li>
-<li><a href="course-documents.html" class="internal"><span class="title">Course Documents</span></a></li>
-<li><a href="functions-of-multiple-variables.html" class="internal"><span class="title">Functions of Multiple Variables Introduction</span></a></li>
-<li><a href="differential-calculus.html" class="internal"><span class="title">Differential Calculus</span></a></li>
-<li><a href="integral-calculus.html" class="internal"><span class="title">Integral Calculus</span></a></li>
-<li><a href="applications-of-multivariable-calculus.html" class="internal"><span class="title">Applications of Multivariable Calculus</span></a></li>
-</ul></nav><div class="autopermalink" data-description="Book: Multivariable Calculus"><a href="#root-1-2" title="Copy heading and permalink for Book: Multivariable Calculus" aria-label="Copy heading and permalink for Book: Multivariable Calculus">🔗</a></div></section></div>
+<main class="ptx-main"><div id="ptx-content" class="ptx-content">
+<div class="print-preview-header">
+<h2 class="print-preview">Print preview</h2>
+<div class="print-controls">
+<div class="print-controls-toggles">
+<form class="papersize-select" id="papersize-select">
+<span class="name">Paper size</span><label><input type="radio" name="papersize" value="a4">A4
+        </label><label><input type="radio" name="papersize" value="letter">Letter
+        </label>
+</form>
+<details class="print-options"><summary>Additional printing options</summary><div class="header-footer-options">
+<div class="header-option">
+<span class="title">Print headers</span><label>First page<input type="checkbox" id="print-first-page-header-checkbox" checked></label><label>Running<input type="checkbox" id="print-running-header-checkbox" checked></label>
+</div>
+<div class="footer-option">
+<span class="title">Print footers</span><label>First page<input type="checkbox" id="print-first-page-footer-checkbox" checked></label><label>Running<input type="checkbox" id="print-running-footer-checkbox" checked></label>
+</div>
+</div>
+<div class="highlight-workspace-option">
+<label for="highlight-workspace-checkbox">Highlight workspace</label><input type="checkbox" id="highlight-workspace-checkbox">
+</div></details>
+</div>
+<button class="print-button" title="Print" onClick="window.print()"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8ad;</span><span class="name">Print</span></button>
+</div>
+</div>
+<section class="section" id="app2-materials"><h2 class="heading hide-type">
+<span class="type">Section</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Green’s Theorem</span>
+</h2>
+<section class="worksheet" id="app2-reading" data-margins="0.75in 0.75in 0.75in 0.75in"><h3 class="heading hide-type">
+<span class="type">Worksheet</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">APP-2 Reading</span><div class="print-links"><a href="?printpreview=app2-reading" class="print-link" title="Print preview"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8ad;</span></a></div>
+</h3>
+<article class="objectives goal-like" id="app2-reading-2"><h4 class="heading"><span class="type">Objectives</span></h4>
+<ul class="disc" id="app2-reading-2-1">
+<li id="app2-reading-2-1-1">
+<div class="para logical" id="app2-reading-2-1-1-1">
+<div class="para">Things you should understand and know:</div>
+<ul class="circle" id="app2-reading-2-1-1-1-1">
+<li id="app2-reading-2-1-1-1-1-1">
+<div class="para" id="p-derived-app2-reading-2-1-1-1-1-1">The flux and circulation</div>
+<div class="autopermalink" data-description="Item"><a href="#app2-reading-2-1-1-1-1-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="app2-reading-2-1-1-1-1-2">
+<div class="para" id="p-derived-app2-reading-2-1-1-1-1-2">The relationship between a line integral around a simply closed curve and a double integral</div>
+<div class="autopermalink" data-description="Item"><a href="#app2-reading-2-1-1-1-1-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+</ul>
+<div class="autopermalink" data-description="Paragraph"><a href="#app2-reading-2-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="app2-reading-2-1-1-2">
+<div class="para">Things you should be able to do:</div>
+<ul class="circle" id="app2-reading-2-1-1-2-1">
+<li id="app2-reading-2-1-1-2-1-1">
+<div class="para" id="p-derived-app2-reading-2-1-1-2-1-1">Apply the circulation form of Green’s Theorem</div>
+<div class="autopermalink" data-description="Item"><a href="#app2-reading-2-1-1-2-1-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="app2-reading-2-1-1-2-1-2">
+<div class="para" id="p-derived-app2-reading-2-1-1-2-1-2">Apply the flux form of Green’s Theorem</div>
+<div class="autopermalink" data-description="Item"><a href="#app2-reading-2-1-1-2-1-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="app2-reading-2-1-1-2-1-3">
+<div class="para" id="p-derived-app2-reading-2-1-1-2-1-3">Calculate circulation and flux on more general regions</div>
+<div class="autopermalink" data-description="Item"><a href="#app2-reading-2-1-1-2-1-3" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+</ul>
+<div class="autopermalink" data-description="Paragraph"><a href="#app2-reading-2-1-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Objective"><a href="#app2-reading-2-1-1" title="Copy heading and permalink for Objective" aria-label="Copy heading and permalink for Objective">🔗</a></div>
+</li>
+<li id="app2-reading-2-1-2">
+<div class="para logical" id="app2-reading-2-1-2-1">
+<div class="para">You will be assessed on the following criteria:</div>
+<ul class="circle" id="app2-reading-2-1-2-1-1">
+<li id="app2-reading-2-1-2-1-1-1">
+<div class="para" id="app2-reading-2-1-2-1-1-1-1">Problem structure: Solution should be organized and easy to follow, with clear, complete steps that follow progressively from one to the next.<div class="autopermalink" data-description="Paragraph"><a href="#app2-reading-2-1-2-1-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#app2-reading-2-1-2-1-1-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="app2-reading-2-1-2-1-1-2">
+<div class="para" id="app2-reading-2-1-2-1-1-2-1">Green’s Theorem in two dimensions: Compute two-dimensional curls and divergence of  vector fields. Evaluate integrals using Green’s theorem. Check for existence of conservative vector fields. Solve applied problems using Green’s Theorem.<div class="autopermalink" data-description="Paragraph"><a href="#app2-reading-2-1-2-1-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#app2-reading-2-1-2-1-1-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+</ul>
+<div class="autopermalink" data-description="Paragraph"><a href="#app2-reading-2-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Objective"><a href="#app2-reading-2-1-2" title="Copy heading and permalink for Objective" aria-label="Copy heading and permalink for Objective">🔗</a></div>
+</li>
+</ul>
+<div class="autopermalink" data-description="Objectives"><a href="#app2-reading-2" title="Copy heading and permalink for Objectives" aria-label="Copy heading and permalink for Objectives">🔗</a></div></article><div class="para" id="app2-reading-3">All of the readings for this course come from the OpenStax Calculus Volume 3 textbook, which is available for free online at <a class="external" href="https://openstax.org/details/books/calculus-volume-3" target="_blank">https://openstax.org/details/books/calculus-volume-3</a>. You can read the textbook online or download a PDF version. The textbook is also available in print from various retailers if you prefer a physical copy.<div class="autopermalink" data-description="Paragraph"><a href="#app2-reading-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="app2-reading-4">For this lesson, you should read sections <a class="external" href="https://openstax.org/books/calculus-volume-3/pages/6-4-greens-theorem" target="_blank">6.4 Green’s Theorem</a>. You should read through the sections carefully, making sure to understand the definitions, examples, and key ideas. You should also work through the exercises at the end of each section to test your understanding and practice applying the concepts. Some of the exercises at the end of the section are assigned in the WP assignments.<div class="autopermalink" data-description="Paragraph"><a href="#app2-reading-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Worksheet: APP-2 Reading"><a href="#app2-reading" title="Copy heading and permalink for Worksheet: APP-2 Reading" aria-label="Copy heading and permalink for Worksheet: APP-2 Reading">🔗</a></div></section><div class="autopermalink" data-description="Section: Green’s Theorem"><a href="#app2-materials" title="Copy heading and permalink for Section: Green’s Theorem" aria-label="Copy heading and permalink for Section: Green’s Theorem">🔗</a></div></section>
+</div>
 <div id="ptx-content-footer" class="ptx-content-footer">
-<span class="previous-button button disabled"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></span><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="frontmatter.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
+<a class="previous-button button" href="app1-materials.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="app3-materials.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
 </div></main>
 </div>
 <div id="ptx-page-footer" class="ptx-page-footer">
