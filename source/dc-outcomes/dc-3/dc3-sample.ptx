@@ -9,33 +9,64 @@
   
   <page>
     <exercise>
-        <introduction><p></p></introduction>
+        <introduction><p>Given <m>u(x,y)=x^4-3xy+1</m> and <m>x=2t,y=t^3</m></p></introduction>
         <task>
-            <statement><p></p></statement>
-            <hint><p></p></hint>
-            <answer><p></p></answer>
-            <solution><p></p></solution>
+            <statement><p>Find <m>\frac{du}{dt}</m>.</p></statement>
+            <hint><p>Use the chain rule: <m>\frac{du}{dt} = \frac{\partial u}{\partial x}\frac{dx}{dt} + \frac{\partial u}{\partial y}\frac{dy}{dt}</m>.</p></hint>
+            <answer><p><m>\frac{du}{dt} = 4x^3\frac{dx}{dt} - 3y\frac{dx}{dt} - 3x\frac{dy}{dt}</m></p></answer>
+            <solution><p>First, compute the partial derivatives of <m>u</m>:</p>
+                <p><m>\frac{\partial u}{\partial x} = 4x^3 - 3y</m></p>
+                <p><m>\frac{\partial u}{\partial y} = -3x</m></p>
+                <p>Next, compute the derivatives of <m>x</m> and <m>y</m> with respect to <m>t</m>:</p>
+                <p><m>\frac{dx}{dt} = 2</m></p>
+                <p><m>\frac{dy}{dt} = 3t^2</m></p>
+                <p>Apply the chain rule:</p>
+                <p><m>\frac{du}{dt} = (4x^3 - 3y)(2) + (-3x)(3t^2)</m></p>
+                <p>Put everything in terms of <m>t</m>:</p>
+                <p><m>\frac{du}{dt} = 8x^3 - 6y - 9xt^2</m></p>
+                <p><m>\frac{du}{dt} = 8(2t)^3 - 6(t^3) - 9(2t)(t^2)</m></p>
+                <p><m>\frac{du}{dt} = 64t^3 - 6t^3 - 18t^3</m></p>
+                <p><m>\frac{du}{dt} = 40t^3</m></p>
+            </solution>
         </task>
         <task>
-            <statement><p></p></statement>
-            <hint><p></p></hint>
-            <answer><p></p></answer>
-            <solution><p></p></solution>
+            <statement><p>Find <m>\frac{d^2u}{dt^2}</m>.</p></statement>
+            <hint><p>First find <m>\frac{du}{dt}</m>, then differentiate it with respect to <m>t</m>.</p></hint>
+            <answer><p><m>\frac{d^2u}{dt^2} = 120t^2</m></p></answer>
+            <solution><p>From the previous calculation, we have:</p>
+                <p><m>\frac{du}{dt} = 40t^3</m></p>
+                <p>Differentiate with respect to <m>t</m>:</p>
+                <p><m>\frac{d^2u}{dt^2} = 120t^2</m></p>
+            </solution>
         </task>
     </exercise>
     <exercise>
-        <introduction><p></p></introduction>
+        <introduction><p>Given <m>x^2+y^2+z^2=3xyz</m></p></introduction>
         <task>
-            <statement><p></p></statement>
-            <hint><p></p></hint>
-            <answer><p></p></answer>
-            <solution><p></p></solution>
+            <statement><p>Find <m>\frac{\partial z}{\partial x}</m>.</p></statement>
+            <hint><p>Use implicit differentiation (this is one method of solving). </p></hint>
+            <answer><p><m>\frac{\partial z}{\partial x} = \frac{3yz - 2x}{2z - 3xy}</m></p></answer>
+            <solution><p>Implicitly differentiate the equation with respect to <m>x</m>:</p>
+                <p><m>2x + 2z\frac{\partial z}{\partial x} = 3yz + 3xy\frac{\partial z}{\partial x}</m></p>
+                <p>Solve for <m>\frac{\partial z}{\partial x}</m>:</p>
+                <p><m>2z\frac{\partial z}{\partial x} - 3xy\frac{\partial z}{\partial x} = 3yz - 2x</m></p>
+                <p><m>\frac{\partial z}{\partial x}(2z - 3xy) = 3yz - 2x</m></p>
+                <p><m>\frac{\partial z}{\partial x} = \frac{3yz - 2x}{2z - 3xy}</m></p>
+            </solution>
         </task>
         <task>
-            <statement><p></p></statement>
-            <hint><p></p></hint>
-            <answer><p></p></answer>
-            <solution><p></p></solution>
+            <statement><p>Find <m>\frac{\partial z}{\partial y}</m>.</p></statement>
+            <hint><p>Here we can rewrite the equation as <m>f(x,y,z) = x^2 + y^2 + z^2 - 3xyz = 0</m> and use the chain rule.</p></hint>
+            <answer><p><m>\frac{\partial z}{\partial y} = \frac{3xz - 2y}{2z - 3xy}</m></p></answer>
+            <solution><p> We first rewrite the equation as <m>f(x,y,z) = x^2 + y^2 + z^2 - 3xyz = 0</m>.</p>
+                <p>Then, we find the partial derivatives <m>\frac{\partial f}{\partial y}</m> and <m>\frac{\partial f}{\partial z}</m>:</p>
+                <p><m>\frac{\partial f}{\partial y} = 2y - 3xz</m></p>
+                <p><m>\frac{\partial f}{\partial z} = 2z - 3xy</m></p>
+                <p>Substitute into the chain rule formula:</p>
+                <p><m>\frac{\partial z}{\partial y} = -\frac{\frac{\partial f}{\partial y}}{\frac{\partial f}{\partial z}}</m></p>
+                <p><m>\frac{\partial z}{\partial y} = -\frac{2y - 3xz}{2z - 3xy}</m></p>
+                <p><m>\frac{\partial z}{\partial y} = \frac{3xz - 2y}{2z - 3xy}</m></p>
+            </solution>
         </task>
     </exercise>
     </page>

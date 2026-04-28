@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<worksheet xml:id="ic3-reading" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>IC-3 Reading</title>
+    <objectives>
+    <ul>
+      <li><p>Things you should understand and know:
+        <ul>
+            <li>Recognize when a function of three variables is integrable over a rectangular region or a closed and bounded region</li>
+            <li>Recognize when changing the order of integration may be needed</li>
+            <li>Understand what cylindrical boxes are and how these are used in evaluating triple integrals</li>
+            <li>Understand what spherical boxes are and how these are used in evaluating triple integrals</li>
+        </ul></p>
+        <p>Things you should be able to do:
+        <ul>
+            <li>Use properties to evaluate triple integrals</li>
+            <li>Evaluate a triple integral over a rectangular by writing it as an iterated integral</li>
+            <li>Use triple integrals to calculate volumes and average values</li>
+            <li>Simplify the calculation of an iterated integral by changing the order of integration</li>
+            <li>Evaluate a triple integral by changing to cylindrical coordinates</li>
+            <li>Evaluate a triple integral by changing to spherical coordinates</li>
+        </ul></p>
+      </li>
+      <li><p>You will be assessed on the following criteria:
+        <ul>
+          <li><p>Problem structure: Solution should be organized and easy to follow, with clear, complete steps 
+              that follow progressively from one to the next.</p></li>
+          <li><p>Triple Integrals: Compute triple integrals over rectangular regions. Compute the volumes of 
+            solids using triple integrals. Solve applied problems using triple integrals.</p></li>
+          <li><p>Triple Integrals in Cylindrical and Spherical Coordinates: Compute triple integrals in cylindrical 
+            and spherical coordinates. Compute the volumes of solids using triple integrals in cylindrical and 
+            spherical coordinates. Solve applied problems using triple integrals in cylindrical and spherical coordinates.</p></li>
+        </ul></p>
+      </li>
+    </ul>
+    </objectives>
+        <p>All of the readings for this course come from the OpenStax Calculus 
+            Volume 3 textbook, which is available for free online at 
+            <url href="https://openstax.org/details/books/calculus-volume-3">
+                https://openstax.org/details/books/calculus-volume-3</url>. You 
+                can read the textbook online or download a PDF version. 
+                The textbook is also available in print from various retailers 
+                if you prefer a physical copy.</p> 
+        <p>For this lesson, you should read sections <url href="https://openstax.org/books/calculus-volume-3/pages/5-4-triple-integrals">
+            5.4 Triple Integrals</url>, and <url href="https://openstax.org/books/calculus-volume-3/pages/5-5-triple-integrals-in-cylindrical-and-spherical-coordinates">
+            5.5 Triple Integrals in Cylindrical and Spherical Coordinates</url>. You should read through the sections carefully, 
+            making sure to understand the definitions, examples, and key ideas. 
+            You should also work through the exercises at the end of each section 
+            to test your understanding and practice applying the concepts. Some of the 
+            exercises at the end of the section are assigned in the WP assignments.</p>      
+</worksheet>

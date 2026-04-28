@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<section xml:id="ic3-materials" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Triple Integrals</title>
+        <xi:include href="./ic-3/ic3-reading.ptx"/>
+        <xi:include href="./ic-3/ic3-vid.ptx"/>
+        <xi:include href="./ic-3/ic3-wp.ptx"/>
+        <!--<xi:include href="./ic-3/ic3-sample.ptx"/>-->
+</section>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<worksheet xml:id="ic2-videos" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>IC-2 Videos</title>
+            <page>
+                <p><alert>Double Integrals in Polar Coordinates</alert></p>
+                <video vimeo="1186775626"/>
+            </page>
+    </worksheet>

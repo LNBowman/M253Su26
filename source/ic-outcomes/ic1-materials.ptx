@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<section xml:id="ic1-materials" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Double Integrals</title>
+        <xi:include href="./ic-1/ic1-reading.ptx" />
+        <xi:include href="./ic-1/ic1-vid.ptx" />
+        <xi:include href="./ic-1/ic1-wp.ptx" />
+        <xi:include href="./ic-1/ic1-sample.ptx" />
+</section>

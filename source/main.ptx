@@ -93,8 +93,11 @@
          </ul>
         </p>
       </introduction>
-        <xi:include href="./homework/homework-01.ptx"/>
-        <!-- etc. -->
+        <xi:include href="./ic-outcomes/ic1-materials.ptx" />
+        <xi:include href="./ic-outcomes/ic2-materials.ptx" />
+        <xi:include href="./ic-outcomes/ic3-materials.ptx" />
+        <xi:include href="./ic-outcomes/ic4-materials.ptx" />
+        <xi:include href="./ic-outcomes/ic5-materials.ptx" />
     </chapter>
     
     <chapter xml:id="applications-of-multivariable-calculus">
@@ -102,19 +105,19 @@
 
       <introduction>
         <p>
-         There are six learning outcomes for this unit:
+         There are four learning outcomes for this unit:
          <ul>
-          <li><p>APP-1 Line Integrals</p></li>
-          <li><p>APP-2 Vector Fields</p></li>
-          <li><p>APP-3 Green's Theorem</p></li>
-          <li><p>APP-4 Surface Integrals</p></li>
-          <li><p>APP-5 Stokes' Theorem</p></li>
-          <li><p>APP-6 Divergence Theorem</p></li> 
+          <li><p>APP-1 Line Integrals and Vector Fields</p></li>
+          <li><p>APP-2 Green's Theorem</p></li>
+          <li><p>APP-3 Surface Integrals</p></li>
+          <li><p>APP-4 Stokes' Theorem and the Divergence Theorem</p></li> 
          </ul>
         </p>
       </introduction>
-        <xi:include href="./homework/homework-template.ptx"/>
-        <!-- etc. -->
+        <xi:include href="./app-outcomes/app1-materials.ptx" />
+        <xi:include href="./app-outcomes/app2-materials.ptx" />
+        <xi:include href="./app-outcomes/app3-materials.ptx" />
+        <xi:include href="./app-outcomes/app4-materials.ptx" />
     </chapter>
 
     </book>

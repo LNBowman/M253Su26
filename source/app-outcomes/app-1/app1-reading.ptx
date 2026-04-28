@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<worksheet xml:id="app1-reading" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>APP-1 Reading</title>
+    <objectives>
+    <ul>
+      <li><p>Things you should understand and know:
+        <ul>
+            <li>Recognize a vector field in a plane or space</li>
+            <li>The difference between a radial and a rotational vector field</li>
+            <li>Describe the flux and circulation of a vector field</li>
+            <li>What it means to be a simple closed curve</li>
+            <li>Define connected and simply connected regions</li>
+            <li>What the Fundamental Theorem for Line Integrals says</li>
+            <li>What it means for a vector field to be conservative</li>
+        </ul></p>
+        <p>Things you should be able to do:
+        <ul>
+            <li>Sketch a vector field from a given equation</li>
+            <li>Calculate a scalar line integral along a curve</li>
+            <li>Calculate a vector line integral along an oriented curve in space</li>
+            <li>Compute the work done in moving an object along a curve in a vector field</li>
+            <li>Find a potential function for a conservative vector field</li>
+            <li>Use the Fundamental Theorem for Line Integrals to evaluate a line integral in a vector field</li>
+            <li>Test a vector field to determine if it is conservative</li>
+        </ul></p>
+      </li>
+      <li><p>You will be assessed on the following criteria:
+        <ul>
+          <li><p>Problem structure: Solution should be organized and easy to follow, with clear, complete steps 
+              that follow progressively from one to the next.</p></li>
+          <li><p>Vector Fields: Recognize and sketch vector fields in two and three dimensions. 
+            Determine normal and tangential components of vector fields. Compute Gradient fields. 
+            Solve applied problems using vector fields.</p></li>
+          <li><p>Line Integrals: Define line integrals of a function over a smooth curve. Evaluate 
+            line integrals in two and three dimensions. Solve applied problems using line integrals.</p></li>
+            <li><p>Conservative Vector Fields: Test for conservative vector fields. Find potential functions. 
+            Evaluate line integrals using both direct calculation of parametric descriptions and the Fundamental 
+            Theorem for line integrals. Calculate line integrals of vector fields on closed curves. Solve applied 
+            problems using conservative vector fields.</p></li>
+        </ul></p>
+      </li>
+    </ul>
+    </objectives>
+        <p>All of the readings for this course come from the OpenStax Calculus 
+            Volume 3 textbook, which is available for free online at 
+            <url href="https://openstax.org/details/books/calculus-volume-3">
+                https://openstax.org/details/books/calculus-volume-3</url>. You 
+                can read the textbook online or download a PDF version. 
+                The textbook is also available in print from various retailers 
+                if you prefer a physical copy.</p> 
+        <p>For this lesson, you should read sections <url href="https://openstax.org/books/calculus-volume-3/pages/6-1-vector-fields">
+            6.1 Vector Fields</url>, <url href="https://openstax.org/books/calculus-volume-3/pages/6-2-line-integrals">
+            6.2 Line Integrals</url>, and <url href="https://openstax.org/books/calculus-volume-3/pages/6-3-conservative-vector-fields">
+            6.3 Conservative Vector Fields</url>. You should read through the sections carefully, 
+            making sure to understand the definitions, examples, and key ideas. 
+            You should also work through the exercises at the end of each section 
+            to test your understanding and practice applying the concepts. Some of the 
+            exercises at the end of the section are assigned in the WP assignments.</p>      
+</worksheet>

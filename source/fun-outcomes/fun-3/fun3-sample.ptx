@@ -12,8 +12,9 @@
       <statement>
         <p>Identify the surface given by <m>z=16-x^2-y^2</m></p>
       </statement>
-      <answer><p>Elliptic paraboloid</p>
-      <p><url href="external/Elliptic_Paraboloid.png">Elliptic Paraboloid</url></p></answer>
+      <answer>
+      <image xml:id="Elliptic_Paraboloid" width="80%" source="Elliptic_Paraboloid.png"/>
+      </answer>
       <solution>
         <p>The equation <m>z=16-x^2-y^2</m> can be rewritten as 
           <m>x^2+y^2+z=16</m>. This is the equation of an 
@@ -25,8 +26,11 @@
       <statement>
         <p>Identify the surface given by <m>y^2+9z^2=9</m></p>
       </statement>
-      <answer><p>Elliptic cylinder</p>
-      <p><url href="external/Elliptic_Cylinder.png">Elliptic Cylinder</url></p></answer>
+      <answer>
+      <figure>
+        <caption>Elliptic Cylinder</caption>
+        <image xml:id="Elliptic_Cylinder" width="80%" source="Elliptic_Cylinder.png"/>
+      </figure></answer>
       <solution>
         <p>The equation <m>y^2+9z^2=9</m> can be rewritten as 
           <m>\frac{y^2}{9}+\frac{z^2}{1}=1</m>. This is the equation of an 

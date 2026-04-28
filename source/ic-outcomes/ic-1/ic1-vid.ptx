@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<worksheet xml:id="ic1-videos" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>IC-1 Videos</title>
+            <page>
+                <p><alert>Double Integrals over Rectangular Regions</alert></p>
+                <video vimeo="186775654"/>
+                <p><alert>Double Integrals over General Regions</alert></p>
+                <video vimeo="1186775752"/>
+            </page>
+    </worksheet>

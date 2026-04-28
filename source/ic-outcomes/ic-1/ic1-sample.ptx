@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<worksheet xml:id="ic1-sample" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>IC-1 Sample Outcomes</title>
+  <introduction>
+    <p>For the quiz on this outcome you would be given 30 minutes to complete 3 problems. Here are samples 
+      of the types of problems you will encounter:</p>
+  </introduction>
+  <page>
+    <exercise>
+        <statement><p>Evaluate <m>\int_1^2 \int_0^1 (x+y)^{-2} dxdy</m>.</p></statement>
+        <hint><p>To evaluate this double integral, first integrate with respect to <m>x</m>, then with respect to <m>y</m>.</p></hint>
+        <answer><p><m>\int_1^2 \int_0^1 (x+y)^{-2} dxdy = \ln\frac{4}{3}</m></p></answer>
+        <solution><p>First integrate with respect to <m>x</m>:</p>
+            <p><m>\int_0^1 (x+y)^{-2} dx = \left[-(x+y)^{-1}\right]_0^1 = -(1+y)^{-1} + y^{-1}</m></p>
+            <p>Then integrate with respect to <m>y</m>:</p>
+            <p><m>\int_1^2 \left(-(1+y)^{-1} + y^{-1}\right) dy = \left[-\ln(1+y) + \ln(y)\right]_1^2 </m></p>
+            <p><m>\int_1^2 \left(-(1+y)^{-1} + y^{-1}\right) dy = -\ln3 + \ln 2 - (-\ln 2 +\ln 1)</m></p>
+            <p><m>\int_1^2 \left(-(1+y)^{-1} + y^{-1}\right) dy = \ln\frac{4}{3}</m></p>
+        </solution>
+    </exercise>
+    <exercise>
+        <statement><p>Sketch the solid described by <m>\int_0^1 \int_0^1 (4-x-2y)dxdy</m></p></statement>
+        <hint><p>Start by sketching the region in the xy-plane. Then, visualize the solid above this region.</p></hint>
+        <answer><image xml:id="ic1-image-a" width="80%" source="ic1-image-a.png"/></answer>
+    </exercise>
+    <exercise>
+        <introduction><p>Evaluate <m>\iint_D xy^2 dA</m> where <m>D</m> is the region bounded by the curves 
+            <m>y=2x, x=0,</m> and <m>y=4</m>.</p></introduction>
+        <task>
+            <statement><p>Sketch the region <m>D</m>.</p></statement>
+            <answer>
+            <image width="60%">
+            <prefigure xmlns="https://prefigure.org"
+                        label="prefigure-ic1-sample">
+            <diagram dimensions="(300,300)" margins="5">
+                <coordinates bbox="(-3,-5,3,5)">
+                    <definition>f(x)=2*x</definition>
+                    <definition>g(x)=4</definition>
+                <definition>a=intersect((f,g),2)</definition>
+                    <grid-axes xlabel="x" ylabel="y"/>
+                    <area-between-curves functions="(f,g)" domain="(0,a)" fill="lightgray"/>
+                    <graph function="f" stroke="red"/>
+                    <graph function="g" stroke="blue"/>
+                    <label anchor="(0.75,2.5)" alignment="nw"><m>D</m></label>
+                </coordinates>
+                <annotations
+                    text="D is the triangular region with vertices (0,0), (2,4) and (4,0)">
+                    <annotation ref="graph-f"
+                                text="The graph of f is the line y=2x. The graph is the horizontal line y=4. The region is a triangular area between the lines and the y-axis."/>
+                </annotations>
+            </diagram>
+            </prefigure>
+            </image>
+            </answer>
+        </task>
+        <task>
+            <statement><p>Set up the double integral and evaluate it.</p></statement>
+            <hint><p>Using the region D from the previous task, set up the double integral based on the bounds.</p></hint>
+            <answer><p><m>\iint_D xy^2 dA = \frac{128}{5}</m></p></answer>
+            <solution><p>Since D is the triangular region with vertices (0,0), (2,4) and (4,0), we have that 
+                <m>0 \leq x \leq 2</m> and <m>2x \leq y \leq 4</m>. Therefore, the double integral is:</p>
+                <p><m>\iint_D xy^2 dA = \int_0^2 \int_{2x}^4 xy^2 dy dx</m></p>
+                <p><m>\iint_D xy^2 dA = \int_0^2 \frac{1}{3}xy^3 \Big|_{2x}^4 dx</m></p>
+                <p><m>\iint_D xy^2 dA = \int_0^2 \left(\frac{64}{3}x-\frac{8}{3}x^4\right) dx</m></p>
+                <p><m>\iint_D xy^2 dA = \frac{64}{3} \cdot \frac{1}{2}x^2 - \frac{8}{3} \cdot \frac{1}{5}x^5 \Big|_0^2</m></p>
+                <p><m>\iint_D xy^2 dA = \frac{64}{3} \cdot 2 - \frac{8}{3} \cdot \frac{32}{5}</m></p>
+                <p><m>\iint_D xy^2 dA =  \frac{128}{3} - \frac{256}{15}</m></p>
+                <p><m>\iint_D xy^2 dA = \frac{128}{5}</m></p>
+            </solution>
+        </task>
+    </exercise>
+  </page>
+</worksheet>

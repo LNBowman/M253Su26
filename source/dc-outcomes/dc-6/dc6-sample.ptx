@@ -9,34 +9,79 @@
   
   <page>
     <exercise>
-        <introduction><p></p></introduction>
-        <task>
-            <statement><p></p></statement>
-            <hint><p></p></hint>
-            <answer><p></p></answer>
-            <solution><p></p></solution>
-        </task>
-        <task>
-            <statement><p></p></statement>
-            <hint><p></p></hint>
-            <answer><p></p></answer>
-            <solution><p></p></solution>
-        </task>
+        <statement><p>Use Lagrange multipliers to find the maximum and minimum values 
+            for the function <m>f(x,y)=x^2-y^2</m> with the constraint <m>x+6y=4</m>.</p></statement>
+        <hint><p>To use Lagrange multipliers, set up the equations <m>\nabla f = \lambda \nabla g</m> and <m>g(x,y) = 0</m>, where <m>g(x,y) = x + 6y - 4</m>.</p></hint>
+        <answer><p>The maximum value is <m>\frac{16}{37}</m> and the minimum value is <m>-\frac{16}{37}</m>.</p></answer>
+        <solution><p>Let <m>f(x,y) = x^2 - y^2</m> and <m>g(x,y) = x + 6y - 4</m>. Then,</p>
+        <p><m>\nabla f = (2x, -2y)</m></p>
+        <p><m>\nabla g = (1, 6)</m></p>
+        <p>Setting up the Lagrange multiplier equations:</p>
+        <p><m>2x = \lambda</m></p>
+        <p><m>-2y = 6\lambda</m></p>
+        <p><m>x + 6y = 4</m></p>
+        <p>From the first equation, we have <m>\lambda = 2x</m>. Substituting this into the second equation:</p>
+        <p><m>-2y = 12x</m></p>
+        <p><m>y = -6x</m></p>
+        <p>Substituting this into the third equation:</p>
+        <p><m>x + 6(-6x) = 4</m></p>
+        <p><m>x - 36x = 4</m></p>
+        <p><m>-35x = 4</m></p>
+        <p><m>x = -\frac{4}{35}</m></p>
+        <p>Then, <m>y = -6(-\frac{4}{35}) = \frac{24}{35}</m>.</p>
+        <p>The critical point is at <m>\left(-\frac{4}{35}, \frac{24}{35}\right)</m>.</p>
+        <p>Now we can evaluate the function at this critical point:</p>
+        <p><m>f\left(-\frac{4}{35}, \frac{24}{35}\right) = \left(-\frac{4}{35}\right)^2 - \left(\frac{24}{35}\right)^2 = \frac{16}{1225} - \frac{576}{1225} = -\frac{560}{1225} = -\frac{16}{37}</m></p>
+        <p>To find the maximum value, we can also evaluate the function at the endpoints of the constraint. The endpoints occur when <m>x + 6y = 4</m> is satisfied.</p>
+        <p>When <m>y = 0</m>, we have <m>x = 4</m>, and <m>f(4,0) = 16</m>.</p>
+        <p>When <m>x = 0</m>, we have <m>y = \frac{4}{6} = \frac{2}{3}</m>, and <m>f(0, \frac{2}{3}) = -\left(\frac{2}{3}\right)^2 = -\frac{4}{9}</m>.</p>
+        <p>Comparing the values, we find that the maximum value is <m>\frac{16}{37}</m> and the minimum value is <m>-\frac{16}{37}</m>.</p></solution>
     </exercise>
     <exercise>
-        <introduction><p></p></introduction>
-        <task>
-            <statement><p></p></statement>
-            <hint><p></p></hint>
-            <answer><p></p></answer>
-            <solution><p></p></solution>
-        </task>
-        <task>
-            <statement><p></p></statement>
-            <hint><p></p></hint>
-            <answer><p></p></answer>
-            <solution><p></p></solution>
-        </task>
+        <statement><p>Find the maximum value of the surface <m>f(x,y,z)=x+2y+3z</m> on the curve of intersection of the plane <m>x-y+z=1</m> and the cylinder <m>x^2+y^2=1</m>.</p></statement>
+        <hint><p>Set up the function and constraints for Lagrange multipliers.</p></hint>
+        <answer><p>The maximum value is <m>3 + \sqrt{29}</m>.</p></answer>
+        <solution><p>Let <m>f(x,y,z) = x + 2y + 3z</m>, <m>g(x,y,z) = x - y + z - 1</m>, and <m>h(x,y,z) = x^2 + y^2 - 1</m>. Then,</p>
+        <p><m>\nabla f = (1, 2, 3)</m></p>
+        <p><m>\nabla g = (1, -1, 1)</m></p>
+        <p><m>\nabla h = (2x, 2y, 0)</m></p>
+        <p>Setting up the Lagrange multiplier equations:</p>
+        <p><m>1 = \lambda \cdot 1 + \mu \cdot 2x</m></p>
+        <p><m>2 = \lambda \cdot (-1) + \mu \cdot 2y</m></p>
+        <p><m>3 = \lambda \cdot 1 + \mu \cdot 0</m></p>
+        <p><m>x - y + z = 1</m></p>
+        <p><m>x^2 + y^2 = 1</m></p>
+        <p>To solve this system, we can express <m>\lambda</m> from the third equation as <m>\lambda = 3</m>. 
+            Substituting this into the first two equations gives us:</p>
+        <p><m>1 = 3 + \mu \cdot 2x</m></p>
+        <p><m>2 = -3 + \mu \cdot 2y</m></p>
+        <p>From the first equation, we have <m>\mu \cdot 2x = -2</m>, which gives us <m>\mu = -\frac{1}{x}</m>. 
+            Substituting this into the second equation gives us:</p>
+        <p><m>2 = -3 - \frac{2y}{x}</m></p>
+        <p><m>5 = -\frac{2y}{x}</m></p>
+        <p><m>y = -\frac{5x}{2}</m></p>
+        <p>Substituting this into the cylinder equation gives us:</p>
+        <p><m>x^2 + \left(-\frac{5x}{2}\right)^2 = 1</m></p>
+        <p><m>x^2 + \frac{25x^2}{4} = 1</m></p>
+        <p><m>\frac{29x^2}{4} = 1</m></p>
+        <p><m>x^2 = \frac{4}{29}</m></p>
+        <p><m>x = \pm \frac{2}{\sqrt{29}}</m></p>
+        <p>Substituting back to find <m>y</m> and <m>z</m> for both values of 
+            <m>x</m> gives us <m>y = -\frac{5}{2} \cdot \frac{2}{\sqrt{29}} = -\frac{5}{\sqrt{29}}</m> 
+            and <m>z = 1 - x + y = 1 \pm \frac{2}{\sqrt{29}} \pm \frac{5}{\sqrt{29}}</m></p>
+        <p>So <m>z=1 - \frac{7}{\sqrt{29}}</m> and <m>z=1 + \frac{7}{\sqrt{29}}</m>.</p>
+        <p>Now we can evaluate the function at these points:</p>
+        <p><m>f\left(\frac{2}{\sqrt{29}}, -\frac{5}{\sqrt{29}}, 1 - \frac{7}{\sqrt{29}}\right) = \frac{2}{\sqrt{29}} + 2\left(-\frac{5}{\sqrt{29}}\right) + 3\left(1 - \frac{7}{\sqrt{29}}\right)</m></p>
+        <p><m> = \frac{2}{\sqrt{29}} - \frac{10}{\sqrt{29}} + 3 - \frac{21}{\sqrt{29}} = 3 - \frac{29}{\sqrt{29}} = 3 - \sqrt{29}</m></p>
+        <p><m>f\left(-\frac{2}{\sqrt{29}}, \frac{5}{\sqrt{29}}, 1 + \frac{7}{\sqrt{29}}\right) = -\frac{2}{\sqrt{29}} + 2\left(\frac{5}{\sqrt{29}}\right) + 3\left(1 + \frac{7}{\sqrt{29}}\right)</m></p>
+        <p><m> = -\frac{2}{\sqrt{29}} + \frac{10}{\sqrt{29}} + 3 + \frac{21}{\sqrt{29}} = 3 + \frac{29}{\sqrt{29}} = 3 + \sqrt{29}</m></p>
+        <p>Comparing the values, we find that the maximum value is <m>3 + \sqrt{29}</m> and the minimum value is <m>3 - \sqrt{29}</m>.</p></solution>
+    </exercise>
+    <exercise>
+        <statement><p></p></statement>
+        <hint><p></p></hint>
+        <answer><p></p></answer>
+        <solution><p></p></solution>
     </exercise>
     </page>
 </worksheet>
