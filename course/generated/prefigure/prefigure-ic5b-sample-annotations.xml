@@ -1,0 +1,43 @@
+<diagram>
+  <annotations>
+    <annotation id="prefigure-ic5b-sample-path" speech2="R is the rectangle with vertices (0,0), (1,0), (1,2) and (0,2).">
+      <grouped>prefigure-ic5b-sample-path</grouped>
+      <position>1</position>
+      <children>
+        <active>prefigure-ic5b-sample-grid-axes</active>
+      </children>
+      <components>
+        <active>prefigure-ic5b-sample-grid-axes</active>
+      </components>
+    </annotation>
+    <annotation id="prefigure-ic5b-sample-grid-axes" speech2="The coordinate grid and axes">
+      <grouped>prefigure-ic5b-sample-grid-axes</grouped>
+      <position>1</position>
+      <children>
+        <active>prefigure-ic5b-sample-grid</active>
+        <active>prefigure-ic5b-sample-axes</active>
+      </children>
+      <components>
+        <active>prefigure-ic5b-sample-grid</active>
+        <active>prefigure-ic5b-sample-axes</active>
+      </components>
+      <parents>
+        <grouped>prefigure-ic5b-sample-path</grouped>
+      </parents>
+    </annotation>
+    <annotation id="prefigure-ic5b-sample-grid" speech2="The coordinate grid">
+      <active>prefigure-ic5b-sample-grid</active>
+      <position>1</position>
+      <parents>
+        <grouped>prefigure-ic5b-sample-grid-axes</grouped>
+      </parents>
+    </annotation>
+    <annotation id="prefigure-ic5b-sample-axes" speech2="The coordinate axes">
+      <active>prefigure-ic5b-sample-axes</active>
+      <position>2</position>
+      <parents>
+        <grouped>prefigure-ic5b-sample-grid-axes</grouped>
+      </parents>
+    </annotation>
+  </annotations>
+</diagram>
