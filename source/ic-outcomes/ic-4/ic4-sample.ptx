@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<worksheet xml:id="ic-4-sample" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>IC-4 Sample Outcomes</title>
+  <introduction>
+    <p>For the quiz on this outcome you would be given 40 minutes to complete 1 problem 
+        with parts. For these you will be asked to set up all three problems but only 
+        asked to fully evaluate one. Here are samples of the types of problems you will encounter:</p>
+  </introduction>
+  <page>
+    <exercise>
+        <introduction><p>Let the lamina <m>R</m> be bounded by the <m>x=1-y^2</m> and 
+            the y-axis. Let <m>\rho(x,y)=12x</m> <m>mg/cm^2</m></p></introduction>
+        <task>
+            <statement><p>Sketch the lamina <m>R</m>.</p></statement>
+            <hint><p></p></hint>
+            <answer><p></p></answer>
+            <solution><p></p></solution>
+        </task>
+        <task>
+            <statement><p>Compute the mass of the lamina <m>R</m>.</p></statement>
+            <hint><p></p></hint>
+            <answer><p></p></answer>
+            <solution><p></p></solution>
+        </task>
+        <task>
+            <statement><p>Without calculation, explain why <m>M_x = 0</m>.</p></statement>
+            <hint><p></p></hint>
+            <answer><p></p></answer>
+            <solution><p></p></solution>
+        </task>
+        <task>
+            <statement><p>Compute the center of mass of the lamina <m>R</m>.</p></statement>
+            <hint><p></p></hint>
+            <answer><p></p></answer>
+            <solution><p></p></solution>
+        </task>
+    </exercise>
+    <exercise>
+        <introduction><p></p></introduction>
+        <task>
+            <statement><p></p></statement>
+            <hint><p></p></hint>
+            <answer><p></p></answer>
+            <solution><p></p></solution>
+        </task>
+        <task>
+            <statement><p></p></statement>
+            <hint><p></p></hint>
+            <answer><p></p></answer>
+            <solution><p></p></solution>
+        </task>
+    </exercise>
+  </page>
+  </worksheet>

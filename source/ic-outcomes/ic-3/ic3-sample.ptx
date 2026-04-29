@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<worksheet xml:id="ic-3-sample" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>IC-3 Sample Outcomes</title>
+  <introduction>
+    <p>For the quiz on this outcome you would be given 40 minutes to complete 3 problems. For these you will be 
+        asked to set up all three problems but only asked to fully evaluate one. Here are samples 
+      of the types of problems you will encounter:</p>
+  </introduction>
+  <page>
+    <exercise>
+        <statement><p>Evaluate the triple integral <m>\int_0^1 \int_0^2 \int_0^{x+3y} (3x+y)dz dy dx</m></p></statement>
+        <hint><p>To integrate the triple integral, first integrate with respect to <m>z</m>, then with respect 
+            to <m>y</m>, and finally with respect to <m>x</m>.</p></hint>
+        <answer><p><m>\int_0^1 \int_0^2 \int_0^{x+3y} (3x+y)dz dy dx = 20</m></p></answer>
+         <solution><p>To integrate the triple integral, first integrate with respect to <m>z</m>:</p>
+        <p><m>\int_0^1 \int_0^2 \int_0^{x+3y} (3x+y)dz dy dx = \int_0^1 \int_0^2  (3x+y)z \Big|_0^{x+3y} dy dx</m></p>
+        <p><m>= \int_0^1 \int_0^2 (3x+y)(x+3y) dy dx</m></p>
+        <p><m>= \int_0^1 \int_0^2 (3x^2 + 10xy + 3y^2) dy dx</m></p>
+        <p><m>= \int_0^1 \left[ 3x^2y + 5xy^2 + y^3 \right]_0^2 dx</m></p>
+        <p><m>= \int_0^1 (6x^2 + 20x + 8) dx</m></p>
+        <p><m>= \left[ 2x^3 + 10x^2 + 8x \right]_0^1</m></p>
+        <p><m>= 2 + 10 + 8 = 20</m></p>
+    </solution>
+    </exercise>
+    <exercise>
+        <introduction><p>Given <m>\iiint_E xz dV</m> where <m>T</m> is the solid tetrahedron with vertices 
+            <m>(0,0,0), (1,0,0), (0,0,1),</m> and <m>(0,1,0)</m>.</p></introduction>
+        <task>
+            <statement><p>Give a sketch of the solid.</p></statement>
+            <answer><image xml:id="tetrahedron" width="80%" source="tetrahedron.png"/></answer>
+        </task>
+        <task>
+            <statement><p>Set up the triple integrals and evaluate it.</p></statement>
+            <hint><p>Use the bounds of the tetrahedron to set up the limits of integration.</p></hint>
+            <answer><p><m>\iiint_E xz dV = \int_0^1 \int_0^{1-x} \int_0^{1-x-y} xz dz dy dx = \frac{1}{120}</m></p></answer>
+            <solution><p>We can set up the bounds of the tetrahedron to set up the limits of integration. 
+                Since <m>0 \leq x \leq 1</m>, <m>0 \leq y \leq 1-x</m>, and <m>0 \leq z \leq 1-x-y</m>, 
+                the triple integral is:</p>
+            <p><m>\iiint_E xz dV = \int_0^1 \int_0^{1-x} \int_0^{1-x-y} xz dz dy dx</m></p>
+            <p>Evaluating this integral, we start with the inner integral:</p>
+            <p><m>\iiint_E xz dV = \int_0^1 \int_0^{1-x} \int_0^{1-x-y} xz dz dy dx = \int_0^1 \int_0^{1-x} \left[ \frac{xz^2}{2} \right]_0^{1-x-y} dy dx</m></p>
+            <p><m>\iiint_E xz dV = \int_0^1 \int_0^{1-x} \frac{x(1-x-y)^2}{2} dy dx</m></p>
+            <p><m>\iiint_E xz dV = \int_0^1 \left[ \frac{x(1-x-y)^3}{6} \right]_0^{1-x} dx</m></p>
+            <p><m>\iiint_E xz dV = \int_0^1 \frac{x(1-x)^3}{6} dx</m></p>
+            <p><m>\iiint_E xz dV = \int_0^1 \frac{x(1-3x+3x^2-x^3)}{6} dx</m></p>
+            <p><m>\iiint_E xz dV = \frac{1}{6} \int_0^1 (x-3x^2+3x^3-x^4) dx</m></p>
+            <p><m>\iiint_E xz dV = \frac{1}{6} \left[ \frac{x^2}{2} - x^3 + \frac{3x^4}{4} - \frac{x^5}{5} \right]_0^1</m></p>
+            <p><m>\iiint_E xz dV = \frac{1}{6} \left( \frac{1}{2} - 1 + \frac{3}{4} - \frac{1}{5} \right)</m></p>
+            <p><m>\iiint_E xz dV = \frac{1}{6} \left( \frac{10-20+15-4}{20} \right)</m></p>
+            <p><m>\iiint_E xz dV = \frac{1}{6} \left( \frac{1}{20} \right)</m></p>
+            <p><m>\iiint_E xz dV = \frac{1}{120}</m></p>
+
+            </solution>
+        </task>
+    </exercise>
+    <exercise>
+        <introduction><p>A solid is bounded by the paraboloid <m>z = x^2 + y^2</m> and the sphere <m>x^2+y^2+z^2=4</m>.</p></introduction>
+        <task>
+            <statement><p>Sketch the solid</p></statement>
+            <answer><image xml:id="sphere-paraboloid-intersection" width="80%" source="sphere-paraboloid-intersection.png"/></answer>
+        </task>
+        <task>
+            <statement><p>Set up the triple integral in Cartesian coordinates.</p></statement>
+            <hint><p>Use the intersection of the surfaces to determine the bounds.</p></hint>
+            <answer><p><m>\iiint_E f(x,y,z) dV = \int_{-2}^2 \int_{-\sqrt{4-x^2}}^{\sqrt{4-x^2}} \int_{x^2+y^2}^{\sqrt{4-x^2-y^2}} f(x,y,z) dz dy dx</m></p></answer>
+        </task>
+         <task>
+            <statement><p>Set up the triple integral in cylindrical coordinates.</p></statement>
+            <hint><p>Use the conversions to change variables to cylindrical coordinates.</p></hint>
+            <answer><p><m>\int_0^{2\pi} \int_0^2 \int_{r^2}^{\sqrt{4-r^2}} r dz dr d\theta = \frac{8\pi}{3}</m></p></answer>
+            <solution><p>First we find the intersection of the surfaces:</p>
+            <p><m>x^2 + y^2 = 4 - x^2 - y^2</m></p>
+            <p><m>2(x^2 + y^2) = 4</m></p>
+            <p><m>x^2 + y^2 = 2</m></p>
+            <p>In cylindrical coordinates, this becomes <m>r^2 = 2</m>, so <m>r = \sqrt{2}</m>.</p>
+            <p>The limits of integration are:</p>
+            <p><m>0 \leq \theta \leq 2\pi</m></p>
+            <p><m>0 \leq r \leq \sqrt{2}</m></p>
+            <p><m>r^2 \leq z \leq \sqrt{4-r^2}</m></p>
+            <p>Therefore, the triple integral in cylindrical coordinates is:</p>
+            <p><m>\iiint_E f(x,y,z) dV = \int_0^{2\pi} \int_0^2 \int_{r^2}^{\sqrt{4-r^2}} r dz dr d\theta</m></p>
+            <p>Now we can evaluate the integral:</p>
+            <p><m>\iiint_E f(x,y,z) dV = \int_0^{2\pi} \int_0^2 \int_{r^2}^{\sqrt{4-r^2}} r dz dr d\theta</m></p>
+            <p><m>= \int_0^{2\pi} \int_0^2 r \left[ z \right]_{r^2}^{\sqrt{4-r^2}} dr d\theta</m></p>
+            <p><m>= \int_0^{2\pi} \int_0^2 r \left( \sqrt{4-r^2} - r^2 \right) dr d\theta</m></p>
+            <p><m>= \int_0^{2\pi} \int_0^2 r\sqrt{4-r^2} - r^3 dr d\theta</m></p>
+            <p><m>= \int_0^{2\pi} \left[ -\frac{2}{3}(4-r^2)^{3/2} + \frac{r^4}{4} \right]_0^2 d\theta</m></p>
+            <p><m>= \int_0^{2\pi} \left( -\frac{2}{3}(4-4)^{3/2} - \frac{16}{4} - \left( -\frac{2}{3}(4-0)^{3/2} - 0 \right) \right) d\theta</m></p>
+            <p><m>= \int_0^{2\pi} \left( -4 + \frac{2}{3} \cdot 8 \right) d\theta</m></p>
+            <p><m>= \int_0^{2\pi} \left(\frac{4}{3} \right) d\theta</m></p>
+            <p><m>= \frac{4}{3} \cdot 2\pi</m></p>
+            <p><m>= \frac{8\pi}{3}</m></p>
+        </solution>
+        </task>
+    </exercise>
+    <exercise>
+        <introduction><p>A solid is formed by the smaller edge cut from a sphere of radius 5, 
+            by the planes that intersect along a diameter at an angle of <m>\frac{\pi}{4}</m>.</p></introduction>
+        <task>
+            <statement><p>Sketch the solid</p></statement>
+            <answer><image xml:id="sphere-wedge" width="80%" source="sphere-wedge.png"/></answer>
+        </task>
+        <task>
+            <statement><p>Set up the triple integral in Cartesian coordinates.</p></statement>
+            <hint><p>Use the intersection of the surfaces to determine the bounds.</p></hint>
+            <answer><p><m>\iiint_E f(x,y,z) dV = \int_{0}^{\sqrt{5}} \int_0^{\sqrt{5-x^2}} \int_{-\sqrt{5-x^2-y^2}}^{\sqrt{5-x^2-y^2}} dz dy dx</m></p></answer>
+        </task>
+        <task>
+            <statement><p>Set up the triple integral in spherical coordinates.</p></statement>
+            <hint><p>Use the conversions to change variables to spherical coordinates.</p></hint>
+            <answer><p><m>\int_0^{\frac{\pi}{4}} \int_0^{\pi} \int_0^5 \rho^2 \sin(\phi) d\rho d\phi d\theta = \frac{125\pi}{6}</m></p></answer>
+            <solution><p>In spherical coordinates, the limits of integration are:</p>
+            <p><m>0 \leq \phi \leq \pi</m></p>
+            <p><m>0 \leq \theta \leq \frac{\pi}{4}</m></p>
+            <p><m>0 \leq \rho \leq 5</m></p>
+            <p>Therefore, the triple integral in spherical coordinates is:</p>
+            <p><m>\iiint_E f(x,y,z) dV = \int_0^{\frac{\pi}{4}} \int_0^{\pi} \int_0^5 \rho^2 \sin(\phi) d\rho d\phi d\theta</m></p>
+            <p>Now we can evaluate the integral:</p>
+            <p><m>\iiint_E f(x,y,z) dV = \int_0^{\frac{\pi}{4}} \int_0^{\pi} \int_0^5 \rho^2 \sin(\phi) d\rho d\phi d\theta</m></p>
+            <p><m>= \int_0^{\frac{\pi}{4}} \int_0^{\pi} \left[ \frac{\rho^3}{3} \right]_0^5 \sin(\phi) d\phi d\theta</m></p>
+            <p><m>= \int_0^{\frac{\pi}{4}} \int_0^{\pi} \frac{125}{3} \sin(\phi) d\phi d\theta</m></p>
+            <p><m>= \int_0^{\frac{\pi}{4}} \left[ -\frac{125}{3} \cos(\phi) \right]_0^{\pi} d\theta</m></p>
+            <p><m>= \int_0^{\frac{\pi}{4}} \frac{125}{3} (1 - (-1))) d\theta</m></p>
+            <p><m>= \int_0^{\frac{\pi}{4}} \frac{250}{3} d\theta</m></p>
+            <p><m>= \frac{250}{3} \cdot \frac{\pi}{4}</m></p>
+            <p><m>= \frac{125\pi}{6}</m></p>
+        </solution>
+        </task>
+    </exercise>
+  </page>
+</worksheet>
