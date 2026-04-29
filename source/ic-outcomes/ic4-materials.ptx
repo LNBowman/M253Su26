@@ -5,4 +5,5 @@
         <xi:include href="./ic-4/ic4-reading.ptx" />
         <xi:include href="./ic-4/ic4-vid.ptx" />
         <xi:include href="./ic-4/ic4-wp.ptx" />
+        <xi:include href="./ic-4/ic4-sample.ptx" />
 </section>

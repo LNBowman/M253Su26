@@ -5,5 +5,5 @@
         <xi:include href="./ic-3/ic3-reading.ptx"/>
         <xi:include href="./ic-3/ic3-vid.ptx"/>
         <xi:include href="./ic-3/ic3-wp.ptx"/>
-        <!--<xi:include href="./ic-3/ic3-sample.ptx"/>-->
+        <xi:include href="./ic-3/ic3-sample.ptx"/>
 </section>
