@@ -3,7 +3,7 @@
 <worksheet xml:id="dc4-videos" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>DC-4 Videos</title>
             <page>
-                <p><alert>Directional Derivatives and the Gradient</alert></p>
-                <video vimeo="1186388628"/>
+                <p><alert>Maxima and Minima</alert></p>
+                <video vimeo="1186389194"/>
             </page>
-    </worksheet>
+    </worksheet> 

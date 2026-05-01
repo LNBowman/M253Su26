@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <section xml:id="ic2-materials" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <title>Double Integrals in Polar Coordinates</title>
+    <title>Triple Integrals</title>
         <xi:include href="./ic-2/ic2-reading.ptx" />
         <xi:include href="./ic-2/ic2-vid.ptx" />
         <xi:include href="./ic-2/ic2-wp.ptx" />

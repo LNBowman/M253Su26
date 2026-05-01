@@ -4,37 +4,31 @@
     <title>FUN-4 Reading</title>
     <objectives>
     <ul>
-      <li> <p>Things you should understand and know:
+      <li><p>Things you should understand and know:
         <ul>
-            <li>Recognize parametric equations for a space curve</li>
-            <li>Define the limit of a vector-valued function</li>
-            <li>Limits, derivatives, and integrals of vector functions</li>
-            <li>The significance of a unit tangent vector</li>
-            <li>A particle's path in space determined by a vector function</li>
-            <li>Define normal and binormal vectors</li>
-            <li>Define the tangential and normal components of acceleration</li>
+            <li>Recognize a function of two variables and identify its domain and range</li>
+            <li>Recognize a function of three or more variables and identify its level curves</li>
+            <li>Learn how a function of two variables can approach different values at a boundary point</li>
+            <li>The conditions for continuity of a function of two variables</li>
         </ul></p>
         <p>Things you should be able to do:
         <ul>
-            <li>Write the general equation of a vector-valued function in component format and unit-vector form</li>
-            <li>Find the derivative of a vector function</li>
-            <li>Find the tangent vector at a point for a position vector</li>
-            <li>Find the definite integral of a vector function</li>
-            <li>Find the length of a particle's path</li>
-            <li>Calculate the curvature of a curve in space</li>
-            <li>Find the velocity and acceleration vectors of a particle moving in space</li>
+            <li>Sketch a graph of a function of two variables</li>
+            <li>Sketch several traces or level curves of a function of two variables</li>
+            <li>Calculate the limit of a function of two variables</li>
+            <li>Verify the continuity of a function of two variables at a point</li>
+            <li>Calculate the limit of a function of three or more variables</li>
         </ul></p>
       </li>
       <li><p>You will be assessed on the following criteria:
         <ul>
           <li><p>Problem structure: Solution should be organized and easy to follow, with clear, complete steps 
               that follow progressively from one to the next.</p></li>
-          <li><p>Vector function notation: Use correct notation for vector functions, including component 
-            format and unit-vector form.</p></li>
-          <li><p>Derivatives of Vector Functions: Find the derivative of a vector function, interpret its meaning, 
-            and apply it to problems.</p></li>
-          <li><p>Integrals of Vector Functions: Find the definite integral of a vector function, interpret its meaning, 
-            and apply it to problems.</p></li>
+          <li><p>Functions of Several Variables: Understand the behavior of functions with multiple 
+            independent variables. Find domains and evaluate functions at specific points.</p></li>
+          <li><p>Use level curves and traces to analyze the behavior of functions of several variables.</p></li>
+          <li><p>Limits and Continuity: Calculate limits of functions of several variables and 
+            verify their continuity.</p></li>
         </ul></p>
       </li>
     </ul>
@@ -46,9 +40,8 @@
                 can read the textbook online or download a PDF version. 
                 The textbook is also available in print from various retailers 
                 if you prefer a physical copy.</p>
-        <p>For this lesson, you should read sections <url href="https://openstax.org/books/calculus-volume-3/pages/3-1-vector-valued-functions-and-space-curves">
-            3.1 Vector Valued Functions and Space Curves</url>, and <url href="https://openstax.org/books/calculus-volume-3/pages/3-2-calculus-of-vector-valued-functions">
-            3.2 Calculus of Vector Valued Functions</url>. You should read through the sections carefully, 
+        <p>For this lesson, you should read sections <url href="https://openstax.org/books/calculus-volume-3/pages/4-1-functions-of-several-variables">
+            4.1 Functions of Several Variables</url>, and  <url href="https://openstax.org/books/calculus-volume-3/pages/4-2-limits-and-continuity">4.2 Limits and Continuity</url>. You should read through the sections carefully, 
             making sure to understand the definitions, examples, and key ideas. 
             You should also work through the exercises at the end of each section 
             to test your understanding and practice applying the concepts. Some of the 

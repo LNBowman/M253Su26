@@ -3,4 +3,7 @@
 <section xml:id="app1-materials" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Line Integrals and Vector Fields</title>
         <xi:include href="./app-1/app1-reading.ptx" />
+        <xi:include href="./app-1/app1-vid.ptx" />
+        <xi:include href="./app-1/app1-wp.ptx" />
+        <xi:include href="./app-1/app1-sample.ptx" />
 </section>

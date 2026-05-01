@@ -26,10 +26,15 @@
             <li>Understand that just copying the solutions instead of working through the 
                 problems will greatly reduce your chances of success in this class.</li>
         </ul></p>
-        <p><alert>WP4</alert></p>
-        <p>Quadric Surfaces: Complete problems 313-318, 323, 327, 339, 345</p>
-        <p>Cylindrical and Spherical Coordinates: Complete problems 363, 369, 387, 391, 399, 401, 405, 409, 411, 413</p>
-            <p><url href="external/WP4-Solutions.pdf">WP4 Solutions</url></p>
+        <p><alert>WP5</alert></p>
+        <p>Vector-Valued Functions: Complete problems 11, 15, 19, 23, 25, 33</p>    
+        <p>Calculus of Vector-Valued Functions: Complete problems 41, 43, 47, 55, 63, 67, 71, 75</p>
+        <p>In addition to these problems, on separate paper complete the following 
+            exploration.  This link <url href="https://c3d.libretexts.org/CalcPlot3D/index.html?exploration=Velocity-Acceleration">
+            Velocity and Acceleration</url> will take you to the exploration.  On the right side of 
+            the screen, you will be given some instructions and questions to answer.  Follow the 
+            instructions and write out your answers to each of the questions.</p>
+        <p><url href="external/WP5-Solutions.pdf">WP5 Solutions</url></p>
         </page>
     </worksheet>
     </subsection>

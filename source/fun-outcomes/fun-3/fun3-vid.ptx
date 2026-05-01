@@ -3,9 +3,9 @@
 <worksheet xml:id="fun3-videos" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>FUN-3 Videos</title>
             <page>
-                <p><alert>Quadric Surfaces</alert></p>
-                <video vimeo="1186089393"/>
-                <p><alert>Cylindrical and Spherical Coordinates</alert></p>
-                <video vimeo="1186089305"/>
+                <p><alert>Vector-Valued Functions</alert></p>
+                <video vimeo="1186089317"/>
+                <p><alert>Calculus of Vector-Valued Functions</alert></p>
+                <video vimeo="1186089387"/> 
             </page>
-    </worksheet>
+    </worksheet> 

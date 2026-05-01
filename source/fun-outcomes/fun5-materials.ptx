@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-
-<section xml:id="fun5-materials" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <title>Functions of Two Variables</title>
-        <xi:include href="./fun-5/fun5-reading.ptx" />
-        <xi:include href="./fun-5/fun5-vid.ptx" />
-        <xi:include href="./fun-5/fun5-wp.ptx" />
-        <xi:include href="./fun-5/fun5-sample.ptx" />
-</section>

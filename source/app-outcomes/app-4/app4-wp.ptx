@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<worksheet xml:id="ic5-wp" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <title>IC-5 Written Practice</title>
+<worksheet xml:id="app4-wp" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>APP-4 Written Practice</title>
         <page>
         <p>INFORMATION ABOUT ALL WRITTEN PRACTICE (WP) ASSIGNMENTS:
             <ul>
@@ -25,12 +25,9 @@
             <li>Understand that just copying the solutions instead of working through the 
                 problems will greatly reduce your chances of success in this class.</li>
         </ul></p>
-        <p><alert>WP13 - Part 2</alert></p>
-        <p>Change of Variables in Multiple Integrals: Complete problems 381, 392, 393, 397</p>
-        <p>In addition to these problems, upload a link to a solution video: Pick one problem from Change of Variables 
-            problems 378-397 (the problems should not be any listed above). Create a short video of you presenting the 
-            solution to your classmates. You may use any video software (zoom, flip, explain everything, etc).  The video 
-            does not need to be perfect or fully edited (mistakes are welcome), but it should show your thought process 
-            as you go through the solution.</p>
+        <p><alert>WP18</alert></p>
+        <p>Stokes' Theorem: Complete problems 327, 331, 333, 334, 353, 356</p>
+         <p>The Divergence Theorem: Complete problems 386, 391, 392, 403, 412, 415</p>
+        <p><url href="external/WP18-Solutions.pdf">WP18 Solutions</url></p>
     </page>
     </worksheet>

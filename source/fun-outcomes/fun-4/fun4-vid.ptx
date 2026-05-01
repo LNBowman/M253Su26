@@ -3,9 +3,9 @@
 <worksheet xml:id="fun4-videos" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>FUN-4 Videos</title>
             <page>
-                <p><alert>Vector-Valued Functions</alert></p>
-                <video vimeo="1186089317"/>
-                <p><alert>Calculus of Vector-Valued Functions</alert></p>
-                <video vimeo="1186089387"/>
+                <p><alert>Arc Length and Curvature</alert></p>
+                <video vimeo="1186090814"/>
+                <p><alert>Motion in Space</alert></p>
+                <video vimeo="1186090820"/>
             </page>
     </worksheet>

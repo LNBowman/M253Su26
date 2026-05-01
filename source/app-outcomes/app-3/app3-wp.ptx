@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<worksheet xml:id="dc6-wp" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <title>DC-6 Written Practice</title>
+<worksheet xml:id="app3-wp" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>APP-3 Written Practice</title>
         <page>
         <p>INFORMATION ABOUT ALL WRITTEN PRACTICE (WP) ASSIGNMENTS:
             <ul>
@@ -25,13 +25,14 @@
             <li>Understand that just copying the solutions instead of working through the 
                 problems will greatly reduce your chances of success in this class.</li>
         </ul></p>
-        <p><alert>WP10-Part 2</alert></p>
-        <p>Lagrange Multipliers: Complete problems 359, 369, 381</p>
-        <p>In addition to these problems, on separate paper complete the following exploration.  This link
-            <url href="https://c3d.libretexts.org/CalcPlot3D/index.html?exploration=LagrangeActivity">Lagrange 
-            Multiplier Activity</url> will take you to the exploration.  On the right side of the screen, 
-            you will be given some instructions and questions to answer.  Follow the instructions and write 
-            out your answers to each of the questions.</p>
-            <p><url href="external/WP10-Solutions.pdf">WP10 Solutions</url></p>
-        </page>
+        <p><alert>WP17</alert></p>
+        <p>Divergence and Curl: Complete problems 216, 218, 223, 230, 234, 235, 255</p>
+        <p>Surface Integrals: Complete problems 275, 277, 281, 284, 285, 303, 313, 315, 317</p>
+        <p>In addition to these problems, on separate paper complete the following exploration.  
+            This link <url href="https://c3d.libretexts.org/CalcPlot3D/index.html?exploration=Flux">Flux 
+                through a Cylinder</url> will take you to the exploration.  On the right side of the 
+                screen, you will be given some instructions and questions to answer.  Follow the 
+                instructions and write out your answers to each of the questions.</p>
+        <p><url href="external/WP17-Solutions.pdf">WP17 Solutions</url></p>
+    </page>
     </worksheet>

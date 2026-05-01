@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<subsection xml:id="fun4-wp" xmlns:xi="http://www.w3.org/2001/XInclude">
+<worksheet xml:id="fun4-wp" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>FUN-4 Written Practice</title>
-    <worksheet>
         <page>
         <p>INFORMATION ABOUT ALL WRITTEN PRACTICE (WP) ASSIGNMENTS:
             <ul>
@@ -26,15 +25,18 @@
             <li>Understand that just copying the solutions instead of working through the 
                 problems will greatly reduce your chances of success in this class.</li>
         </ul></p>
-        <p><alert>WP5</alert></p>
-        <p>Vector-Valued Functions: Complete problems 11, 15, 19, 23, 25, 33</p>    
-        <p>Calculus of Vector-Valued Functions: Complete problems 41, 43, 47, 55, 63, 67, 71, 75</p>
-        <p>In addition to these problems, on separate paper complete the following 
-            exploration.  This link <url href="https://c3d.libretexts.org/CalcPlot3D/index.html?exploration=Velocity-Acceleration">
-            Velocity and Acceleration</url> will take you to the exploration.  On the right side of 
-            the screen, you will be given some instructions and questions to answer.  Follow the 
-            instructions and write out your answers to each of the questions.</p>
-        <p><url href="external/WP5-Solutions.pdf">WP5 Solutions</url></p>
+        <p><alert>WP6</alert></p>
+        <p>Arc Length and Curvature: Complete problems 103, 105, 107, 109, 112, 115, 117, 125, 133, 135, 139, 147</p>
+        <p>Motion in Space: Complete problems 157, 163, 173-177, 181, 183</p>
+        <p><url href="external/WP6-Solutions.pdf">WP6 Solutions</url></p>
+        <p><alert>WP7</alert></p>
+        <p>Functions of Several Variables: Complete problems 3, 17, 21, 49, 51, 56, 57, 58, 59</p>
+        <p>Limits and Continuity: Complete problems 61, 86, 87, 88, 89</p>
+        <p>In addition to these problems, on separate paper complete the following exploration.  
+            This link <url href="https://c3d.libretexts.org/CalcPlot3D/index.html?exploration=Transformations">Transformations</url> 
+            will take you to the exploration.  On the right side of the screen, 
+            you will be given some instructions and questions to answer.  
+            Follow the instructions and write out your answers to each of the questions.</p>
+           <p><url href="external/WP7-Solutions.pdf">WP7 Solutions</url></p> 
         </page>
     </worksheet>
-    </subsection>

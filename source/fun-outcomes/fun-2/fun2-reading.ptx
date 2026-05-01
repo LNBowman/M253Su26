@@ -9,6 +9,10 @@
             <li>Lines in three-dimensional space</li>
             <li>Distance in three-dimensions</li>
             <li>Planes in three-dimensions</li>
+            <li>The main features of ellipsoids, paraboloids, and hyperboloids</li>
+            <li>The traces of quadric surfaces and how to form a surface from them</li>
+            <li>The cylindrical coordinate system and how to locate points</li>
+            <li>The spherical coordinate system and how to locate points</li>
         </ul></p>
         <p>Things you should be able to do:
         <ul>
@@ -17,6 +21,11 @@
             <li>Write the equation of a plane in vector and scalar forms</li>
             <li>Find the distance between a point and a plane</li>
             <li>find the angle between two planes</li>
+            <li>Identify and sketch cylinders</li>
+            <li>Identify and sketch ellipsoids, paraboloids, and hyperboloids</li>
+            <li>Find the equations of traces</li>
+            <li>Use traces to sketch a quadric surface</li>
+            <li>Convert between rectangular, cylindrical, and spherical coordinates</li>
         </ul></p>
       </li>
       <li><p>You will be assessed on the following criteria:
@@ -27,6 +36,10 @@
             of lines and planes in various forms (vector, parametric, symmetric, scalar).</p></li>
           <li><p>Calculating Distances and Angles: Calculate distances between points, 
             lines, and planes, as well as angles between vectors and planes.</p></li>
+          <li><p>Quadric Surfaces: Finding traces in two dimensions and sketching quadric surfaces in 
+            three dimensions.  Identifying the surface type from its equation.</p></li>
+          <li><p>Change of Coordinates: Convert between different coordinate systems (polar, cylindrical, 
+            spherical) and understand the relationship between them.</p></li>
         </ul></p>
       </li>
     </ul>
@@ -39,7 +52,8 @@
                 The textbook is also available in print from various retailers 
                 if you prefer a physical copy.</p>
         <p>For this lesson, you should read sections <url href="https://openstax.org/books/calculus-volume-3/pages/2-5-equations-of-lines-and-planes-in-space">
-            2.5 Equations of Lines and Planes in Space</url>. You should read through the sections carefully, 
+            2.5 Equations of Lines and Planes in Space</url>, <url href="https://openstax.org/books/calculus-volume-3/pages/2-6-quadric-surfaces">2.6 Quadric Surfaces</url>, and
+            <url href="https://openstax.org/books/calculus-volume-3/pages/2-7-cylindrical-and-spherical-coordinates">2.7 Cylindrical and Spherical Coordinates</url>.. You should read through the sections carefully, 
             making sure to understand the definitions, examples, and key ideas. 
             You should also work through the exercises at the end of each section 
             to test your understanding and practice applying the concepts. Some of the 

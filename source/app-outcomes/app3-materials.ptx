@@ -3,4 +3,6 @@
 <section xml:id="app3-materials" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Surface Integrals</title>
         <xi:include href="./app-3/app3-reading.ptx" />
+        <xi:include href="./app-3/app3-vid.ptx" />
+        <xi:include href="./app-3/app3-wp.ptx" />
 </section>

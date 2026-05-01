@@ -3,7 +3,9 @@
 <worksheet xml:id="dc3-videos" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>DC-3 Videos</title>
             <page>
-                <p><alert>The Chain Rule</alert></p>
-                <video vimeo="1186388201"/>
+                <p><alert>Tangent Planes and Linear Approximation</alert></p>
+                <video vimeo="1186087023"/>
+                <p><alert>Directional Derivatives and the Gradient</alert></p>
+                <video vimeo="1186388628"/>
             </page>
-    </worksheet>
+    </worksheet> 

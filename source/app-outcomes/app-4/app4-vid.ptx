@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<worksheet xml:id="app4-videos" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>APP-4 Videos</title>
+            <page>
+                <p><alert>Stokes' Theorem</alert></p>
+                <video vimeo="1188161841"/>
+                <p><alert>The Divergence Theorem</alert></p>
+                <video vimeo="1188158827"/>
+            </page>
+    </worksheet>

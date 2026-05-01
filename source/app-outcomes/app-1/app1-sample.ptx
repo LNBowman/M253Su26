@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<worksheet xml:id="app1-sample" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>APP-1 Sample Outcomes</title>
+  <introduction>
+    <p>For the quiz on this outcome you would be given 40 minutes to complete 3 problems.  Here are samples 
+      of the types of problems you will encounter:</p>
+  </introduction>
+  <page>
+    <exercise>
+        <introduction><p>Given the vector field <m>F(x,y)=(x+y)\hat{i}+(y-1)\hat{j}</m></p></introduction>
+        <task>
+            <statement><p> Sketch the vector field on the integer 
+                values of <m>[-1,1]\times[-1,1]</m></p></statement>
+            <hint><p>For each point <m>(x,y)</m> in the grid, plot the vector <m>F(x,y)</m> using 
+                the position, direction, and the magnitude</p></hint>
+            <answer><image width="60%">
+            <prefigure xmlns="https://prefigure.org"
+                        label="prefigure-app1-sample">
+            <diagram dimensions="(300,300)" margins="5">
+                <definition>f(x,y) = (x+y, y-1)</definition>
+                <coordinates bbox="[-3,-3,3,3]">
+                    <grid at="grid"/>
+                    <axes at="axes" xlabel="x" ylabel="y"/>
+                    <vector-field function="f" spacings="((-2,1,2),(-2,1,2))"/>
+                </coordinates>
+                <annotations>
+                    <annotation ref="figure"
+                                text="The graph is a rotational vector field 
+                                based on the length of the vector at each point."/>
+                </annotations>
+            </diagram>
+            </prefigure>
+            </image></answer>
+        </task>
+        <task>
+            <statement><p>A particle moves through the vector field.  If its position 
+                at <m>t=2</m> is <m>(4,-6)</m>, estimate the position at <m>t=2.02</m></p></statement>
+            <hint><p>Use the vector field to approximate the velocity at the given point 
+                and then use that to estimate the position at the new time.</p></hint>
+            <answer><p>The estimated position at <m>t=2.02</m> is <m>(3.96,-6.1)</m>.</p></answer>
+            <solution><p>First we evaluate the vector field at the given point to get the velocity 
+                vector.</p>
+                <p>At <m>t=2</m>, the velocity vector is <m>F(4,-6) = (-2,-5)</m>.</p>
+                <p>The change in time is <m>\Delta t = 0.02</m>, so we can estimate the change in position as
+                <m>\Delta \vec{r} = \vec{v} \Delta t = (-2,-5)(0.02) = (-0.04,-0.1)</m>.</p>
+                <p>Then we use the velocity vector to estimate the position at the new time.</p>
+                <p>At <m>t=2.02</m>, the estimated position is <m>(4,-6) + (-0.04,-0.1) = (3.96,-6.1)</m>.</p>
+            </solution>
+        </task>
+    </exercise>
+    <exercise>
+        <statement><p>Given <m>f(x,y,z) = e^z-\ln(x^2+y^2)</m>. Find the gradient of <m>f</m>.</p></statement>
+            <hint><p>The gradient of a function is the vector of its partial derivatives.</p></hint>
+            <answer><p>\<m>nabla f = \lt-\frac{2x}{x^2+y^2}, -\frac{2y}{x^2+y^2}, e^z \gt</m></p></answer>
+            <solution><p>To find the gradient, we compute the partial derivatives:</p>
+                <p><m>\frac{\partial f}{\partial x} = -\frac{2x}{x^2+y^2}</m></p>
+                <p><m>\frac{\partial f}{\partial y} = -\frac{2y}{x^2+y^2}</m></p>
+                <p><m>\frac{\partial f}{\partial z} = e^z</m></p>
+                <p>Therefore, <m>\nabla f = \lt-\frac{2x}{x^2+y^2}, -\frac{2y}{x^2+y^2}, e^z \gt</m></p>
+            </solution>
+    </exercise>
+    <exercise>
+        <introduction><p>Given <m>F(x,y,z) = \lt y+z, x+z, x+y \gt</m></p></introduction>
+        <task>
+            <statement><p>Determine if <m>F</m> is a conservative vector field.</p></statement>
+            <hint><p><m>F(x,y,z)=M\hat{i}+N\hat{j}+P\hat{k}</m> is conservative if 
+                <m>\frac{\partial P}{\partial y} = \frac{\partial N}{\partial z}</m>, 
+                <m>\frac{\partial P}{\partial x} = \frac{\partial M}{\partial z}</m>, 
+                and <m>\frac{\partial N}{\partial x} = \frac{\partial M}{\partial y}</m>.</p></hint>
+            <answer><p>This vector field is conservative.</p></answer>
+            <solution><p>To see if this is a conservative vector field, we need to find the partial derivatives:</p>
+                <p><m>\frac{\partial P}{\partial y} = 1</m></p>
+                <p><m>\frac{\partial N}{\partial z} = 1</m></p>
+                <p><m>\frac{\partial P}{\partial x} = 1</m></p>
+                <p><m>\frac{\partial M}{\partial z} = 1</m></p>
+                <p><m>\frac{\partial N}{\partial x} = 1</m></p>
+                <p><m>\frac{\partial M}{\partial y} = 1</m></p>
+                <p>Since <m>M_y=N_x, M_z=P_x,</m> and <m>N_z=P_y</m>, the vector field is conservative.</p>
+            </solution>
+        </task>
+        <task>
+            <statement><p>Find a potential function for <m>F</m>.</p></statement>
+            <hint><p>A potential function <m>f</m> satisfies <m>\nabla f = F</m>.</p></hint>
+            <answer><p>The potential function is <m>f(x,y,z) = xy + xz + yz + C</m>.</p></answer>
+            <solution><p>We need to find a function <m>f</m> such that <m>\frac{\partial f}{\partial x} = M</m>, <m>\frac{\partial f}{\partial y} = N</m>, and <m>\frac{\partial f}{\partial z} = P</m>.</p>
+                <p>Integrating the first equation with respect to <m>x</m>:</p>
+                <p><m>f(x,y,z) = xy + xz + g(y,z)</m></p>
+                <p>where <m>g(y,z)</m> is a function of <m>y</m> and <m>z</m>.</p>
+                <p>Taking the partial derivative with respect to <m>y</m>:</p>
+                <p><m>\frac{\partial f}{\partial y} = x + \frac{\partial g}{\partial y} = N = x + z</m></p>
+                <p>This gives us:</p>
+                <p><m>\frac{\partial g}{\partial y} = z</m></p>
+                <p>Integrating with respect to <m>y</m>:</p>
+                <p><m>g(y,z) = yz + h(z)</m></p>
+                <p>where <m>h(z)</m> is a function of <m>z</m>.</p>
+                <p>So far, we have:</p>
+                <p><m>f(x,y,z) = xy + xz + yz + h(z)</m></p>
+                <p>Taking the partial derivative with respect to <m> z</m> :</p>
+                <p><m>\frac{\partial f}{\partial z} = x + y + \frac{\partial h}{\partial z} = P = x + y </m></p>
+                <p> This gives us: </p>
+                <p><m>\frac{\partial h}{\partial z} = 0</m></p>
+                <p>Integrating with respect to <m>z</m>:</p>
+                <p><m>h(z) = C</m></p>
+                <p>Therefore, the potential function is:</p>
+                <p><m>f(x,y,z) = xy + xz + yz + C</m></p>
+            </solution>
+        </task>
+    </exercise>
+    <exercise>
+        <statement><p>Find the line integral of <m>f(x,y,z)=x+y+z</m> over the 
+            straight line segment from <m>(1,2,3)</m> to <m>(0,-1,1)</m>.</p></statement>
+        <hint><p>Use a parameterization of the line segment to rewrite the integral.</p></hint>
+        <answer><p><m>\int_C f(x,y,z) dS=3\sqrt{14}</m></p></answer>
+        <solution><p>Let <m>\vec r(t) = (1-t)(1,2,3) + t(0,-1,1) = (1-t, 2-3t, 3-2t)</m> for <m>0 \leq t \leq 1</m>.</p>
+            <p>Then <m>d\vec r = (-1, -3, -2) dt</m>.</p>
+            <p>The line integral becomes:</p>
+            <p><m>\int_0^1 f(\vec r(t)) \|\frac{d\vec r}{dt}\| dt</m></p>
+            <p>where <m>f(\vec r(t)) = (1-t) + (2-3t) + (3-2t) = 6-6t</m>.</p>
+            <p>The magnitude of the derivative is:</p>
+            <p><m>\|\frac{d\vec r}{dt}\| = \sqrt{(-1)^2 + (-3)^2 + (-2)^2} = \sqrt{14}</m>.</p>
+            <p>Therefore:</p>
+            <p><m>\int_C f(x,y,z) dS = \int_0^1 (6-6t) \sqrt{14} dt</m>.</p>
+            <p><m>\int_C f(x,y,z) dS = = \sqrt{14} \int_0^1 (6-6t) dt</m></p>
+            <p><m>\int_C f(x,y,z) dS =  \sqrt{14} [6t - 3t^2]_0^1</m></p>
+            <p><m>\int_C f(x,y,z) dS = \sqrt{14} (6 - 3)</m></p>
+            <p><m>\int_C f(x,y,z) dS = 3\sqrt{14}</m>.</p>
+        </solution>
+    </exercise>
+  </page>
+  </worksheet>

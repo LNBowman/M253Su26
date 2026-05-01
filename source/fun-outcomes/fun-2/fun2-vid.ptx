@@ -5,5 +5,9 @@
             <page>
                 <p><alert>Equations of Lines and Planes</alert></p>
                 <video vimeo="1186087007"/>
+                <p><alert>Quadric Surfaces</alert></p>
+                <video vimeo="1186089393"/>
+                <p><alert>Cylindrical and Spherical Coordinates</alert></p>
+                <video vimeo="1186089305"/>
             </page>
-    </worksheet>
+    </worksheet> 

@@ -9,129 +9,79 @@
   
   <page>
     <exercise>
-        <statement><p>Given <m>f(x,y)=2-x^4+2x^2-y^2</m>, find and classify all critical points.</p></statement>
-        <hint><p>First find the partial derivatives and set them equal to zero. Use the second derivative 
-            test to classify each critical point.</p></hint>
-        <answer><p>(0,0,2) is a saddle point. (1,0,3) and (-1,0,3) are local maxima.</p></answer>
-        <solution><p>First find the first-order partials:</p>
-            <p><m>\frac{\partial f}{\partial x} = -4x^3 + 4x</m></p>
-            <p><m>\frac{\partial f}{\partial y} = -2y</m></p>
-            <p>Setting these equal to zero:</p>
-            <p><m>-4x^3 + 4x = 0</m></p>
-            <p><m>-2y = 0</m></p>
-            <p>Solving these equations gives the critical points: (0,0), (1,0), and (-1,0).</p>
-            <p>Next, find the second-order partials:</p>
-            <p><m>\frac{\partial^2 f}{\partial x^2} = -12x^2 + 4</m></p>
-            <p><m>\frac{\partial^2 f}{\partial y^2} = -2</m></p>
-            <p><m>\frac{\partial^2 f}{\partial x \partial y} = \frac{\partial^2 f}{\partial y \partial x} = 0</m></p>
-            <p>Now, apply the second derivative test:</p>
-            <p><m>D = \frac{\partial^2 f}{\partial x^2} \cdot \frac{\partial^2 f}{\partial y^2} - \left( \frac{\partial^2 f}{\partial x \partial y} \right)^2</m></p>
-            <p>At (0,0):</p>
-            <p><m>D = (4)(-2) - (0)^2 = -8</m></p>
-            <p>Since <m>D \lt 0</m>, (0,0) is a saddle point.</p>
-            <p>At (1,0):</p>
-            <p><m>D = (-8)(-2) - (0)^2 = 16</m></p>
-            <p>Since <m>D \gt 0</m> and <m>\frac{\partial^2 f}{\partial x^2} = -8 \lt 0</m>, (1,0) is a local maximum.</p>
-            <p>At (-1,0):</p>
-            <p><m>D = (-8)(-2) - (0)^2 = 16</m></p>
-            <p>Since <m>D \gt 0</m> and <m>\frac{\partial^2 f}{\partial x^2} = -8 \lt 0</m>, (-1,0) is also a local maximum.</p>
-            <p>Since the function value at (0,0) is 2, and the function value at (1,0) and (-1,0) is 3, 
-                we can conclude that (0,0,2) is a saddle point and (1,0,3) and (-1,0,3) are local maxima.</p>
-        </solution>
+        <statement><p>Use Lagrange multipliers to find the maximum and minimum values 
+            for the function <m>f(x,y)=x^2-y^2</m> with the constraint <m>x+6y=4</m>.</p></statement>
+        <hint><p>To use Lagrange multipliers, set up the equations <m>\nabla f = \lambda \nabla g</m> and <m>g(x,y) = 0</m>, where <m>g(x,y) = x + 6y - 4</m>.</p></hint>
+        <answer><p>The maximum value is <m>\frac{16}{37}</m> and the minimum value is <m>-\frac{16}{37}</m>.</p></answer>
+        <solution><p>Let <m>f(x,y) = x^2 - y^2</m> and <m>g(x,y) = x + 6y - 4</m>. Then,</p>
+        <p><m>\nabla f = (2x, -2y)</m></p>
+        <p><m>\nabla g = (1, 6)</m></p>
+        <p>Setting up the Lagrange multiplier equations:</p>
+        <p><m>2x = \lambda</m></p>
+        <p><m>-2y = 6\lambda</m></p>
+        <p><m>x + 6y = 4</m></p>
+        <p>From the first equation, we have <m>\lambda = 2x</m>. Substituting this into the second equation:</p>
+        <p><m>-2y = 12x</m></p>
+        <p><m>y = -6x</m></p>
+        <p>Substituting this into the third equation:</p>
+        <p><m>x + 6(-6x) = 4</m></p>
+        <p><m>x - 36x = 4</m></p>
+        <p><m>-35x = 4</m></p>
+        <p><m>x = -\frac{4}{35}</m></p>
+        <p>Then, <m>y = -6(-\frac{4}{35}) = \frac{24}{35}</m>.</p>
+        <p>The critical point is at <m>\left(-\frac{4}{35}, \frac{24}{35}\right)</m>.</p>
+        <p>Now we can evaluate the function at this critical point:</p>
+        <p><m>f\left(-\frac{4}{35}, \frac{24}{35}\right) = \left(-\frac{4}{35}\right)^2 - \left(\frac{24}{35}\right)^2 = \frac{16}{1225} - \frac{576}{1225} = -\frac{560}{1225} = -\frac{16}{37}</m></p>
+        <p>To find the maximum value, we can also evaluate the function at the endpoints of the constraint. The endpoints occur when <m>x + 6y = 4</m> is satisfied.</p>
+        <p>When <m>y = 0</m>, we have <m>x = 4</m>, and <m>f(4,0) = 16</m>.</p>
+        <p>When <m>x = 0</m>, we have <m>y = \frac{4}{6} = \frac{2}{3}</m>, and <m>f(0, \frac{2}{3}) = -\left(\frac{2}{3}\right)^2 = -\frac{4}{9}</m>.</p>
+        <p>Comparing the values, we find that the maximum value is <m>\frac{16}{37}</m> and the minimum value is <m>-\frac{16}{37}</m>.</p></solution>
     </exercise>
     <exercise>
-        <statement><p>Find three positive numbers whose sum is 80 and whose product is a maximum.</p></statement>
-    <hint><p>find the critical points of the function <m>f(x,y,z) = xyz</m> and use the sum to 
-        rewrite this as a function of two variables.</p></hint>
-        <answer><p>The three positive numbers are all equal to <m>\frac{80}{3}</m>.</p></answer>
-        <solution><p>First let three positive numbers, <m>x, y, z</m>. Since their sum is 80, 
-            we have <m>x + y + z = 80</m>. We want to maximize <m>f(x,y,z) = xyz</m>. 
-            Using the constraint, we can write <m>z = 80 - x - y</m> and substitute this into 
-            the function:</p>
-            <p><m>f(x,y) = xy(80 - x - y) = 80xy - x^2y - xy^2</m></p>
-            <p>Now we find the critical points of this function of two variables.</p>
-            <p>Find the first-order partials:</p>
-            <p><m>\frac{\partial f}{\partial x} = 80y - 2xy - y^2</m></p>
-            <p><m>\frac {\partial f}{\partial y} = 80x - x^2 - 2xy</m></p>
-            <p>Setting these equal to zero:</p>
-            <p><m>80y - 2xy - y^2 = 0</m></p>
-            <p><m>80x - x^2 - 2xy = 0</m></p>
-            <p>From the first equation, we can factor out y:</p>
-            <p><m>y(80 - 2x - y) = 0</m></p>
-            <p>Since y is positive, we have <m>80 - 2x - y = 0</m>, which gives us <m>y = 80 - 2x</m>.</p>
-            <p>Substituting this into the second equation:</p>
-            <p><m>80x - x^2 - 2x(80 - 2x) = 0</m></p>
-            <p><m>80x - x^2 - 160x + 4x^2 = 0</m></p>
-            <p><m>3x^2 - 80x = 0</m></p>
-            <p><m>x(3x - 80) = 0</m></p>
-            <p>Since x is positive, we have <m>3x - 80 = 0</m>, which gives us <m>x = \frac{80}{3}</m>.</p>
-            <p>Substituting this back into the equation for y:</p>
-            <p><m>y = 80 - 2\left(\frac{80}{3}\right) = 80 - \frac{160}{3} = \frac{240 - 160}{3} = \frac{80}{3}</m></p>
-            <p>Substituting x and y back into the equation for z:</p>
-            <p><m>z = 80 - \frac{80}{3} - \frac{80}{3} = \frac{240 - 80 - 80}{3} = \frac{80}{3}</m></p>
-            <p>So the critical point is at <m>\left(\frac{80}{3}, \frac{80}{3}, \frac{80}{3}\right)</m>.</p>
-            <p>We can use the second derivative test to classify this critical point. First, we find the second-order partials:</p>
-            <p><m>\frac{\partial^2 f}{\partial x^2} = -2y</m></p>
-            <p><m>\frac{\partial^2 f}{\partial y^2} = -2x</m></p>
-            <p><m>\frac{\partial^2 f}{\partial x \partial y} = \frac{\partial^2 f}{\partial y \partial x} = 80 - 2x - 2y</m></p>
-            <p>Now, we can apply the second derivative test:</p>
-            <p><m>D = \frac{\partial^2 f}{\partial x^2} \cdot \frac{\partial^2 f}{\partial y^2} - \left( \frac{\partial^2 f}{\partial x \partial y} \right)^2</m></p>
-            <p>At the critical point:</p>
-            <p><m>D = (-2y)(-2x) - (80 - 2x - 2y)^2</m></p>
-            <p><m>D = 4xy - (80 - 2x - 2y)^2</m></p>
-            <p><m>D = 4\left(\frac{80}{3}\right)\left(\frac{80}{3}\right) - (80 - 2\left(\frac{80}{3}\right) - 2\left(\frac{80}{3}\right))^2</m></p>
-            <p><m>D = \frac{25600}{9} - (80 - \frac{160}{3} - \frac{160}{3})^2</m></p>
-            <p><m>D = \frac{25600}{9} - ( - \frac{80}{3})^2</m></p>
-            <p><m>D = \frac{25600}{9} - \frac{6400}{9}</m></p>
-            <p><m>D = \frac{19200}{9}</m></p>
-            <p>Since <m>D \gt 0</m> and <m>\frac{\partial^2 f}{\partial x^2} = -2y \lt 0</m>, the critical point is a local maximum.</p>   
-            <p>Since the function value at this critical point is <m>f\left(\frac{80}{3}, \frac{80}{3}, \frac{80}{3}\right) = \left(\frac{80}{3}\right)\left(\frac{80}{3}\right)\left(\frac{80}{3}\right) = \frac{512000}{27}</m>, 
-                we can conclude that the three positive numbers that maximize the product are all equal to <m>\frac{80}{3}</m>.</p>
-        </solution> 
+        <statement><p>Find the maximum value of the surface <m>f(x,y,z)=x+2y+3z</m> on the curve of intersection of the plane <m>x-y+z=1</m> and the cylinder <m>x^2+y^2=1</m>.</p></statement>
+        <hint><p>Set up the function and constraints for Lagrange multipliers.</p></hint>
+        <answer><p>The maximum value is <m>3 + \sqrt{29}</m>.</p></answer>
+        <solution><p>Let <m>f(x,y,z) = x + 2y + 3z</m>, <m>g(x,y,z) = x - y + z - 1</m>, and <m>h(x,y,z) = x^2 + y^2 - 1</m>. Then,</p>
+        <p><m>\nabla f = (1, 2, 3)</m></p>
+        <p><m>\nabla g = (1, -1, 1)</m></p>
+        <p><m>\nabla h = (2x, 2y, 0)</m></p>
+        <p>Setting up the Lagrange multiplier equations:</p>
+        <p><m>1 = \lambda \cdot 1 + \mu \cdot 2x</m></p>
+        <p><m>2 = \lambda \cdot (-1) + \mu \cdot 2y</m></p>
+        <p><m>3 = \lambda \cdot 1 + \mu \cdot 0</m></p>
+        <p><m>x - y + z = 1</m></p>
+        <p><m>x^2 + y^2 = 1</m></p>
+        <p>To solve this system, we can express <m>\lambda</m> from the third equation as <m>\lambda = 3</m>. 
+            Substituting this into the first two equations gives us:</p>
+        <p><m>1 = 3 + \mu \cdot 2x</m></p>
+        <p><m>2 = -3 + \mu \cdot 2y</m></p>
+        <p>From the first equation, we have <m>\mu \cdot 2x = -2</m>, which gives us <m>\mu = -\frac{1}{x}</m>. 
+            Substituting this into the second equation gives us:</p>
+        <p><m>2 = -3 - \frac{2y}{x}</m></p>
+        <p><m>5 = -\frac{2y}{x}</m></p>
+        <p><m>y = -\frac{5x}{2}</m></p>
+        <p>Substituting this into the cylinder equation gives us:</p>
+        <p><m>x^2 + \left(-\frac{5x}{2}\right)^2 = 1</m></p>
+        <p><m>x^2 + \frac{25x^2}{4} = 1</m></p>
+        <p><m>\frac{29x^2}{4} = 1</m></p>
+        <p><m>x^2 = \frac{4}{29}</m></p>
+        <p><m>x = \pm \frac{2}{\sqrt{29}}</m></p>
+        <p>Substituting back to find <m>y</m> and <m>z</m> for both values of 
+            <m>x</m> gives us <m>y = -\frac{5}{2} \cdot \frac{2}{\sqrt{29}} = -\frac{5}{\sqrt{29}}</m> 
+            and <m>z = 1 - x + y = 1 \pm \frac{2}{\sqrt{29}} \pm \frac{5}{\sqrt{29}}</m></p>
+        <p>So <m>z=1 - \frac{7}{\sqrt{29}}</m> and <m>z=1 + \frac{7}{\sqrt{29}}</m>.</p>
+        <p>Now we can evaluate the function at these points:</p>
+        <p><m>f\left(\frac{2}{\sqrt{29}}, -\frac{5}{\sqrt{29}}, 1 - \frac{7}{\sqrt{29}}\right) = \frac{2}{\sqrt{29}} + 2\left(-\frac{5}{\sqrt{29}}\right) + 3\left(1 - \frac{7}{\sqrt{29}}\right)</m></p>
+        <p><m> = \frac{2}{\sqrt{29}} - \frac{10}{\sqrt{29}} + 3 - \frac{21}{\sqrt{29}} = 3 - \frac{29}{\sqrt{29}} = 3 - \sqrt{29}</m></p>
+        <p><m>f\left(-\frac{2}{\sqrt{29}}, \frac{5}{\sqrt{29}}, 1 + \frac{7}{\sqrt{29}}\right) = -\frac{2}{\sqrt{29}} + 2\left(\frac{5}{\sqrt{29}}\right) + 3\left(1 + \frac{7}{\sqrt{29}}\right)</m></p>
+        <p><m> = -\frac{2}{\sqrt{29}} + \frac{10}{\sqrt{29}} + 3 + \frac{21}{\sqrt{29}} = 3 + \frac{29}{\sqrt{29}} = 3 + \sqrt{29}</m></p>
+        <p>Comparing the values, we find that the maximum value is <m>3 + \sqrt{29}</m> and the minimum value is <m>3 - \sqrt{29}</m>.</p></solution>
     </exercise>
     <exercise>
-        <statement><p>Find the shortest distance from the point (2,1,-1) to the plane <m>x+y-z=1</m>.</p></statement>
-        <hint><p>Use the square of the distance formula from a point to a plane to set up the function and find the critical points.</p></hint>
-        <answer><p>The shortest distance is <m>\sqrt{3}</m> units.</p></answer>
-        <solution><p>First we use the square of the distance formula from a point to a plane.</p>
-        <p>So the function becomes: <m>f(x)=(x-2)^2+(y-1)^2+(z+1)^2</m></p>
-        <p>We can use the plane equation to express z in terms of x and y: <m>z = x + y - 1</m>. Substituting this into the distance function gives us:</p>
-        <p><m>f(x,y) = (x-2)^2 + (y-1)^2 + (x + y - 1 + 1)^2</m></p>
-        <p><m>f(x,y) = (x-2)^2 + (y-1)^2 + (x + y)^2</m></p>
-        <p><m>f(x,y) = 2x^2 + 2y^2 + 2xy - 4x - 2y + 5</m></p>
-        <p>Now we find the critical points of this function of two variables.</p>
-        <p>Find the first-order partials:</p>
-        <p><m>\frac{\partial f}{\partial x} = 4x + 2y - 4</m></p>
-        <p><m>\frac{\partial f}{\partial y} = 4y + 2x - 2</m></p>
-        <p>Setting these equal to zero:</p>
-        <p><m>4x + 2y - 4 = 0</m></p>
-        <p><m>4y + 2x - 2 = 0</m></p>
-        <p>From the first equation, we can express y in terms of x:</p>
-        <p><m>2y = 4 - 4x</m></p>
-        <p><m>y = 2 - 2x</m></p>
-        <p>Substituting this into the second equation:</p>
-        <p><m>4(2 - 2x) + 2x - 2 = 0</m></p>
-        <p><m>8 - 8x + 2x - 2 = 0</m></p>
-        <p><m>-6x + 6 = 0</m></p>
-        <p><m>6x = 6</m></p>
-        <p><m>x = 1</m></p>
-        <p>Substituting this back into the equation for y:</p>
-        <p><m>y = 2 - 2(1) = 0</m></p>
-        <p>Substituting x and y back into the equation for z:</p>
-        <p><m>z = 1 + 0 - 1 = 0</m></p>
-        <p>So the critical point is at (1,0,0).</p>
-        <p>Now we can use the second derivative test to classify this critical point. First, we find the second-order partials:</p>
-        <p><m>\frac{\partial^2 f}{\partial x^2} = 4</m></p>
-        <p><m>\frac{\partial^2 f}{\partial y^2} = 4</m></p>
-        <p><m>\frac{\partial^2 f}{\partial x \partial y} = \frac{\partial^2 f}{\partial y \partial x} = 2</m></p>
-        <p>Now, we can apply the second derivative test:</p>
-        <p><m>D = \frac{\partial^2 f}{\partial x^2} \cdot \frac{\partial^2 f}{\partial y^2} - \left( \frac{\partial^2 f}{\partial x \partial y} \right)^2</m></p>
-        <p>At the critical point:</p>
-        <p><m>D = (4)(4) - (2)^2 = 16 - 4 = 12</m></p>
-        <p>Since <m>D \gt 0</m> and <m>\frac{\partial^2 f}{\partial x^2} = 4 \gt 0</m>, the critical point is a local minimum.</p>
-        <p>Since the function value at this critical point is <m>f(1,0) = 2(1)^2 + 2(0)^2 + 2(1)(0) - 4(1) - 2(0) + 5 = 3</m>, 
-            the shortest distance from the point (2,1,-1) to the plane <m>x+y-z=1</m> is <m>\sqrt{3}</m> units.</p>
-        </solution>
+        <statement><p></p></statement>
+        <hint><p></p></hint>
+        <answer><p></p></answer>
+        <solution><p></p></solution>
     </exercise>
     </page>
 </worksheet>

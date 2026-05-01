@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-
-<section xml:id="ic5-materials" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <title>Change of Variables</title>
-        <xi:include href="./ic-5/ic5-reading.ptx"/>
-        <xi:include href="./ic-5/ic5-vid.ptx"/>
-        <xi:include href="./ic-5/ic5-wp.ptx"/>
-        <xi:include href="./ic-5/ic5-sample.ptx"/>
-</section>

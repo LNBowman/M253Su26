@@ -2,57 +2,71 @@
 
 <worksheet xml:id="dc2-sample" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>DC-2 Sample Outcomes</title>
-  <introduction>
-    <p>For the quiz on this outcome you would be given 30 minutes to complete 2 problems. Here are samples 
+ <introduction>
+    <p>For the quiz on this outcome you would be given 40 minutes to complete 2 problems. Here are samples 
       of the types of problems you will encounter:</p>
   </introduction>
   
   <page>
     <exercise>
-        <statement><p>Let <m>z=3x^2+y^2</m>.Use the gradient to find the tangent plane at 
-            the point <m>(1,-1,4)</m>.</p></statement>
-        <hint><p>To find the tangent plane, first rewrite the equation as <m>f(x,y,z) = 3x^2 + y^2 - z = 0</m>, 
-            then compute the gradient of <m>f</m> at the given point.</p></hint>
-        <answer><p>The tangent plane is <m>6x - 2y - z = 4</m>.</p></answer>
-        <solution><p>First, rewrite the equation as <m>f(x,y,z) = 3x^2 + y^2 - z = 0</m>.</p>
-            <p>Compute the gradient of <m>f</m>:</p>
-            <p><m>\nabla f = \left(6x, 2y, -1\right)</m></p>
-            <p>Evaluate the gradient at the point <m>(1,-1, 4)</m>:</p>
-            <p><m>\nabla f(1,-1,4) = \left(6, -2, -1\right)</m></p>
-            <p>The equation of the tangent plane is:</p>
-            <p><m>6(x-1) - 2(y+1) - 1(z-4) = 0</m></p>
-            <p>Simplifying:</p>
-            <p><m>6x - 6 - 2y - 2 - z + 4 = 0</m></p>
-            <p><m>6x - 2y - z = 4</m></p></solution>
-    </exercise>
-    <exercise>
-        <introduction><p>Given the function <m>f(x,y)=\sqrt{20-x^2-7y^2}</m></p></introduction>
+        <introduction><p>Given <m>u(x,y)=x^4-3xy+1</m> and <m>x=2t,y=t^3</m></p></introduction>
         <task>
-            <statement><p>Find the linearization of <m>f</m> at the point <m>(2,1)</m>.</p></statement>
-            <hint><p>The linearization of <m>f</m> at <m>(a,b)</m> is given by <m>L(x,y) = f(a,b) + f_x(a,b)(x-a) + f_y(a,b)(y-b)</m>.</p></hint>
-            <answer><p><m>L(x,y) = 3 + \frac{1}{3}(x-2) + \frac{7}{3}(y-1)</m></p></answer>
-            <solution><p>First, find the partial derivatives of <m>f</m>:</p>
-                <p><m>f_x = \frac{-x}{\sqrt{20-x^2-7y^2}}</m></p>
-                <p><m>f_y = \frac{-7y}{\sqrt{20-x^2-7y^2}}</m></p>
-                <p>Evaluate these at the point <m>(2,1)</m>:</p>
-                <p><m>f(2,1) = \sqrt{20-4-7} = \sqrt{9} = 3</m></p>
-                <p><m>f_x(2,1) = \frac{-2}{\sqrt{9}} = -\frac{2}{3}</m></p>
-                <p><m>f_y(2,1) = \frac{-7}{\sqrt{9}} = -\frac{7}{3}</m></p>
-                <p>The linearization is:</p>
-                <p><m>L(x,y) = 3 - \frac{2}{3}(x-2) - \frac{7}{3}(y-1)</m></p></solution>
+            <statement><p>Find <m>\frac{du}{dt}</m>.</p></statement>
+            <hint><p>Use the chain rule: <m>\frac{du}{dt} = \frac{\partial u}{\partial x}\frac{dx}{dt} + \frac{\partial u}{\partial y}\frac{dy}{dt}</m>.</p></hint>
+            <answer><p><m>\frac{du}{dt} = 4x^3\frac{dx}{dt} - 3y\frac{dx}{dt} - 3x\frac{dy}{dt}</m></p></answer>
+            <solution><p>First, compute the partial derivatives of <m>u</m>:</p>
+                <p><m>\frac{\partial u}{\partial x} = 4x^3 - 3y</m></p>
+                <p><m>\frac{\partial u}{\partial y} = -3x</m></p>
+                <p>Next, compute the derivatives of <m>x</m> and <m>y</m> with respect to <m>t</m>:</p>
+                <p><m>\frac{dx}{dt} = 2</m></p>
+                <p><m>\frac{dy}{dt} = 3t^2</m></p>
+                <p>Apply the chain rule:</p>
+                <p><m>\frac{du}{dt} = (4x^3 - 3y)(2) + (-3x)(3t^2)</m></p>
+                <p>Put everything in terms of <m>t</m>:</p>
+                <p><m>\frac{du}{dt} = 8x^3 - 6y - 9xt^2</m></p>
+                <p><m>\frac{du}{dt} = 8(2t)^3 - 6(t^3) - 9(2t)(t^2)</m></p>
+                <p><m>\frac{du}{dt} = 64t^3 - 6t^3 - 18t^3</m></p>
+                <p><m>\frac{du}{dt} = 40t^3</m></p>
+            </solution>
         </task>
         <task>
-            <statement><p>Use the linearization to approximate <m>f(1.95,1.08)</m>.</p></statement>
-            <hint><p>To find the linear approximation, substitute the values into the linearization formula.</p></hint>
-            <answer><p><m>f(1.95,1.08) \approx 3 + \frac{1}{3}(1.95-2) + \frac{7}{3}(1.08-1) = 3 - \frac{1}{6} + \frac{7}{3}(0.08) = 3 - \frac{1}{6} + \frac{7}{3} \cdot 0.08</m></p></answer>
-            <solution><p>Substitute <m>x = 1.95</m> and <m>y = 1.08</m> into the linearization:</p>
-                <p><m>L(1.95,1.08) = 3 - \frac{2}{3}(1.95-2) - \frac{7}{3}(1.08-1)</m></p>
-            <p>Simplifying:</p>
-            <p><m>L(1.95,1.08) = 3 - \frac{2}{3}(-0.05) - \frac{7}{3}(0.08)</m></p>
-            <p><m>L(1.95,1.08) = 3 + \frac{1}{30} - \frac{14}{75}</m></p>
-            <p><m>L(1.95,1.08) = \frac{91}{30} + \frac{14}{75}</m></p>
-            <p><m>L(1.95,1.08) = \frac{455}{150} - \frac{28}{150}</m></p>
-            <p><m>L(1.95,1.08) = \frac{427}{150} \approx 2.8467</m></p></solution>
+            <statement><p>Find <m>\frac{d^2u}{dt^2}</m>.</p></statement>
+            <hint><p>First find <m>\frac{du}{dt}</m>, then differentiate it with respect to <m>t</m>.</p></hint>
+            <answer><p><m>\frac{d^2u}{dt^2} = 120t^2</m></p></answer>
+            <solution><p>From the previous calculation, we have:</p>
+                <p><m>\frac{du}{dt} = 40t^3</m></p>
+                <p>Differentiate with respect to <m>t</m>:</p>
+                <p><m>\frac{d^2u}{dt^2} = 120t^2</m></p>
+            </solution>
+        </task>
+    </exercise>
+    <exercise>
+        <introduction><p>Given <m>x^2+y^2+z^2=3xyz</m></p></introduction>
+        <task>
+            <statement><p>Find <m>\frac{\partial z}{\partial x}</m>.</p></statement>
+            <hint><p>Use implicit differentiation (this is one method of solving). </p></hint>
+            <answer><p><m>\frac{\partial z}{\partial x} = \frac{3yz - 2x}{2z - 3xy}</m></p></answer>
+            <solution><p>Implicitly differentiate the equation with respect to <m>x</m>:</p>
+                <p><m>2x + 2z\frac{\partial z}{\partial x} = 3yz + 3xy\frac{\partial z}{\partial x}</m></p>
+                <p>Solve for <m>\frac{\partial z}{\partial x}</m>:</p>
+                <p><m>2z\frac{\partial z}{\partial x} - 3xy\frac{\partial z}{\partial x} = 3yz - 2x</m></p>
+                <p><m>\frac{\partial z}{\partial x}(2z - 3xy) = 3yz - 2x</m></p>
+                <p><m>\frac{\partial z}{\partial x} = \frac{3yz - 2x}{2z - 3xy}</m></p>
+            </solution>
+        </task>
+        <task>
+            <statement><p>Find <m>\frac{\partial z}{\partial y}</m>.</p></statement>
+            <hint><p>Here we can rewrite the equation as <m>f(x,y,z) = x^2 + y^2 + z^2 - 3xyz = 0</m> and use the chain rule.</p></hint>
+            <answer><p><m>\frac{\partial z}{\partial y} = \frac{3xz - 2y}{2z - 3xy}</m></p></answer>
+            <solution><p> We first rewrite the equation as <m>f(x,y,z) = x^2 + y^2 + z^2 - 3xyz = 0</m>.</p>
+                <p>Then, we find the partial derivatives <m>\frac{\partial f}{\partial y}</m> and <m>\frac{\partial f}{\partial z}</m>:</p>
+                <p><m>\frac{\partial f}{\partial y} = 2y - 3xz</m></p>
+                <p><m>\frac{\partial f}{\partial z} = 2z - 3xy</m></p>
+                <p>Substitute into the chain rule formula:</p>
+                <p><m>\frac{\partial z}{\partial y} = -\frac{\frac{\partial f}{\partial y}}{\frac{\partial f}{\partial z}}</m></p>
+                <p><m>\frac{\partial z}{\partial y} = -\frac{2y - 3xz}{2z - 3xy}</m></p>
+                <p><m>\frac{\partial z}{\partial y} = \frac{3xz - 2y}{2z - 3xy}</m></p>
+            </solution>
         </task>
     </exercise>
     </page>

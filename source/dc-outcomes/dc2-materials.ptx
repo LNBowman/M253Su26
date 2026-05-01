@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <section xml:id="dc2-materials" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <title>Tangent Planes and Linear Approximations</title>
+    <title>The Chain Rule</title>
         <xi:include href="./dc-2/dc2-reading.ptx" />
         <xi:include href="./dc-2/dc2-vid.ptx" />
         <xi:include href="./dc-2/dc2-wp.ptx" />

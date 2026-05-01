@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?> 
 
 <!-- This is the main course file for ... . It is used to generate all the public facing course materials so those can be hosted online.  -->
 <pretext xmlns:xi="http://www.w3.org/2001/XInclude">
@@ -38,10 +38,9 @@
             <p>There are five learning outcomes for this unit:
             <ul>
                 <li><p>FUN-1 Vector Applications</p></li>
-                <li><p>FUN-2 Equations of Lines and Planes</p></li>
-                <li><p>FUN-3 Surfaces in Space</p></li>
-                <li><p>FUN-4 Vector Functions</p></li>
-                <li><p>FUN-5 Functions of Several Variables</p></li>
+                <li><p>FUN-2 Equations of Lines, Planes, and Surfaces</p></li>
+                <li><p>FUN-3 Vector Functions</p></li>
+                <li><p>FUN-4 Functions of Several Variables</p></li>
             </ul>
         </p>
         </introduction>
@@ -49,7 +48,6 @@
         <xi:include href="./fun-outcomes/fun2-materials.ptx" />
         <xi:include href="./fun-outcomes/fun3-materials.ptx" />
         <xi:include href="./fun-outcomes/fun4-materials.ptx" />
-        <xi:include href="./fun-outcomes/fun5-materials.ptx" />
         <!-- etc. -->
     </chapter>
 
@@ -61,11 +59,10 @@
          There are six learning outcomes for this unit:
          <ul>
           <li><p>DC-1 Partial Derivatives</p></li>
-          <li><p>DC-2 Tangent Lines and Linear Approximations</p></li>
-          <li><p>DC-3 The Chain Rule</p></li>
-          <li><p>DC-4 Directional Derivatives</p></li>
-          <li><p>DC-5 Maximum and Minimum Values</p></li>
-          <li><p>DC-6 Lagrange Multipliers</p></li> 
+          <li><p>DC-2 The Chain Rule</p></li>
+          <li><p>DC-3 Gradient, Tangent Lines and Linear Approximations</p></li>
+          <li><p>DC-4 Maximum and Minimum Values</p></li>
+          <li><p>DC-5 Lagrange Multipliers</p></li>
          </ul>
         </p>
       </introduction>
@@ -74,7 +71,6 @@
         <xi:include href="./dc-outcomes/dc3-materials.ptx" />
         <xi:include href="./dc-outcomes/dc4-materials.ptx" />
         <xi:include href="./dc-outcomes/dc5-materials.ptx" />
-        <xi:include href="./dc-outcomes/dc6-materials.ptx" />
         <!-- etc. -->
     </chapter>
 
@@ -86,10 +82,9 @@
          There are five learning outcomes for this unit:
          <ul>
           <li><p>IC-1 Double Integrals</p></li>
-          <li><p>IC-2 Double Integrals in Polar Coordinates</p></li>
-          <li><p>IC-3 Triple Integrals</p></li>
-          <li><p>IC-4 Integrals for Mass and Center of Mass</p></li>
-          <li><p>IC-5 Change of Variables</p></li> 
+          <li><p>IC-2 Triple Integrals</p></li>
+          <li><p>IC-3 Integrals for Mass and Center of Mass</p></li>
+          <li><p>IC-4 Change of Variables</p></li> 
          </ul>
         </p>
       </introduction>
@@ -97,7 +92,6 @@
         <xi:include href="./ic-outcomes/ic2-materials.ptx" />
         <xi:include href="./ic-outcomes/ic3-materials.ptx" />
         <xi:include href="./ic-outcomes/ic4-materials.ptx" />
-        <xi:include href="./ic-outcomes/ic5-materials.ptx" />
     </chapter>
     
     <chapter xml:id="applications-of-multivariable-calculus">

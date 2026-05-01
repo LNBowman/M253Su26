@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<worksheet xml:id="app3-videos" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>APP-3 Videos</title>
+            <page>
+                <p><alert>Divergence and Curl</alert></p>
+                <video vimeo="1188158888"/>
+                <p><alert>Parametric Surfaces and Their Areas</alert></p>
+                <video vimeo="1188158818"/>
+                <p><alert>Surface Integrals</alert></p>
+                <video vimeo="1186387679"/>
+            </page>
+    </worksheet>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?> 
 
 <worksheet xml:id="ic1-videos" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>IC-1 Videos</title>
@@ -7,5 +7,7 @@
                 <video vimeo="186775654"/>
                 <p><alert>Double Integrals over General Regions</alert></p>
                 <video vimeo="1186775752"/>
+                <p><alert>Double Integrals in Polar Coordinates</alert></p>
+                <video vimeo="1186775626"/>
             </page>
     </worksheet>

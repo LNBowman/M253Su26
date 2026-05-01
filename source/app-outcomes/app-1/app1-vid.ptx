@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<worksheet xml:id="app1-videos" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>APP-1 Videos</title>
+            <page>
+                <p><alert>Vector Fields</alert></p>
+                <video vimeo="1188156396"/>
+                <p><alert>Line Integrals</alert></p>
+                <video vimeo="1188156406"/>
+                <p><alert>Conservative Vector Fields</alert></p>
+                <video vimeo="1186089566"/>
+            </page>
+    </worksheet>

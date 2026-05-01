@@ -3,7 +3,7 @@
 <worksheet xml:id="ic1-sample" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>IC-1 Sample Outcomes</title>
   <introduction>
-    <p>For the quiz on this outcome you would be given 30 minutes to complete 2 problems. Here are samples 
+    <p>For the quiz on this outcome you would be given 40 minutes to complete 3 problems. Here are samples 
       of the types of problems you will encounter:</p>
   </introduction>
   <page>
@@ -70,5 +70,102 @@
             </solution>
         </task>
     </exercise>
+    <exercise>
+      <introduction><p> Given double integral <m>\int_0^2 \int_0^{\sqrt{4-x^2}} 8\sqrt{x^2+y^2}dydx</m></p></introduction>
+      <task>
+        <statement><p>Graph the region of integration.</p></statement>
+        <hint><p>Start by identifying the region of integration and converting to polar coordinates.</p></hint>
+        <answer><image width="60%">
+            <prefigure xmlns="https://prefigure.org"
+                        label="prefigure-ic2a-sample">
+            <diagram dimensions="(300,300)" margins="5">
+              <coordinates bbox="(-3,-2,3,3)">
+                <grid-axes xlabel="x" ylabel="y"/>
+                <path start="(-2,0)" stroke="blue" fill="lightgray">
+                  <lineto point="(2,0)"/>
+                  <arc center="(0,0)" radius="2" range="(0,180)"/>
+                </path>
+                <label anchor="(0,1)"><m>D</m></label>
+              </coordinates>
+              <annotations>
+                text="D is the half circular region centered at (0,0) with radius 2.">
+                <annotation text="D is the half circular region centered at (0,0) with radius 2."/>
+              </annotations>
+            </diagram>
+            </prefigure>
+            </image></answer>
+     </task>
+     <task>
+      <statement><p>Set up the double integral in polar coordinates and evaluate it.</p></statement>
+      <hint><p>Convert the Cartesian coordinates to polar coordinates and adjust the limits of integration accordingly.</p></hint>
+      <answer><p><m>\int_0^{\frac{\pi}{2}} \int_0^2 8r^2 drd\theta = \frac{32\pi}{3}</m></p></answer>
+      <solution><p>First convert the integrand to polar coordinates: <m>8\sqrt{x^2+y^2} = 8r</m>. 
+        Then, the limits of integration are <m>0 \leq r \leq 2</m> and <m>0 \leq \theta \leq \frac{\pi}{2}</m>.</p>
+      <p>Integrating, we get:</p>
+      <p><m>\int_0^{\frac{\pi}{2}} \int_0^2 8r^2 drd\theta = \int_0^{\frac{\pi}{2}} \left[8r^3/3\right]_0^2 d\theta</m></p>
+      <p><m>\int_0^{\frac{\pi}{2}} \int_0^2 8r^2 drd\theta = \int_0^{\frac{\pi}{2}} \frac{64}{3} d\theta</m></p>
+      <p><m>\int_0^{\frac{\pi}{2}} \int_0^2 8r^2 drd\theta = \frac{64}{3} \cdot \frac{\pi}{2}</m></p>
+      <p><m>\int_0^{\frac{\pi}{2}} \int_0^2 8r^2 drd\theta = \frac{32\pi}{3}</m></p>
+      </solution>
+     </task>
+     </exercise>
+     <exercise>
+          <introduction><p>Given <m>\int_0^{\frac{\pi}{3}} \int_0^{\sec\theta}29r^2\cos\theta drd\theta</m></p></introduction>
+          <task>
+              <statement><p>Graph the region of integration.</p></statement>
+              <hint><p>Start by identifying the region of integration and converting to polar coordinates.</p></hint>
+              <answer><image width="60%">
+                  <prefigure xmlns="https://prefigure.org"
+                              label="prefigure-ic2b-sample">
+                  <diagram dimensions="(300,300)" margins="5">
+                    <coordinates bbox="(-3,-2,3,3)">
+                      <grid-axes xlabel="x" ylabel="y"/>
+                      <path start="(0,0)" stroke="blue" fill="lightgray">
+                        <lineto point="(1,0)"/>
+                        <lineto point="(1,sqrt(3))"/>
+                        <lineto point="(0,0)"/>
+                      </path>
+                      <label anchor="(0.65,0.5)"><m>D</m></label>
+                    </coordinates>
+                    <annotations>
+                      text="D is the triangular region bounded by the lines y=0, x=1, and y=square root of 3x.">
+                      <annotation ref="graph-f"
+                                  text="D is the triangular region bounded by the lines y=0, x=1, and y=square root of 3x."/>
+                    </annotations>
+                  </diagram>
+                  </prefigure>
+                </image></answer>
+          </task>
+          <task>
+              <statement><p>Convert the integral into Cartesian coordinates and evaluate it.</p></statement>
+              <hint><p>Use the relationships <m>x = r\cos\theta</m> and <m>y = r\sin\theta</m> to convert the integrand and limits.</p></hint>
+              <answer><p><m>\int_0^{\frac{\pi}{3}} \int_0^{\sec\theta}29r^2\cos\theta drd\theta= \frac{29\sqrt{3}}{3}</m></p></answer>
+              <solution><p>First, convert the integrand to Cartesian coordinates: <m>29r^2\cos\theta dr d\theta = 29xdydx</m>. 
+        Then, the limits of integration are <m>0 \leq x \leq 1</m> and <m>0 \leq y \leq \sqrt{3}x</m>.</p>
+      <p>Integrating, we get:</p>
+      <p><m>\int_0^1 \int_0^{\sqrt{3}x} 29x dydx</m></p>
+      <p><m>= \int_0^1 29xy \Big|_0^{\sqrt{3}x} dx</m></p>
+      <p><m>= \int_0^1 29\sqrt{3}x^2 dx</m></p>
+      <p><m>= \frac{29\sqrt{3}}{3} x^3\Big|_0^1 dx</m></p>
+      <p><m>= \frac{29\sqrt{3}}{3} \cdot 1</m></p>
+      <p><m>= \frac{29\sqrt{3}}{3}</m></p>
+      </solution>
+          </task>
+     </exercise>
+     <exercise>
+        <statement><p>Find the volume of the solid bounded above by the plane <m>z=4+x+2y</m>, on the sides by the cylinder <m>x^2+y^2=4</m>, and below by the xy-plane.</p></statement>
+        <hint><p>Find the region in the xy-plane and set up the double integral.  Use polar coordinates to evaluate it.</p></hint>
+        <answer><p>Volume = <m>16\pi</m> <m>units^3</m></p></answer>
+        <solution><p>Rewriting the cylinder using polar coordinates: <m>x^2+y^2=4 \rightarrow r^2=4 \rightarrow r=2</m>. 
+          The region of integration is <m>0 \leq r \leq 2</m> and <m>0 \leq \theta \leq 2\pi</m>.</p>
+      <p>The integrand in polar coordinates is <m>4+r\cos\theta+2r\sin\theta</m>.</p>
+      <p>Integrating, we get:</p>
+      <p><m>\int_0^{2\pi} \int_0^2 (4+r\cos\theta+2r\sin\theta) r drd\theta</m></p>
+      <p><m>= \int_0^{2\pi} \left[4r + \frac{r^3}{3}\cos\theta + \frac{2r^3}{3}\sin\theta\right]_0^2 d\theta</m></p>
+      <p><m>= \int_0^{2\pi} \left(8 + \frac{8}{3}\cos\theta + \frac{16}{3}\sin\theta\right) d\theta</m></p>
+      <p><m>= 8\theta + \frac{8}{3}\sin\theta - \frac{16}{3}\cos\theta \Big|_0^{2\pi}</m></p>
+      <p><m>= 16\pi</m></p>
+      </solution>
+     </exercise>
   </page>
 </worksheet>

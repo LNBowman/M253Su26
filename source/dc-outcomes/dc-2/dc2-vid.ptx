@@ -3,7 +3,7 @@
 <worksheet xml:id="dc2-videos" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>DC-2 Videos</title>
             <page>
-                <p><alert>Tangent Planes and Linear Approximation</alert></p>
-                <video vimeo="1186087023"/>
+                <p><alert>The Chain Rule</alert></p>
+                <video vimeo="1186388201"/>
             </page>
-    </worksheet>
+    </worksheet> 

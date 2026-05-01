@@ -1,135 +1,164 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<worksheet xml:id="ic-4-sample" xmlns:xi="http://www.w3.org/2001/XInclude">
+<worksheet xml:id="ic4-sample" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>IC-4 Sample Outcomes</title>
   <introduction>
-    <p>For the quiz on this outcome you would be given 40 minutes to complete 1 problem 
-        with parts. For these you will be asked to set up all three problems but only 
-        asked to fully evaluate one. Here are samples of the types of problems you will encounter:</p>
+    <p>For the quiz on this outcome you would be given 30 minutes to complete 2 problems.  Here are samples 
+      of the types of problems you will encounter:</p>
   </introduction>
   <page>
     <exercise>
-        <introduction><p>Let the lamina <m>R</m> be bounded by the <m>x=1-y^2</m> and 
-            the y-axis. Let <m>\rho(x,y)=12x</m> <m>mg/cm^2</m></p></introduction>
+        <introduction><p>Given <m>\int_0^4\int_{y/2}^{y/2+1} x-\frac{y}{2}dxdy</m> 
+            and the transformation <m>T:(u,v)\rightarrow(x,y)</m> by 
+            <m>T(u,v)=(u+v,2v)</m></p></introduction>
         <task>
-            <statement><p>Sketch the lamina <m>R</m>.</p></statement>
+            <statement><p>Sketch the region of integration in the <m>xy</m>-plane.</p></statement>
             <answer><image width="60%">
                 <prefigure xmlns="https://prefigure.org"
-                            label="prefigure-ic4-sample">
+                            label="prefigure-ic5a-sample">
                 <diagram dimensions="(300,300)" margins="5">
-                <coordinates bbox="(-2,-2,2,2)">
-                    <grid-axes xlabel="x" ylabel="y"/>
-                    <path start="(0,-1)" stroke="blue" fill="lightgray">
-                    <arc center="(0,0)" radius="1" range="(-90,90)"/>
-                    <lineto point="(0,-1)"/>
-                    </path>
-                    <label anchor="(0.5,0)"><m>D</m></label>
-                </coordinates>
-                <annotations>
-                    text="D is the right half of the unit-circle.">
-                    <annotation ref="graph-f"
-                                text="D is the right half of the unit-circle."/>
-                </annotations>
-                </diagram>
+                    <coordinates bbox="(-1,-1,4,5)">
+                        <grid-axes xlabel="x" ylabel="y"/>
+                        <path start="(0,0)" stroke="blue" fill="lightgray">
+                        <lineto point="(1,0)"/>
+                        <lineto point="(3,4)"/>
+                        <lineto point="(2,4)"/>
+                        <lineto point="(0,0)"/>
+                        </path>
+                        <label anchor="(1.5,2)"><m>R</m></label>
+                    </coordinates>
+                    <annotations>
+                        text="R is the parallelogram with vertices (0,0), (1,0), (3,4) and (2,4).">
+                        <annotation ref="path"
+                                    text="R is the parallelogram with vertices (0,0), (1,0), (3,4) and (2,4)."/>
+                    </annotations>
+                    </diagram>
                 </prefigure>
             </image></answer>
         </task>
         <task>
-            <statement><p>Compute the mass of the lamina <m>R</m>.</p></statement>
-            <hint><p>To find the mass, integrate the density function over the region <m>R</m>.</p></hint>
-            <answer><p><m>mass=\frac{32}{5}</m> grams</p></answer>
-            <solution><p>Based on the graph of the region <m>R</m>, we can see that the limits on the 
-                integral will be <m>0 \leq x \leq 1-y^2</m> and <m>-1 \leq y \leq 1</m>.</p>
-            <p>So the mass integral is:</p>
-            <p><m>\iint_R 12x dA = \int_{-1}^{1} \int_{0}^{1-y^2} 12x dx dy</m></p>
-            <p><m>\iint_R 12x dA = \int_{-1}^{1} \left[6x^2\right]_0^{1-y^2} dy</m></p>
-            <p><m>\iint_R 12x dA = \int_{-1}^{1} 6(1-y^2)^2 dy</m></p>
-            <p><m>\iint_R 12x dA = \int_{-1}^{1} 6(1-2y^2+y^4) dy</m></p>
-            <p><m>\iint_R 12x dA = \int_{-1}^{1} 6-12y^2+6y^4 dy</m></p>
-            <p><m>\iint_R 12x dA = \left[6y-4y^3+\frac{6}{5}y^5\right]_{-1}^{1} dy</m></p>
-            <p><m>\iint_R 12x dA = 6(1)-4(1)+\frac{6}{5}(1) - (6(-1)-4(-1)+\frac{6}{5}(-1)))</m></p>
-            <p><m>\iint_R 12x dA = \frac{32}{5}</m> grams</p></solution>
+            <statement><p>Sketch the region of integration in the <m>uv</m>-plane.</p></statement>
+            <answer><image width="60%">
+                <prefigure xmlns="https://prefigure.org"
+                            label="prefigure-ic5b-sample">
+                <diagram dimensions="(300,300)" margins="5">
+                    <coordinates bbox="(-1,-1,2,3)">
+                        <grid-axes xlabel="u" ylabel="v"/>
+                        <path start="(0,0)" stroke="blue" fill="lightgray">
+                        <lineto point="(1,0)"/>
+                        <lineto point="(1,2)"/>
+                        <lineto point="(0,2)"/>
+                        <lineto point="(0,0)"/>
+                        </path>
+                        <label anchor="(0.5,1)"><m>R</m></label>
+                    </coordinates>
+                    <annotations>
+                        text="R is the rectangle with vertices (0,0), (1,0), (1,2) and (0,2).">
+                        <annotation ref="path"
+                                    text="R is the rectangle with vertices (0,0), (1,0), (1,2) and (0,2)."/>
+                    </annotations>
+                    </diagram>
+                </prefigure>
+            </image></answer>
         </task>
         <task>
-            <statement><p>Without calculation, explain why <m>M_x = 0</m>.</p></statement>
-            <hint><p>Think about the symmetry of the region <m>R</m> with respect to the <m>x</m>-axis.</p></hint>
-            <answer><p>The region <m>R</m> is symmetric about the <m>x</m>-axis, so the first moment about 
-                the <m>x</m>-axis is zero.</p></answer>
-            <solution><p><m>M_x</m> measures the tendency of the lamina to rotate about the <m>x</m>-axis. Here 
-                the density function depends only on <m>x</m>, so the mass is distributed symmetrically above 
-                and below the <m>x</m>-axis. Since the region <m>R</m> is symmetric about the <m>x</m>-axis, 
-                the first moment about the <m>x</m>-axis is zero.</p></solution>
+            <statement><p>Find the Jacobian of the transformation.</p></statement>
+            <hint><p>To find the Jacobian, compute the partial derivatives of <m>x</m> and <m>y</m> with respect to <m>u</m> and <m>v</m>.</p></hint>
+            <answer><p><m>J(u,v) = 2</m></p></answer>
+            <solution><p><m>J(u,v) = \begin{vmatrix} \frac{\partial x}{\partial u} &amp; \frac{\partial x}{\partial v} \\ \frac{\partial y}{\partial u} &amp; \frac{\partial y}{\partial v} \end{vmatrix}</m></p>
+                <p><m>J(u,v) = \begin{vmatrix} 1 &amp; 1 \\ 0 &amp; 2 \end{vmatrix}</m></p>
+                <p><m>J(u,v)=(1)(2)-(1)(0)</m></p>
+                <p><m>J(u,v) = 2</m></p></solution>
         </task>
         <task>
-            <statement><p>Compute the center of mass of the lamina <m>R</m>.</p></statement>
-            <hint><p>Use the formulas for the center of mass coordinates. Calculate the moment about the <m>y</m>-axis.</p></hint>
-            <answer><p><m>M_y=\frac{128}{5}</m> grams</p></answer>
-            <solution><p>To find the moment about the <m>y</m>-axis, we integrate <m>x</m> times the density function over the 
-                region <m>R</m>. Using the same limits (region) as before we get:</p>
-            <p><m>\iint_R 12x^2 dA = \int_{-1}^{1} \int_{0}^{1-y^2} 12x^2 dx dy</m></p>
-            <p><m>\iint_R 12x^2 dA = \int_{-1}^{1} \left[4x^3\right]_0^{1-y^2} dy</m></p>
-            <p><m>\iint_R 12x^2 dA = \int_{-1}^{1} 4(1-y^2)^3 dy</m></p>
-            <p><m>\iint_R 12x^2 dA = \int_{-1}^{1} 4(1-3y^2+3y^4-y^6) dy</m></p>
-            <p><m>\iint_R 12x^2 dA = \int_{-1}^{1} 4-12y^2+12y^4-4y^6 dy</m></p>
-            <p><m>\iint_R 12x^2 dA = \left[4y-4y^3+\frac{12}{5}y^5-\frac{4}{7}y^7\right]_{-1}^{1} dy</m></p>
-            <p><m>\iint_R 12x^2 dA = 4(1)-4(1)+\frac{12}{5}(1) - (4(-1)-4(-1)+\frac{12}{5}(-1)))</m></p>
-            <p><m>\iint_R 12x^2 dA = \frac{128}{5}</m> grams</p></solution>
+            <statement><p>Use the transformation and the Jacobian to evaluate the integral.</p></statement>
+            <hint><p>Substitute the transformation into the integral and multiply by the Jacobian.</p></hint>
+            <answer><p><m>\int_0^4\int_{y/2}^{y/2+1} x-\frac{y}{2}dxdy = 2</m></p></answer>
+            <solution><p>Using the region in the <m>uv</m>-plane, we have:</p>
+                <p><m>\int_0^4\int_{y/2}^{y/2+1} x-\frac{y}{2}dxdy =\int_0^2\int_0^1 (u+v)-v dv du</m></p>
+                <p><m>= \int_0^2\int_0^1 u dv du</m></p>
+                <p><m>= \int_0^2 u du</m></p>
+                <p><m>= \left[\frac{u^2}{2}\right]_0^2</m></p>
+                <p><m>= 2</m></p>
+            </solution>
         </task>
     </exercise>
     <exercise>
-        <introduction><p>Given the thin plate of the constant density <m>\rho=5</m> modeled 
-            by the plane region <m>R:</m> The rectangle <m>[-2,1]]\times\left[1,3]</m></p></introduction>
+        <introduction><p>Given <m>x=e^{2u-v}</m> and <m>y=e^{u+v}</m>.</p></introduction>
         <task>
-            <statement><p>Find the center of mass of the lamina <m>R</m>.</p></statement>
-            <hint><p>Set up the integrals for the moments and the mass using the limits of the rectangle.</p></hint>
-            <answer><p><m>\left(\frac{M_y}{M}, \frac{M_x}{M}\right) = \left(0, 2\right)</m></p></answer>
-            <solution><p>First find the mass:</p>
-            <p><m>M = \iint_R \rho dA = 5 \iint_R dA</m></p>
-            <p><m>M = 5 \int_{-2}^1 \int_1^3 dy dx</m></p>
-            <p><m>M = 5 \int_{-2}^1 \left[y\right]_1^3 dx</m></p>
-            <p><m>M = 5 \int_{-2}^1 2 dx</m></p>
-            <p><m>M = 10 \left[x\right]_{-2}^1</m></p>
-            <p><m>M = 10 (3) = 30</m> grams</p>
-            <p>Next, find the moment about the <m>y</m>-axis:</p>
-            <p><m>M_y = \iint_R x \rho dA = 5 \iint_R x dA</m></p>
-            <p><m>M_y = 5 \int_{-2}^1 \int_1^3 x dy dx</m></p>
-            <p><m>M_y = 5 \int_{-2}^1 x \left[y\right]_1^3 dx</m></p>
-            <p><m>M_y = 5 \int_{-2}^1 2x dx</m></p>
-            <p><m>M_y = 5 \left[x^2\right]_{-2}^1</m></p>
-            <p><m>M_y = 5 (1 - 4) = -15</m></p>
-            <p>Finally, find the moment about the <m>x</m>-axis:</p>
-            <p><m>M_x = \iint_R y \rho dA = 5 \iint_R y dA</m></p>
-            <p><m>M_x = 5 \int_{-2}^1 \int_1^3 y dx dy</m></p>
-            <p><m>M_x = 5 \int_{-2}^1 \left[\frac{y^2}{2}\right]_1^3 dx</m></p>
-            <p><m>M_x = 5 \int_{-2}^1 \frac{1}{2} (9 - 1) dx</m></p>
-            <p><m>M_x = 5 \int_{-2}^1 4 dx</m></p>
-            <p><m>M_x = 20 \left[x\right]_{-2}^1</m></p>
-            <p><m>M_x = 20 (3) = 60</m></p>
-            <p>Thus, the center of mass is at <m>\left(\frac{M_y}{M}, \frac{M_x}{M}\right) = \left(0, \frac{60}{30}\right) = \left(0, 2\right)</m>.</p>
-        </solution>
+            <statement><p>Find the Jacobian, <m>J(u,v)</m>.</p></statement>
+            <hint><p>To find the Jacobian, compute the partial derivatives of <m>x</m> and <m>y</m> with respect to <m>u</m> and <m>v</m>.</p></hint>
+            <answer><p><m>J(u,v) = 3e^{3u}</m></p></answer>
+            <solution><p>To find the Jacobian, we compute the partial derivatives:</p>
+                <p><m>\frac{\partial x}{\partial u} = 2e^{2u-v}, \quad \frac{\partial x}{\partial v} = -e^{2u-v}</m></p>
+                <p><m>\frac{\partial y}{\partial u} = e^{u+v}, \quad \frac{\partial y}{\partial v} = e^{u+v}</m></p>
+                <p>Thus,</p>
+                <p><m>J(u,v) = \begin{vmatrix} 2e^{2u-v} &amp; -e^{2u-v} \\ e^{u+v} &amp; e^{u+v} \end{vmatrix}</m></p>
+                <p><m>= 2e^{2u-v} \cdot e^{u+v} - (-e^{2u-v}) \cdot e^{u+v}</m></p>
+                <p><m>= 2e^{3u} + e^{3u}</m></p>
+                <p><m>= 3e^{3u}</m></p>
+            </solution>
         </task>
         <task>
-            <statement><p>Find the moments of inertia.</p></statement>
-            <hint><p>Set up the integrals for the moments of inertia using the limits of the rectangle.</p></hint>
-            <answer><p><m>I_x = 130</m>, <m>I_y = 30</m>, and <m>I_0 = 160</m></p></answer>
-            <solution><p>To find the moments of inertia, we use the formulas:</p>
-            <p><m>I_x = \iint_R (y^2) \rho dA</m></p>
-            <p><m>I_y = \iint_R (x^2) \rho dA</m></p>
-            <p><m>I_0 = I_x + I_y</m></p>
-            <p>Using the same limits as before:</p>
-            <p><m>I_x = 5 \int_{-2}^1 \int_1^3 y^2 dy dx</m></p>
-            <p><m>I_x = 5 \int_{-2}^1 \left[\frac{y^3}{3}\right]_1^3 dx</m></p>
-            <p><m>I_x = 5 \int_{-2}^1 \frac{1}{3} (27 - 1) dx</m></p>
-            <p><m>I_x = 5 \int_{-2}^1 \frac{26}{3} dx</m></p>
-            <p><m>I_x = \frac{130}{3} \left[x\right]_{-2}^1</m></p>
-            <p><m>I_x = \frac{130}{3} (1 - (-2)) = \frac{130}{3} (3) = 130</m></p>
-            <p><m>I_y = 5 \int_{-2}^1 \int_1^3 x^2 dx dy</m></p>
-            <p><m>I_y = 5 \int_{-2}^1 x^2 \left[y\right]_1^3 dy</m></p>
-            <p><m>I_y = 5 \int_{-2}^1 2x^2 dy</m></p>
-            <p><m>I_y = 10 \int_{-2}^1 x^2 dx</m></p>
-            <p><m>I_y = 10 \left[\frac{x^3}{3}\right]_{-2}^1</m></p>
-            <p><m>I_y = 10 \frac{1}{3} (1 - (-8)) = 10 \frac{9}{3} = 30</m></p>
-            <p><m>I_0 = I_x + I_y = 130 + 30 = 160</m></p>
+            <statement><p>Use the above Jacobian to evaluate <m>\iint_R (xy) dA</m> 
+                where <m>R</m> is the triangle defined by the equations <m>y=x, x=1</m>, 
+                and <m>y=2x</m>.</p></statement>
+            <hint><p></p></hint>
+            <answer><p><m>\iint_R (xy) dA = \frac{7e^{6}}{24}</m></p></answer>
+            <solution><p>First we find the region in the <m>uv</m>-plane that corresponds to <m>R</m>.</p>
+            <image width="60%">
+                <prefigure xmlns="https://prefigure.org"
+                            label="prefigure-ic5c-sample">
+                <diagram dimensions="(300,300)" margins="5">
+                    <coordinates bbox="(-1,-1,2,3)">
+                        <grid-axes xlabel="x" ylabel="y"/>
+                        <path start="(0,0)" stroke="blue" fill="lightgray">
+                        <lineto point="(1,1)"/>
+                        <lineto point="(1,2)"/>
+                        <lineto point="(0,0)"/>
+                        </path>
+                        <label anchor="(0.75,1)"><m>R</m></label>
+                    </coordinates>
+                    <annotations>
+                        text="R is the rectangle with vertices (0,0), (1,1), and (1,2).">
+                        <annotation ref="path"
+                                    text="R is the rectangle with vertices (0,0), (1,1), and (1,2)."/>
+                    </annotations>
+                    </diagram>
+                </prefigure>
+            </image>
+            <p>Next we find the region in the <m>uv</m>-plane that corresponds to <m>R</m>.</p>
+            <image width="60%">
+                <prefigure xmlns="https://prefigure.org"
+                            label="prefigure-ic5d-sample">
+                <diagram dimensions="(300,300)" margins="5">
+                    <coordinates bbox="(-1,-1,3,5)">
+                        <grid-axes xlabel="x" ylabel="y"/>
+                        <path start="(1,2-ln(2))" stroke="blue" fill="lightgray">
+                        <lineto point="(1,2)"/>
+                        <lineto point="(2,4)"/>
+                        <lineto point="(2,4-ln(2))"/>
+                        <lineto point="(1,2-ln(2))"/>
+                        </path>
+                        <label anchor="(1.5,2.75)"><m>R</m></label>
+                    </coordinates>
+                    <annotations>
+                        text="R is a parallelogram.">
+                        <annotation ref="graph-f"
+                                    text="R is a parallelogram."/>
+                    </annotations>
+                    </diagram>
+                </prefigure>
+            </image>
+            <p>Now we can evaluate the integral:</p>
+            <p><m>\iint_R (xy) dA = \iint_R e^{3u} du dv</m></p>
+            <p><m>\iint_R (xy) dA = \int_{1}^{2} \int_{2-ln(2)}^{2} e^{3u} du dv</m></p>
+            <p><m>\iint_R (xy) dA = \int_{1}^{2} \left[\frac{e^{3u}}{3}\right]_{2-ln(2)}^{2} dv</m></p>
+            <p><m>\iint_R (xy) dA = \int_{1}^{2} \frac{e^{6}-e^{6-3ln(2)}}{3} dv</m></p>
+            <p><m>\iint_R (xy) dA = \int_{1}^{2} \frac{e^{6}-\frac{e^{6}}{8}}{3} dv</m></p>
+            <p><m>\iint_R (xy) dA = \int_{1}^{2} \frac{7e^{6}}{24} dv</m></p>
+            <p><m>\iint_R (xy) dA = \left[\frac{7e^{6}}{24}v\right]_{1}^{2}</m></p>
+            <p><m>\iint_R (xy) dA = \frac{7e^{6}}{24}</m></p>
         </solution>
         </task>
     </exercise>
