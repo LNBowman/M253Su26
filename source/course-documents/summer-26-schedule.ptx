@@ -69,6 +69,7 @@
 				M May 18
 			</cell>
 			<cell right="medium" bottom="medium">
+				Course Introduction
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -131,7 +132,7 @@
 				W May 20
 			</cell>
 			<cell right="medium" bottom="medium">
-				Vectors in the plane
+				Introduction to Vector Applications
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -165,7 +166,6 @@
 				R May 21
 			</cell>
 			<cell right="medium" bottom="medium">
-				Vectors in 3D
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -197,7 +197,7 @@
 				F May 22
 			</cell>
 			<cell right="medium">
-				The Dot and Cross Products
+				L1
 			</cell>
 			<cell right="medium">
 			</cell>
@@ -242,12 +242,12 @@
 				T May 26
 			</cell>
 			<cell right="medium" bottom="medium">
-				Equations of Lines and Planes
+				Introduction to Lines, Planes, and Surfaces
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
-				WP1
+				WP1 + Video
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -275,7 +275,7 @@
 				W May 27
 			</cell>
 			<cell right="medium" bottom="medium">
-				Quadric Surface, Cyl and Sph Coordinates
+				L2
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -309,7 +309,6 @@
 				R May 28
 			</cell>
 			<cell right="medium" bottom="medium">
-				Vector-Valued Functions
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -343,7 +342,7 @@
 				F May 29
 			</cell>
 			<cell right="medium">
-				Calculus of Vector-Valued Functions
+				Information on Vector Valued Functions
 			</cell>
 			<cell right="medium">
 			</cell>
@@ -419,12 +418,10 @@
 				M Jun 1
 			</cell>
 			<cell right="medium" bottom="medium">
-				Arc Length and Curvature
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
-				WP4
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -453,7 +450,7 @@
 				T Jun 2
 			</cell>
 			<cell right="medium" bottom="medium">
-				Motion in Space
+				L3
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -462,7 +459,6 @@
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
-				FUN-3 Quiz
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -490,7 +486,7 @@
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
-				WP5+ Exploration
+				WP3+ Exploration
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -520,17 +516,16 @@
 				R Jun 4
 			</cell>
 			<cell right="medium" bottom="medium">
-				Functions of Several Variables
+				Information for Functions of Several Variables
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
-				WP6
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
-				FUN-4 Quiz
+				FUN-3 Quiz
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -555,12 +550,7 @@
 				F Jun 5
 			</cell>
 			<cell right="medium">
-				Limits and Continuity
-			</cell>
-			<cell right="medium">
-			</cell>
-			<cell right="medium">
-				WP7 + Exploration
+				L4
 			</cell>
 			<cell right="medium">
 			</cell>
@@ -569,6 +559,11 @@
 			<cell right="medium">
 			</cell>
 			<cell right="medium">
+			</cell>
+			<cell right="medium">
+			</cell>
+			<cell right="medium">
+				FUN-2 Revision and Retake
 			</cell>
 			<cell right="medium">
 			</cell>
@@ -590,7 +585,12 @@
 				M Jun 8
 			</cell>
 			<cell right="medium" bottom="medium">
-				Partial Derivatives
+				Information for Partial Derivatives
+			</cell>
+			<cell right="medium" bottom="medium">
+			</cell>
+			<cell right="medium" bottom="medium">
+				WP4 + Exploration
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -599,12 +599,6 @@
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
-				FUN-5 Quiz
-			</cell>
-			<cell right="medium" bottom="medium">
-			</cell>
-			<cell right="medium" bottom="medium">
-				Fun-2 Revision and Retake
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -624,6 +618,7 @@
 				T Jun 9
 			</cell>
 			<cell right="medium" bottom="medium">
+				L5
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -632,6 +627,7 @@
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
+				FUN-4 Quiz
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -659,16 +655,15 @@
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
+				WP5
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
-				FUN-3 Revision and Retake
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
-			<cell right="medium">
-				Assessment 1 Window
+			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -700,10 +695,12 @@
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
+				FUN-3 Revision and Retake
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
-			<cell right="medium" bottom="medium">
+			<cell right="medium">
+				Assessment 1
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -719,7 +716,6 @@
 				F Jun 12
 			</cell>
 			<cell right="medium">
-				Tangent Planes and Linear Approximations
 			</cell>
 			<cell right="medium">
 			</cell>
@@ -732,7 +728,6 @@
 			<cell right="medium">
 			</cell>
 			<cell right="medium">
-        		FUN-4 Revision and Retake
 			</cell>
 			<cell right="medium">
 			</cell>
@@ -795,17 +790,15 @@
 				M Jun 15
 			</cell>
 			<cell right="medium" bottom="medium">
-				The Chain Rule
+				Information for the Chain Rule
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
-				WP8
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
-				DC-1 Quiz
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -830,7 +823,7 @@
 				T Jun 16
 			</cell>
 			<cell right="medium" bottom="medium">
-				Directional Derivatives and Gradients
+				L6
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -839,11 +832,12 @@
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
+				DC-1 Quiz
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
-				FUN-5 Revision and Retake
+				FUN-4 Revision and Retake
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -864,17 +858,16 @@
 				W Jun 17
 			</cell>
 			<cell right="medium" bottom="medium">
-				Maxima and Minima Problems
+				Information for Gradient, Tangent Planes, and Linear Approximation
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
-				WP9
+				WP6
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
-				DC-2 Quiz
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -898,6 +891,7 @@
 				R Jun 18
 			</cell>
 			<cell right="medium" bottom="medium">
+				L7
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -906,7 +900,7 @@
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
-				DC-3 Quiz
+				DC-2 Quiz
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -930,11 +924,11 @@
 				F Jun 19
 			</cell>
 			<cell right="medium" bottom="medium">
-				Lagrange Multipliers
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
+				WP7
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -964,16 +958,15 @@
      		 M Jun 22
 			</cell>
 			<cell right="medium" bottom="medium">
+				Information for Maximum and Minimum
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
-				WP10 + Exploration
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
-				DC-4 Quiz
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -997,6 +990,7 @@
         	T Jun 23
 			</cell>
 			<cell right="medium" bottom="medium">
+				L8
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -1005,6 +999,7 @@
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
+				DC-3 Quiz
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -1029,16 +1024,16 @@
         W Jun 24
 			</cell>
 			<cell right="medium" bottom="medium">
-				Double Integral over Rectangular Regions
+				Information for Lagrange Multipliers
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
+				WP8
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
-				DC-5 Quiz
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -1062,7 +1057,7 @@
         R Jun 25
 			</cell>
 			<cell right="medium" bottom="medium">
-				Double Integral over General Regions
+				L9
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -1071,6 +1066,7 @@
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
+				DC-4 Quiz
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -1095,6 +1091,12 @@
         F Jun 26
 			</cell>
 			<cell right="medium" bottom="medium">
+				Information for Double Integrals
+			</cell>
+			<cell right="medium" bottom="medium">
+			</cell>
+			<cell right="medium" bottom="medium">
+				WP9 + Exploration
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -1103,12 +1105,6 @@
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
-				DC-6 Quiz
-			</cell>
-			<cell right="medium" bottom="medium">
-			</cell>
-			<cell right="medium" bottom="medium">
-				DC-3 Revision and Retake
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -1172,6 +1168,7 @@
 				M Jun 29
 			</cell>
 			<cell right="medium" bottom="medium">
+				L10
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -1187,8 +1184,7 @@
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
-			<cell right="medium">
-				Assessment 2 Window
+			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -1204,19 +1200,22 @@
 				T Jun 30
 			</cell>
 			<cell right="medium" bottom="medium">
+				Information for Triple Integrals
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
+				WP10 + Video
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
+				DC-5 Quiz
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
-				DC-4 Revision and Retake
+				DC-3 Revision and Retake
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -1236,12 +1235,11 @@
 				W Jul 1
 			</cell>
 			<cell right="medium" bottom="medium">
-				Double Integrals in Polar Coordinates
+				L11
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
-				WP11 + Video
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -1281,11 +1279,12 @@
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
-				DC-5 Revision and Retake
+				DC-4 Revision and Retake
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
-			<cell right="medium" bottom="medium">
+			<cell right="medium">
+				Assessment 2
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -1301,7 +1300,6 @@
 				F Jul 3
 			</cell>
 			<cell right="medium" bottom="medium">
-				Triple Integrals
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -1310,7 +1308,6 @@
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
-				IC-1 Quiz
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -1336,22 +1333,20 @@
 				M Jul 6
 			</cell>
 			<cell right="medium" bottom="medium">
-				Triple Integrals in Cylindrical and Spherical Coordinates
+				Information for Integrals of Mass
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
-				WP12
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
-				IC-2 Quiz
+				IC-1 Quiz
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
-				DC-6 Revision and Retake
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -1371,6 +1366,12 @@
 				T Jul 7
 			</cell>
 			<cell right="medium" bottom="medium">
+				L12
+			</cell>
+			<cell right="medium" bottom="medium">
+			</cell>
+			<cell right="medium" bottom="medium">
+				WP11
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -1379,10 +1380,7 @@
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
-			</cell>
-			<cell right="medium" bottom="medium">
-			</cell>
-			<cell right="medium" bottom="medium">
+				DC-5 Revision and Retake
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -1402,7 +1400,6 @@
 				W Jul 8
 			</cell>
 			<cell right="medium" bottom="medium">
-				Calculating Mass, Center of Mass, and Moments of Inertia
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -1411,7 +1408,7 @@
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
-				IC-3 Quiz
+				IC-2 Quiz
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -1435,7 +1432,12 @@
 				R Jul 9
 			</cell>
 			<cell right="medium" bottom="medium">
-				Change of Variables in Multiple Integrals
+				Information for Change of Variables
+			</cell>
+			<cell right="medium" bottom="medium">
+			</cell>
+			<cell right="medium" bottom="medium">
+				WP12
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -1448,10 +1450,7 @@
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
-			</cell>
-			<cell right="medium" bottom="medium">
-			</cell>
-			<cell right="medium" bottom="medium">
+				Schedule Assessment 3
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -1467,16 +1466,16 @@
 				F Jul 10
 			</cell>
 			<cell right="medium" bottom="medium">
+				L13
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
-				WP13
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
-				IC-4 Quiz
+				IC-3 Quiz
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -1543,16 +1542,15 @@
 				M Jul 13
 			</cell>
 			<cell right="medium" bottom="medium">
-				Vector Fields
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
+				WP13 + Video
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
-				IC-5 Quiz
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -1577,7 +1575,40 @@
 				T Jul 14
 			</cell>
 			<cell right="medium" bottom="medium">
-				Line Integrals
+				Information for Line Integrals and Vector Fields
+			</cell>
+			<cell right="medium" bottom="medium">
+			</cell>
+			<cell right="medium" bottom="medium">
+			</cell>
+			<cell right="medium" bottom="medium">
+			</cell>
+			<cell right="medium" bottom="medium">
+				IC-4 Quiz
+			</cell>
+			<cell right="medium" bottom="medium">
+			</cell>
+			<cell right="medium" bottom="medium">
+			</cell>
+			<cell right="medium" bottom="medium">
+			</cell>
+			<cell right="medium" bottom="medium">
+			</cell>
+			<cell right="medium" bottom="medium">
+			</cell>
+			<cell right="medium" bottom="medium">
+			</cell>
+			<cell right="medium" bottom="medium">
+			</cell>
+		</row>
+		<row>
+			<cell right="medium">
+			</cell>
+			<cell right="medium" bottom="medium">
+				W Jul 15
+			</cell>
+			<cell right="medium" bottom="medium">
+				L14
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -1607,15 +1638,7 @@
 			<cell right="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
-				W Jul 15
-			</cell>
-			<cell right="medium" bottom="medium">
-				Conservative Vector Fields
-			</cell>
-			<cell right="medium" bottom="medium">
-			</cell>
-			<cell right="medium" bottom="medium">
-				WP14
+				R Jul 16
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -1628,23 +1651,29 @@
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
-				Schedule Assessment 3
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
+			</cell>
+			<cell right="medium">
+				Assessment 3
+			</cell>
+			<cell right="medium" bottom="medium">
+			</cell>
+			<cell right="medium" bottom="medium">
+				Reflection 6
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
 		</row>
-		<row>
+		<row bottom="medium">
 			<cell right="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
-				R Jul 16
+				F Jul 17
 			</cell>
 			<cell right="medium" bottom="medium">
-				Green's Theorem
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -1666,40 +1695,6 @@
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
-				Reflection 6
-			</cell>
-			<cell right="medium" bottom="medium">
-			</cell>
-		</row>
-		<row bottom="medium">
-			<cell right="medium">
-			</cell>
-			<cell right="medium" bottom="medium">
-				F Jul 17
-			</cell>
-			<cell right="medium" bottom="medium">
-			</cell>
-			<cell right="medium" bottom="medium">
-			</cell>
-			<cell right="medium" bottom="medium">
-				WP15
-			</cell>
-			<cell right="medium" bottom="medium">
-			</cell>
-			<cell right="medium" bottom="medium">
-				APP-1 Quiz
-			</cell>
-			<cell right="medium" bottom="medium">
-			</cell>
-			<cell right="medium" bottom="medium">
-			</cell>
-			<cell right="medium" bottom="medium">
-			</cell>
-			<cell right="medium" bottom="medium">
-			</cell>
-			<cell right="medium" bottom="medium">
-			</cell>
-			<cell right="medium" bottom="medium">
 				Tutoring Appt 4 Due
 			</cell>
 			<cell right="medium" bottom="medium">
@@ -1713,7 +1708,12 @@
 				M Jul 20
 			</cell>
 			<cell right="medium" bottom="medium">
-				Divergence and Curl
+				Information for Green's Theorem
+			</cell>
+			<cell right="medium" bottom="medium">
+			</cell>
+			<cell right="medium" bottom="medium">
+				WP14
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -1722,7 +1722,35 @@
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
-				APP-2 Quiz
+			</cell>
+			<cell right="medium" bottom="medium">
+			</cell>
+			<cell right="medium" bottom="medium">
+			</cell>
+			<cell right="medium" bottom="medium">
+			</cell>
+			<cell right="medium" bottom="medium">
+			</cell>
+			<cell right="medium" bottom="medium">
+			</cell>
+		</row>
+		<row>
+			<cell right="medium">
+			</cell>
+			<cell right="medium" bottom="medium">
+				T Jul 21
+			</cell>
+			<cell right="medium" bottom="medium">
+				L15
+			</cell>
+			<cell right="medium" bottom="medium">
+			</cell>
+			<cell right="medium" bottom="medium">
+			</cell>
+			<cell right="medium" bottom="medium">
+			</cell>
+			<cell right="medium" bottom="medium">
+				APP-1 Quiz
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -1744,42 +1772,15 @@
 			<cell right="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
-				T Jul 21
-			</cell>
-			<cell right="medium" bottom="medium">
-			</cell>
-			<cell right="medium" bottom="medium">
-			</cell>
-			<cell right="medium" bottom="medium">
-				WP16 + Video
-			</cell>
-			<cell right="medium" bottom="medium">
-			</cell>
-			<cell right="medium" bottom="medium">
-			</cell>
-			<cell right="medium" bottom="medium">
-			</cell>
-			<cell right="medium" bottom="medium">
-				IC-5 Revision and Retake
-			</cell>
-			<cell right="medium" bottom="medium">
-			</cell>
-			<cell right="medium" bottom="medium">
-			</cell>
-			<cell right="medium" bottom="medium">
-			</cell>
-			<cell right="medium" bottom="medium">
-			</cell>
-			<cell right="medium" bottom="medium">
-			</cell>
-		</row>
-		<row>
-			<cell right="medium">
-			</cell>
-			<cell right="medium" bottom="medium">
 				W Jul 22
 			</cell>
 			<cell right="medium" bottom="medium">
+
+			</cell>
+			<cell right="medium" bottom="medium">
+			</cell>
+			<cell right="medium" bottom="medium">
+				WP15 + Video
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -1792,11 +1793,6 @@
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
-			</cell>
-			<cell right="medium" bottom="medium">
-			</cell>
-			<cell right="medium">
-				Assessment 3 Window
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -1812,6 +1808,7 @@
 				R Jul 23
 			</cell>
 			<cell right="medium" bottom="medium">
+				Information for Surface Integrals
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -1820,6 +1817,7 @@
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
+				APP-2 Quiz
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -1843,7 +1841,7 @@
 				F Jul 24
 			</cell>
 			<cell right="medium" bottom="medium">
-				Surface Integrals
+				L16
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -1861,6 +1859,7 @@
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
+				Schedule Assessment 4
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -1919,22 +1918,20 @@
 				M Jul 27
 			</cell>
 			<cell right="medium" bottom="medium">
-				Stoke's Theorem
+				Information for Stokes' and the Divergence Theorems
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
-				WP17 + Exploration
+				WP16
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
-				APP-3 Quiz
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
-				APP-2 Revision and Retake
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -1954,7 +1951,7 @@
 				T Jul 28
 			</cell>
 			<cell right="medium" bottom="medium">
-				The Divergence Theorem
+				L17
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -1963,10 +1960,12 @@
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
+				APP-3 Quiz
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
+				APP-1 Revision and Retake
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -1990,12 +1989,11 @@
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
-				WP18
+				WP17
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
-				APP-4 Quiz
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -2027,14 +2025,17 @@
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
+				APP-4 Quiz
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
+				APP-2 Revision and Retake
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
+				Schedule Final Assessment
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -2043,7 +2044,7 @@
 			<cell right="medium" bottom="medium">
 			</cell>
 		</row>
-		<row bottom="medium">
+		<row>
 			<cell right="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
@@ -2065,8 +2066,8 @@
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
-			<cell right="medium" bottom="medium">
-				Schedule Final Assessment
+			<cell right="medium">
+				Assessment 4
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
@@ -2095,7 +2096,6 @@
 			<cell right="medium" bottom="medium">
 			</cell>
 			<cell right="medium" bottom="medium">
-				APP-3 Revision and Retake
 			</cell>
 			<cell right="medium" bottom="medium">
 			</cell>
