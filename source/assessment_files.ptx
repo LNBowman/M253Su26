@@ -54,18 +54,30 @@
           <xi:include href="./assessments/fun-outcomes/fun-1-d.ptx" />
           <xi:include href="./assessments/fun-outcomes/fun-1-e.ptx" />
         </subsection>
-       <!-- <subsection xml:id="sec-fun2-outcomes">
+        <subsection xml:id="sec-fun2-outcomes">
           <title>FUN-2 Equations of Lines, Planes, and Surfaces</title>
           <xi:include href="./assessments/fun-outcomes/fun-2-a.ptx" />
+          <xi:include href="./assessments/fun-outcomes/fun-2-b.ptx" />
+          <xi:include href="./assessments/fun-outcomes/fun-2-c.ptx" />
+          <xi:include href="./assessments/fun-outcomes/fun-2-d.ptx" />
+          <xi:include href="./assessments/fun-outcomes/fun-2-e.ptx" />
         </subsection>
         <subsection xml:id="sec-fun3-outcomes">
           <title>FUN-3 Vector Functions</title>
-          <xi:include href="./assessments/fun-outcomes/fun-3-a.ptx" />
+          <xi:include href="./assessments/fun-outcomes/fun-3-a.ptx" /> 
+          <xi:include href="./assessments/fun-outcomes/fun-3-b.ptx" />
+          <xi:include href="./assessments/fun-outcomes/fun-3-c.ptx" />
+          <xi:include href="./assessments/fun-outcomes/fun-3-d.ptx" />
+          <xi:include href="./assessments/fun-outcomes/fun-3-e.ptx" />
         </subsection>
         <subsection xml:id="sec-fun4-outcomes">
           <title>FUN-4 Functions of Two Variables</title>
           <xi:include href="./assessments/fun-outcomes/fun-4-a.ptx" />
-        </subsection>-->
+          <xi:include href="./assessments/fun-outcomes/fun-4-b.ptx" />
+          <xi:include href="./assessments/fun-outcomes/fun-4-c.ptx" />
+          <xi:include href="./assessments/fun-outcomes/fun-4-d.ptx" />
+          <xi:include href="./assessments/fun-outcomes/fun-4-e.ptx" />
+        </subsection>
       </section>
     </chapter>
     

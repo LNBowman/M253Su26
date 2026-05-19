@@ -1,0 +1,14 @@
+<worksheet >
+    <title>FUN-4 Functions of Several Variables</title>
+  <introduction>
+    <p>To earn an M on this outcome, you will need to correctly complete all three parts. To earn a P on this outcome, 
+      you will need to correctly complete part a, one of parts b or c with progress on the other.</p>
+  </introduction>  
+  <page>
+    <exercise workspace="1.5in">
+    <task><statement><p>Given the function <m>f(x,y,z)=\frac{\sqrt{z-4}}{x^2+y^2}</m>. State the domain of <m>f(x,y,z)</m> using correct set notation.</p></statement></task>
+    <task><statement><p>Find the limit, if it exists, or prove that the limit does not exist. <md>\lim_{(x,y,z) \to (0,1,2)} (x^2z + y)\ln(z)</md></p></statement></task>
+    <task><statement><p>Find the limit, if it exists, or prove that the limit does not exist. <md>\lim_{(x,y) \to (0,0)} \frac{x^3y}{x^6+y^2}</md></p></statement></task>
+  </exercise>
+  </page>
+</worksheet>

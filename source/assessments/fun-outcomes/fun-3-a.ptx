@@ -1,0 +1,15 @@
+<worksheet >
+    <title>FUN-3 Vector Valued Functions</title>
+  <introduction>
+    <p>To earn an M on this outcome, you will need to correctly complete all three parts. To earn a P on this outcome, you will need to correctly complete 
+        two parts with progress on the third.</p>
+  </introduction>  
+  <page>
+    <exercise workspace="1.5in">
+        <introduction><p>A particle is moving in space with a velocity (measured in m/s) of <m>\vec{v}(t) = \langle \sqrt{2}t, 2t, t^2 \rangle</m>.</p></introduction>
+      <task><statement><p>Find the position vector of the particle,<m>\vec{r}(t)</m>, given that <m>\vec{r}(3) = \langle \sqrt{2},8,11 \rangle</m>.</p></statement></task>
+      <task><statement><p>Find the distance traveled by the particle from time <m>t=0</m> to time <m>t=2</m>.</p></statement></task>
+      <task><statement><p>Find the unit tangent vector of the particle at time <m>t=3</m>.</p></statement></task>
+    </exercise>
+  </page>
+</worksheet>
