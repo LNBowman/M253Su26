@@ -1,0 +1,23 @@
+<worksheet >
+    <title>FUN-1 Vector Operations and Applications</title>
+  <introduction>
+    <p>To earn an M on this outcome, you will need to correctly complete all three 
+        parts; to earn a P on this outcome, you will need to correctly complete 
+        two parts.</p>
+  </introduction>  
+  <page>
+    <exercise workspace="1.5in">
+        <introduction><p>Let <m>\vec{u}=\langle 4,1,-2\rangle, \vec{v}=\langle 2,-2,1\rangle,</m> 
+            and <m>\vec{w}=\langle 0,3,1\rangle</m></p></introduction>
+      <task><statement><p>Find <m>\vec{v}\cdot(\vec{u}\times\vec{w})</m></p></statement></task>
+      <task><statement><p>Find the vector in the direction of <m>\vec{w}</m> with length of 
+        <m>3\vec{v}</m>.</p></statement></task>
+    </exercise>
+    <exercise workspace="1.5in">
+      <statement><p>A flat solar panel is defined by a directed area normal vector 
+        <m>\vec{A} = \langle 2, 4, 5\rangle{m}^{2}</m>. A constant solar radiation 
+        flow field passes through it, given by the vector field <m>\vec{F} = \langle 10, -2, 6\rangle</m> units. 
+        Find the total solar energy flux passing through the panel using the dot product.</p></statement>
+    </exercise>
+  </page>
+</worksheet>

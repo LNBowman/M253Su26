@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+
+<!-- This is the main course file for ... . It is used to generate all the public facing course materials so those can be hosted online.  -->
+<pretext xmlns:xi="http://www.w3.org/2001/XInclude">
+  <!-- Include common macros etc: -->
+  <xi:include href="./docinfo.ptx" />
+  <!-- By creating a PreTeXt "book" for the course, we can split components into "chapters" -->
+  <book>
+    <title>Multivariable Calculus</title>
+
+    <subtitle>UAF MATH F253X</subtitle>
+
+    <!-- Optional: include frontmatter with author info and date -->
+    <xi:include href="./frontmatter_assessments.ptx" />
+    <chapter>
+      <title>Assessment Outcomes</title>
+      <introduction><p>Here are the versions used for each semester:</p>
+        <p>Summer 2026:
+          <ul>
+            <li><p>Assessment 1: FUN version A</p></li>
+            <li><p>Assessment 2: FUN version B</p></li>
+            <li><p>Assessment 3: </p></li>
+            <li><p>Assessment 4: </p></li> 
+            <li><p>Assessment 5: </p></li>
+            <li><p>Final Assessment: FUN version C </p></li>
+          </ul></p>
+          <p>Spring 2027:
+            <ul>
+              <li><p>Assessment 1: FUN version C</p></li>
+              <li><p>Assessment 2: FUN version D</p></li>
+              <li><p>Assessment 3: </p></li>
+              <li><p>Assessment 4: </p></li>
+              <li><p>Assessment 5: </p></li>
+              <li><p>Final Assessment: FUN version E</p></li>
+            </ul>
+          </p>
+        </introduction>
+        <section xml:id="sec-fun-outcomes">
+          <title>Functions of Several Variables</title>
+          <introduction><p>Here are the assessment outcomes for Functions of Several Variables. There are multiple versions 
+            of each outcome so that there are options for multiple semesters of assessments. This section is 
+            divided into 4 outcomes:
+            <ul>
+              <li><p>Vector Operations and Applications</p></li>
+              <li><p>Equations of Lines, Planes, and Surfaces</p></li>
+              <li><p>Vector Functions</p></li>
+              <li><p>Functions of Two Variables</p></li>
+            </ul></p></introduction>
+        <subsection xml:id="sec-fun1-outcomes">
+          <title>FUN-1 Vector Operations and Applications</title>
+          <xi:include href="./assessments/fun-outcomes/fun-1-a.ptx" />
+          <xi:include href="./assessments/fun-outcomes/fun-1-b.ptx" />
+          <xi:include href="./assessments/fun-outcomes/fun-1-c.ptx" />
+          <xi:include href="./assessments/fun-outcomes/fun-1-d.ptx" />
+          <xi:include href="./assessments/fun-outcomes/fun-1-e.ptx" />
+        </subsection>
+       <!-- <subsection xml:id="sec-fun2-outcomes">
+          <title>FUN-2 Equations of Lines, Planes, and Surfaces</title>
+          <xi:include href="./assessments/fun-outcomes/fun-2-a.ptx" />
+        </subsection>
+        <subsection xml:id="sec-fun3-outcomes">
+          <title>FUN-3 Vector Functions</title>
+          <xi:include href="./assessments/fun-outcomes/fun-3-a.ptx" />
+        </subsection>
+        <subsection xml:id="sec-fun4-outcomes">
+          <title>FUN-4 Functions of Two Variables</title>
+          <xi:include href="./assessments/fun-outcomes/fun-4-a.ptx" />
+        </subsection>-->
+      </section>
+    </chapter>
+    
+
+    </book>
+  </pretext>
